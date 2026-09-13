@@ -1,0 +1,2 @@
+sku,batch_id,received_date,units_received,total_product_cost_usd,total_packaging_cost_usd,total_prep_qc_cost_usd,cost_source,source_reference
+EXAMPLE-SKU,BATCH-001,2026-09-01,100,1000,100,0,SKU cost sheet,2026-09 purchase

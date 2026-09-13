@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 成本利润核算"
+  short_description: "核算美国站 FBA 与 FBM 的预估和实际经营利润"
+  default_prompt: "使用 $amazon-cost-profit 核算我的亚马逊美国站 SKU 成本、利润和异常。"

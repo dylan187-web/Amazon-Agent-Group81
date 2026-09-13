@@ -1,0 +1,2 @@
+candidate,fx_cny_per_usd,product_cost_cny,packaging_cost_cny,labeling_qc_cost_cny,domestic_freight_cny,international_freight_cny,duty_cny,inbound_placement_usd,fba_storage_usd,ads_per_unit_usd,coupon_fee_usd,return_loss_per_unit_usd,payment_fee_usd,fx_fee_usd,financing_fee_usd,other_direct_cost_usd,fixed_cost_usd,expected_units,target_profit_margin,note
+C2,7.1,50,3,0,2,12,3,0.3,0.2,3,0,0.5,0,0,0,0,0,100,0.15,示例数字全部虚构；不适用填0，不知道留空
