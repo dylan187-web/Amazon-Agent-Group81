@@ -118,6 +118,10 @@ python3 stages/s3-listing/check_listing.py runs/<本次>/s3_draft.json --render
 
 `placement` 只能用：`标题`、`Highlights`、`五点`、`长描述`、`后台`。来自 S1 的词 `source` 写 `S1 在涨词：…`。
 
+### 9. 图片（接着做）
+
+文案检查通过后，按 `image_prompt.md` 出 7 张图，产出 `s3_images.md`。没装 Codex CLI 时，只写 `images_plan.json` 并告诉用户图片没生成。
+
 ## 额度
 
-本阶段 ≤5 次：asin_detail 1、review 1、traffic_keyword 1、keyword_miner 0–1、余量 1。重跑读缓存为 0 次。
+本阶段卖家精灵 ≤5 次：asin_detail 1、review 1、traffic_keyword 1、keyword_miner 0–1、余量 1。重跑读缓存为 0 次。

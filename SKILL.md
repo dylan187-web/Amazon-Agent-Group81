@@ -43,7 +43,7 @@ runs/2026-09-12_bamboo-drawer-organizer/
 |---|---|---|---|
 | S1 选品 | `stages/s1-选品/prompt.md` | 输入参数 | `s1_选品.md` |
 | S2 利润核算 | `stages/s2-利润/prompt.md` | `s1_选品.md` | `s2_利润.md` |
-| S3 Listing | `stages/s3-listing/prompt.md` | `s2_利润.md`（+ `s1_选品.md`） | `s3_listing.md` |
+| S3 Listing | `stages/s3-listing/prompt.md`（文案）→ `stages/s3-listing/image_prompt.md`（图片） | `s2_利润.md`（+ `s1_选品.md`） | `s3_listing.md`、`s3_images.md` |
 | S4 广告 | `stages/s4-广告/prompt.md` | `s3_listing.md` | `s4_广告.md` |
 
 **停止条件**：S2 没有任何「值得做」的候选时，停在 S2，告诉用户原因，建议换种子词。不要硬往下跑。

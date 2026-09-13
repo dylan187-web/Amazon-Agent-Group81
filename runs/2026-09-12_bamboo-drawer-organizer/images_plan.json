@@ -1,0 +1,41 @@
+{
+  "candidate": "C2",
+  "concept_subject": "An expandable natural bamboo kitchen drawer organizer (concept design, improved version). A rectangular center tray with 5 long parallel slots sized for full-length dinner knives, plus one sliding side tray on the left and one on the right that pull outward to widen it. Deep compartments with tall walls. Visibly solid, tightly fitted corner joints. Light natural bamboo color with visible vertical bamboo grain, smooth matte finish. Empty, no utensils inside.",
+  "locks": {
+    "geometry": "Rectangular tray: 5 long parallel slots in the center section plus 2 sliding side trays (left and right); 7 compartments in total; slots run front to back along the full length.",
+    "material": "Natural light bamboo with visible vertical grain, smooth matte finish; no paint, no metal parts, no plastic.",
+    "scene_scale": "Sized for a standard kitchen drawer: about as long as a dinner knife plus a little margin; sits flat on the drawer bottom.",
+    "critical_details": [
+      "P0: 5 long center slots, each long enough for a full dinner knife",
+      "P0: 2 side trays that slide outward to widen the organizer",
+      "P1: tall compartment walls (deep slots)",
+      "P1: tight, solid corner joints with no gaps"
+    ]
+  },
+  "slots": [
+    {"id": "01_main", "purpose": "主图：白底实物", "mode": "compose_main", "status": "ready",
+     "evidence": "亚马逊主图规则（纯白、占比 ≥85%、无文字）", "headline": "", "points": []},
+    {"id": "02_sturdy", "purpose": "头号关心点：结构结实", "mode": "codex_edit", "status": "ready",
+     "brief": "Close-up product detail shot of one corner of this bamboo organizer showing the tight solid joint where the divider meets the outer wall, sitting on a light kitchen countertop, soft natural window light, shallow depth of field.",
+     "evidence": "关心点：结构不结实 差评 12/20，对标只写泛泛的 tight assembly；五点 1",
+     "headline": "BUILT NOT TO COME APART", "points": ["Reinforced joints keep every divider in place"]},
+    {"id": "03_knives", "purpose": "第二关心点：放得下餐刀和整套餐具", "mode": "codex_generate", "status": "ready",
+     "brief": "Top-down photo of this exact bamboo organizer inside an open white kitchen drawer, holding forks, spoons and full-length dinner knives neatly in its long slots; the knives fit completely inside the slots.",
+     "evidence": "关心点：放不下餐刀 C1 差评 8/14、槽太浅 C2 差评 3/20；五点 3",
+     "headline": "ROOM FOR DINNER KNIVES", "points": ["Long slots take dinner knives and serving spoons"]},
+    {"id": "04_lock", "purpose": "差异化：宽度可调并锁定", "mode": "codex_edit", "status": "ready",
+     "brief": "This exact bamboo organizer with both side trays pulled outward to its widest position, inside a wide open kitchen drawer, three-quarter top view, clean bright kitchen light.",
+     "evidence": "关心点：锁不住宽度（C2 差评、C3 需求点），对标没写；好评 9/20 因可伸缩购买；五点 2",
+     "headline": "LOCKS AT YOUR WIDTH", "points": ["Slides open and locks where you set it"]},
+    {"id": "05_size", "purpose": "尺寸", "mode": "hold", "status": "hold",
+     "evidence": "五点 2 的宽度范围", "hold_reason": "收起 / 展开宽度、长度、槽深均未确认（产品信息.md 未提供），不编数字"},
+    {"id": "06_kitchen", "purpose": "核心使用场景：厨房", "mode": "codex_generate", "status": "ready",
+     "brief": "Lifestyle photo in a bright modern kitchen: a drawer pulled open showing this exact bamboo organizer holding a neat silverware set; one hand (no face visible) reaching in to take a fork; warm morning light.",
+     "evidence": "五点 2；长描述场景 1",
+     "headline": "KITCHEN DRAWER ORGANIZER", "points": ["Use it as a kitchen drawer organizer or a set of drawer dividers"]},
+    {"id": "07_more", "purpose": "多用途：书桌抽屉", "mode": "codex_generate", "status": "ready",
+     "brief": "This exact bamboo organizer inside an open wooden office desk drawer, holding pens, scissors, a small notebook and phone chargers, neat and tidy, soft daylight, three-quarter top view.",
+     "evidence": "五点 5；长描述场景 3",
+     "headline": "MORE THAN SILVERWARE", "points": ["Also a sorter for office and bathroom drawers"]}
+  ]
+}
