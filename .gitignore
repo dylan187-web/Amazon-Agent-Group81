@@ -22,6 +22,16 @@ settlement*.csv
 ads*.csv
 !**/assets/*_sample.csv
 
+# 演示视频生成的中间产物和成片（见 workbench/video/README.md）
+workbench/video/tts/
+workbench/video/frames/
+workbench/video/frames.txt
+workbench/video/timeline.json
+workbench/video/durations.json
+workbench/video/voice.m4a
+*.mp4
+*.mov
+
 # 系统与编辑器
 .DS_Store
 __pycache__/
