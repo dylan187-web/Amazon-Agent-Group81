@@ -1,0 +1,14 @@
+{
+  "01_main": {"geometry": "pass", "material": "pass", "extra_parts": "pass", "text": "pass", "compliance": "pass", "verdict": "pass",
+              "note": "5 条中槽 + 2 个侧盒与参考图一致；竹面有很淡的压印纹理，不构成可读文字；白底无道具"},
+  "02_sturdy": {"geometry": "pass", "material": "pass", "extra_parts": "pass", "text": "pass", "compliance": "pass", "verdict": "pass",
+                "note": "接缝特写，结构与参考图一致；「加固接缝」工艺待供应商确认"},
+  "03_knives": {"geometry": "pass", "material": "pass", "extra_parts": "pass", "text": "pass", "compliance": "pass", "verdict": "pass",
+                "note": "中间 5 槽、两侧侧盒都在；整把餐刀完整放进槽内"},
+  "04_lock": {"geometry": "pass", "material": "pass", "extra_parts": "pass", "text": "pass", "compliance": "pass", "verdict": "pass",
+              "note": "侧盒拉开到最宽，结构一致；画面看不出锁定结构，锁定功能待供应商确认，做不到须删掉标题"},
+  "06_kitchen": {"geometry": "pass", "material": "pass", "extra_parts": "pass", "text": "pass", "compliance": "pass", "verdict": "pass",
+                 "note": "只出现手、无人脸，符合 P0 规定；右侧侧盒透视略怪，不影响识别"},
+  "07_more": {"geometry": "pass", "material": "pass", "extra_parts": "pass", "text": "pass", "compliance": "pass", "verdict": "pass",
+              "note": "书桌抽屉场景，结构一致，无多余部件"}
+}
