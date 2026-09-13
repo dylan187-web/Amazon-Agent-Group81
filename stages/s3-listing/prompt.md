@@ -1,76 +1,123 @@
 # S3 Listing
 
-> 负责人：Dylan　·　v0.2（2026-09-12 基于真实运行 `runs/2026-09-12_bamboo-drawer-organizer/` 改写）
+> 负责人：Dylan　·　v0.3（2026-09-13）。需求与决策见同目录 `PRD.md`。
 > 输出字段的最低要求见 `contracts/交接内容.md` 的「S3 Listing」。参考产出：`runs/2026-09-12_bamboo-drawer-organizer/s3_listing.md`。
 
 ## 目标
 
-给 S2 选中的候选写一版**美国站英文 Listing**，要做到两件事：
-1. **回应 S1 发现的需求点**，这是差异化卖点；
-2. **每个用到的词都能说出来源和搜索量**，这是 S4 投广告的弹药。
+给 S2 选中的候选写一版**美国站英文 Listing**：标题、Item Highlights、五点、长描述、后台搜索词。做到三件事：
+1. **回应买家真正关心的点**：来自真实评论（和 Rufus 问题，如有），尤其是对标竞品没回应的点；
+2. **每个用到的词都能说出来源和数字**：这是 S4 投广告的弹药；
+3. **硬规则由脚本检查**：模型只管写，字符、字节、重复、违禁词交给 `check_listing.py`。
 
 ## 输入
 
-- `s2_利润.md`：「选中候选：Cx」。如果写的是「无」，本阶段不跑，直接告诉用户。
-- `s1_选品.md`：Cx 的 ASIN、来自哪个词、需求点，以及 ① 在涨词表
-- 开发时用 `samples/s2_利润.md`、`samples/s1_选品.md`
+| 输入 | 位置 | 没有时 |
+|---|---|---|
+| 选中候选 Cx | `s2_利润.md`（开发用 `samples/`） | 写「无」→ 本阶段不跑，告诉用户 |
+| Cx 的 ASIN、来源词、需求点；在涨词表；竞品品牌 | `s1_选品.md` | 必需 |
+| 本产品卖点、规格、品牌名、禁用词、Rufus 问题 | `runs/<本次>/产品信息.md`（模板 `产品信息_模板.md`） | 用 S1 需求点推卖点，规格写〔待填〕 |
 
 ## 步骤
 
-### 1. 反查对标 ASIN 的流量词（1 次调用）
+所有卖家精灵原始返回存 `runs/<本次>/raw/<工具名>_<参数>.json`，**调用前先看缓存**。
 
-调用 `traffic_keyword`，参数：`{"request":{"marketplace":站点,"asin":Cx的ASIN,"order":{"field":"trafficPercentage","desc":true},"size":30}}`
+### 1. 读上游，建产品画像（0 次）
 
-原始返回存到 `raw/traffic_keyword_<ASIN>.json`，重跑先读缓存。
-**为什么先做这一步**：实测对着对标 ASIN 查，比拿种子词去 `keyword_miner` 拓展准得多，后者返回的大多是 dresser、desk organizer 这类泛词。
+整理出：核心品名（英文，1 个）、产品事实（每条标来源：`用户` / `S1` / `推断`）、待填规格清单、品牌黑名单（S1 竞品品牌 + 产品信息里的禁用词）。
+**只有 `用户` 来源的规格能写成确定数字**；`S1` 来源的写成改良方向并进待确认清单；`推断` 不写进文案。
 
-### 2. 过滤词（不花钱）
+### 2. 读对标 Listing（1 次）
 
-逐个剔除下面几类词，剔除的写进「有意没用的词」并注明原因：
-- **品牌词**：含竞品品牌名的词。品牌名看 S1 竞品表，或 `raw/product_research_*.json` 里的 `brand` 字段。
-- **侵权词 / IP 词**：动漫、影视、球队、名人等。
-- **不相关词**：对标 ASIN 顺带吃到、但和本产品不是一回事的流量，如 kitchen appliances、kitchen decor；还有容易产生歧义的词，如 silver tray 可能被理解成餐盘。
+- 标题：`raw/product_research_*.json` 里 Cx 的 `title`（免费）。
+- 五点、属性表：`asin_detail`，参数 `{"marketplace":站点,"asin":Cx的ASIN}`，存 `raw/asin_detail_<ASIN>.json`。**不返回长描述。**
 
-### 3. 补查 S1 在涨词（可选，≤1 次调用）
+拆解出：标题结构、五点主题顺序、写到的规格、违规或弱项写法（如 `#1`、`satisfaction` 类承诺）。**只借结构和缺口，不复述原句**（脚本会查连续 8 词重合）。
 
-S1 的在涨词没出现在步骤 1 的结果里、又想用时，调用 `keyword_miner`，把这些词放进 `keywordList` 精准批量查搜索量和竞价。一次查完，给 S4 省一次。
+### 3. 归纳买家关心点（0–1 次）
 
-### 4. 分层（不花钱）
+- 差评：S1 缓存的 `raw/review_*_1-3星.json`（0 次）。
+- 好评：`review`，参数 `{"marketplace":站点,"asin":Cx的ASIN,"starList":[4,5],"size":20,"returnFields":"title,content,star,skus,date"}`，存 `raw/review_<ASIN>_4-5星.json`（1 次）。好评看「为什么买、哪些点不能丢」。
+- Rufus（可选）：`产品信息.md` 里有粘贴的问题就用；没有就 `status: skipped`，原因写「未提供 Rufus 问题；浏览器自动采集未启用」。**不要编问题。**
 
-| 位置 | 放什么 | 数量 |
+每个关心点写：关心点 / 出现次数（写明分母，如「差评 9/20」）/ 1 句买家原话 / 来源文件 / 对标回应了没（是 / 否 / 部分）/ 我们回应位置。至少 3 个。
+**对标没回应、买家又高频提的点，是差异化卖点，排进标题或五点第 1–2 条。**
+
+### 4. 取词（1 次，可选再 1 次）
+
+- `traffic_keyword`，参数 `{"request":{"marketplace":站点,"asin":Cx的ASIN,"order":{"field":"trafficPercentage","desc":true},"size":30}}`。
+- S1 在涨词没出现在结果里又想用时，`keyword_miner` 用 `keywordList` 一次批量补查（可选）。
+
+### 5. 清洗、打标（0 次）
+
+- 剔除：品牌词（黑名单）、IP 词、不相关词（对标顺带吃到的流量，如 kitchen decor）、有歧义的词。剔除的写进 `unused_keywords` 并注明原因。
+- 打标：含产品功能 / 材质 / 场景 → `high`；只是品名或别名 → `relevant`。
+
+### 6. 分层埋词（0 次）
+
+每个词只放一层，低层不重复高层已用的词：
+
+| 层 | 放什么 | 数量 |
 |---|---|---|
-| 标题 | S1 在涨词里和产品最精准的 1 个 + 流量占比最高的 2–3 个相关词 | 3–4 个 |
-| 五点 | 中频相关词，每条自然带 1–2 个 | 5–8 个 |
-| 后台搜索词 | 同义词、长尾词、单复数和别称；**不重复标题和五点里已有的词** | 若干 |
+| 标题 | 核心品名 + 最精准的 1 个 S1 在涨词 + 流量最高的 1–2 个 high 词 | 2–3 |
+| Highlights | 标题放不下的场景、材质、长尾词 | 2–4 |
+| 五点 | 中频 high 词，每条 1–2 个 | 5–8 |
+| 长描述 | 剩下的 high 长尾词、场景词 | 3–6 |
+| 后台 | 同义词、别称、拼写变体、前台没有的 relevant 词 | 填到接近 249 字节 |
 
-### 5. 写 Listing
+### 7. 写 draft（0 次）
 
-- **标题**：`[Brand]` + 核心词 + 最重要的 1–2 个差异化卖点 + 适用场景 + 〔待填：尺寸 / 数量〕
-- **五点**：
-  - 第 1 条回应 S1 最主要的需求点，第 2、3 条回应其他需求点，第 4 条讲材质，第 5 条讲更多用途
-  - 每条用大写短语开头
-- **后台搜索词**：空格分隔，不加标点，不写品牌词
+写 `runs/<本次>/s3_draft.json`，结构见下方。文案规则：
+
+| 字段 | 写法 | 上限（脚本查） |
+|---|---|---|
+| 标题 | `[Brand]` + 核心品名 + 1–2 个差异点；放得下再加 〔待填：尺寸 / 件数〕，放不下挪到 Highlights；最核心的词放前 40 字符；Title Case | 75 字符（`[Brand]` 按 10、每个〔〕按 12 计）；禁用 `! $ ? _ { } ^ ¬ ¦`；同一词 ≤2 次 |
+| Highlights | 标题放不下的材质、场景、规格；一行短语，不重复标题 | 125 字符 |
+| 五点 | 5 条，大写短语开头 + ` – ` + 说明。第 1–2 条回应最高频、对标没回应的关心点，第 3 条其他关心点，第 4 条材质与清洁，第 5 条更多用途 | 每条 255 字符 |
+| 长描述 | 以一个使用场景开头；2–3 个场景；陈述句 + 具体事实（Rufus / AI 问答更容易引用）；纯文本 | 2000 字符 |
+| 后台搜索词 | 小写、空格分隔、无标点、无品牌词、无停用词、不重复前台已有的词 | 249 字节 |
 
 **硬规矩**：
-- 产品规格没有数据来源的（尺寸、材质工艺、承重），一律写成 `〔待填〕` 或 `〔待供应商确认：…〕`，**不编**。
-- 不写 best、#1、guaranteed 这类无法证实的宣传语。
-- 不出现任何竞品品牌名。
-- 标题、五点、后台词的长度上限按类目规则核对，〔待核实〕的就标出来。
+- 没有 `用户` 来源的规格一律 〔待填〕 或 〔待供应商确认：…〕，并进 `todo_confirm`。
+- 不写 best、#1、perfect、guaranteed、free shipping、100%、refund 等。
+- 不出现任何竞品品牌名、IP 词。
 
-### 6. 写关键词清单
+### 8. 检查并渲染（0 次）
 
-表格列：`词 / 放在哪 / 来源`。来源要写到工具名和数字，例如 `traffic_keyword：月搜索量 225,249，流量占比 9.5%`；来自 S1 的写 `S1 在涨词`。
+```bash
+python3 stages/s3-listing/check_listing.py runs/<本次>/s3_draft.json --render
+```
 
-然后单列「有意没用的词」及原因。
+有 FAIL 就改 draft 再跑，**最多 2 轮**。仍不过就保留 FAIL 结果照样渲染，在对话里告诉用户哪几项没过，不硬凑。
+脚本写出的 `s3_listing.md` 就是本阶段产出，不要手改。
 
-### 7. 自检后写 `s3_listing.md`
+## draft 结构
 
-- [ ] 针对候选编号和 S2 选中的一致
-- [ ] 标题、五点、后台词、关键词清单四块都在
-- [ ] 清单里每个词都真的出现在 Listing 里，Listing 里的核心词也都在清单里
-- [ ] 没有竞品品牌名、IP 词
-- [ ] 文件头和末尾调用次数齐全
+```json
+{
+  "meta": {
+    "seed": "bamboo drawer organizer", "site": "US", "generated": "2026-09-13",
+    "data_period": "…", "upstream": "runs/…/s2_利润.md（选中 C2）、s1_选品.md",
+    "candidate": "C2",
+    "sellersprite_calls": {"new": 2, "cache": 3, "detail": "asin_detail 1、review 1；缓存 traffic_keyword 1、review 2"}
+  },
+  "brand_blacklist": ["…"],
+  "product_facts": [{"fact": "…", "source": "用户 / S1 / 推断"}],
+  "buyer_concerns": [{"concern": "…", "count": "差评 9/20", "quote": "…", "source": "review_B0…_1-3星",
+                      "competitor_covered": "否", "our_position": "五点 1"}],
+  "benchmark": {"asin": "B0…", "title_structure": "…", "bullet_themes": ["…"],
+                "specs_mentioned": ["…"], "gaps": ["…"], "violations": ["…"]},
+  "listing": {"title": "…", "highlights": "…", "bullets": ["…", "…", "…", "…", "…"],
+              "description": "…", "search_terms": "…"},
+  "keywords": [{"keyword": "…", "placement": ["标题"], "source": "traffic_keyword：月搜索量 N，流量占比 X%"}],
+  "unused_keywords": [{"keyword": "…", "reason": "…"}],
+  "rufus": {"status": "skipped", "reason": "…", "questions": [{"question": "…", "answered_in": "五点 2"}]},
+  "todo_confirm": ["…"]
+}
+```
+
+`placement` 只能用：`标题`、`Highlights`、`五点`、`长描述`、`后台`。来自 S1 的词 `source` 写 `S1 在涨词：…`。
 
 ## 额度
 
-本阶段 ≤3 次（步骤 1 一次，步骤 3 可选一次，余量一次）。
+本阶段 ≤5 次：asin_detail 1、review 1、traffic_keyword 1、keyword_miner 0–1、余量 1。重跑读缓存为 0 次。

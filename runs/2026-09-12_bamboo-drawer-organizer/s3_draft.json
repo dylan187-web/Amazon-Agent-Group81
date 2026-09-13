@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "seed": "bamboo drawer organizer",
+    "site": "US",
+    "generated": "2026-09-13",
+    "data_period": "流量词：traffic_keyword（B095H1YK3D，近 30 天，查询 2026-09-12）；对标 Listing：asin_detail（查询 2026-09-13）；评论：review 最新 20 条 1–3 星（S1 缓存）与 4–5 星（截至 2026-09-08）；在涨词：S1（2026-08）",
+    "upstream": "runs/2026-09-12_bamboo-drawer-organizer/s2_利润.md（选中 C2）、s1_选品.md；产品信息.md 未提供",
+    "candidate": "C2（对标 B095H1YK3D，做针对买家关心点的改良款）",
+    "sellersprite_calls": {"new": 2, "cache": 3, "detail": "新调用 asin_detail 1、review 4–5 星 1；读缓存 traffic_keyword 1、review 1–3 星 1、product_research 1"}
+  },
+  "brand_blacklist": ["oridom", "Bayting", "Lifewit"],
+  "product_facts": [
+    {"fact": "未提供产品信息.md：没有用户确认的规格，所有尺寸、工艺、材质写成〔待填〕", "source": "用户"},
+    {"fact": "改良方向：接缝加固，隔板不脱落", "source": "S1"},
+    {"fact": "改良方向：刀槽加长、槽位加深，放得下整套餐具", "source": "S1"},
+    {"fact": "改良方向：宽度调好后可锁定", "source": "S1"},
+    {"fact": "品类：可伸缩竹制餐具抽屉收纳盒（Flatware Organizers 类目）", "source": "S1"}
+  ],
+  "buyer_concerns": [
+    {"concern": "结构不结实：开胶、隔板脱落、散架、到货开裂", "count": "差评 12/20", "quote": "Make sure when you buy this to re-glue in every divider with the wood glue", "source": "review_B095H1YK3D_1-3星", "competitor_covered": "部分（只写了 tight assembly structure，没给具体工艺）", "our_position": "五点 1"},
+    {"concern": "槽太浅，餐具滑出、整套放不下", "count": "差评 3/20", "quote": "The tray is so shallow than all of my silverware slides out of the slots.", "source": "review_B095H1YK3D_1-3星", "competitor_covered": "否（写了 1.97\" 深，没回应不够深）", "our_position": "Highlights、五点 3"},
+    {"concern": "放不下餐刀 / 餐刀滑进隔板缝", "count": "差评 1/20（C2）；S1 统计 C1 差评 8/14", "quote": "the length of the silverware compartments does not accommodate knives", "source": "review_B095H1YK3D_1-3星；S1 C1 需求点", "competitor_covered": "否", "our_position": "Highlights、五点 3"},
+    {"concern": "宽度调好后锁不住、使用中移位", "count": "差评 1/20（C2）；S1 C3 需求点", "quote": "Wish there was a way to lock it to the size you wanted", "source": "review_B095H1YK3D_1-3星；S1 C3 需求点", "competitor_covered": "否（只写了 smooth sliding）", "our_position": "标题、五点 2"},
+    {"concern": "在抽屉里打滑，防滑垫不够", "count": "好评 2/20", "quote": "I wish it had big grips to keep it from sliding in the drawer.", "source": "review_B095H1YK3D_4-5星", "competitor_covered": "否", "our_position": "五点 5"},
+    {"concern": "买的理由：可伸缩、贴合抽屉（必须保留）", "count": "好评 9/20", "quote": "Fits like it was created specifically for my drawer.", "source": "review_B095H1YK3D_4-5星", "competitor_covered": "是", "our_position": "标题、五点 2"},
+    {"concern": "买的理由：结实有分量（必须保留）", "count": "好评 7/20", "quote": "there is weight to it so it doesn't slide around like the cheap plastic ones do", "source": "review_B095H1YK3D_4-5星", "competitor_covered": "是", "our_position": "五点 1"},
+    {"concern": "涂层有异味", "count": "差评 1/20", "quote": "why does it smell like fish? ... Must be something in the wood sealant.", "source": "review_B095H1YK3D_1-3星", "competitor_covered": "否", "our_position": "五点 4（待供应商确认涂层后再写）"}
+  ],
+  "benchmark": {
+    "asin": "B095H1YK3D",
+    "title_structure": "核心词（Expandable Bamboo Kitchen Drawer Organizer）+ 用途（for Cutlery and Utensils）+ 同义词重述（Adjustable Bamboo Wood Cutlery Tray）+ 场景 + 颜色；约 160 字符，超出 75 字符新规",
+    "bullet_themes": ["厨房收纳与尺寸", "颜值与多场景", "耐用工艺", "收纳容量", "清洁与品牌承诺"],
+    "specs_mentioned": ["宽 10.04–15.5 英寸", "长 13.98 英寸", "深 1.97 英寸", "5–7 格", "350 g"],
+    "gaps": ["没有宽度锁定", "没说刀槽长度，差评抱怨放不下餐刀", "深度只给数字，没回应「太浅」", "耐用只有泛泛的 tight assembly，12/20 差评说散架", "没提防滑", "没提涂层气味"],
+    "violations": ["五点 5：Your satisfaction is our #1 priority（#1 类宣传语）", "五点 3：fit over 95% standard sized drawers（无法证实的比例）", "标题超 75 字符"]
+  },
+  "listing": {
+    "title": "[Brand] Expandable Bamboo Drawer Organizer, Locking Silverware Tray",
+    "highlights": "Utensil drawer organizer with long knife slots and deeper compartments, 〔待填：格数〕 slots",
+    "bullets": [
+      "BUILT NOT TO COME APART – Reinforced joints 〔待供应商确认：加固工艺〕 keep every divider in place through daily use. A silverware organizer made to handle years of opening and closing the drawer.",
+      "LOCKS AT YOUR WIDTH – Slides open from 〔待填〕 to 〔待填〕 inches and locks where you set it, so the tray fits snugly and stays put. Use it as a kitchen drawer organizer or a set of drawer dividers.",
+      "ROOM FOR DINNER KNIVES – Long slots take dinner knives and serving spoons, and deeper compartments 〔待填：槽深〕 keep a full set from sliding out. A cutlery drawer organizer with no gaps for knives to slip under.",
+      "NATURAL BAMBOO, EASY CARE – 〔待供应商确认：竹材、表面处理、涂层是否无异味〕 Smooth sanded edges; wipes clean with a damp cloth 〔待供应商确认：清洁方式〕.",
+      "MORE THAN SILVERWARE – Also a utensil organizer for kitchen drawers, or a sorter for office and bathroom drawers. Non-slip pads 〔待供应商确认：数量〕 on the base help keep it from moving."
+    ],
+    "description": "Opening the silverware drawer should not mean digging for a knife that slid under a divider. This expandable drawer organizer is designed around the problems buyers mention most about bamboo trays: joints that come apart, slots too short for dinner knives, and widths that drift after you set them.\n\nIn an everyday kitchen, it works as a silverware drawer organizer for forks, spoons and dinner knives, with deeper compartments that keep a full set in place. In a wider drawer, extend it to cover the space and lock the width, and it becomes a kitchen utensil drawer organizer for ladles, spatulas and tongs. Outside the kitchen, the same tray sorts pens and chargers in a desk drawer or brushes and hair ties in a bathroom drawer.\n\nLike other flatware organizers in this style, it is made to be measured first: check your drawer against the size below before ordering.\n\nSize: 〔待填：收起与展开宽度、长度、槽深〕\nMaterial: 〔待供应商确认：竹材与表面处理〕\nIncluded: 〔待填：件数与防滑垫数量〕",
+    "search_terms": "holder caddy adjustable wooden wood insert storage organiser bin container"
+  },
+  "keywords": [
+    {"keyword": "expandable bamboo drawer organizer", "placement": ["标题"], "source": "S1 在涨词：月搜索量 2,079，近 1 年约 2.6 倍（keyword_research / aba_research_trend，2026-08）"},
+    {"keyword": "bamboo drawer organizer", "placement": ["标题"], "source": "S1 在涨词：月搜索量 35,411（keyword_research，2026-08）；traffic_keyword 流量占比 1.0%"},
+    {"keyword": "drawer organizer", "placement": ["标题"], "source": "traffic_keyword：月搜索量 547,907，流量占比 8.1%"},
+    {"keyword": "silverware tray", "placement": ["标题"], "source": "traffic_keyword：月搜索量 25,239，流量占比 0.6%"},
+    {"keyword": "silverware tray for drawer", "placement": ["标题"], "source": "traffic_keyword：月搜索量 143,118，流量占比 6.3%（拆开写入）"},
+    {"keyword": "utensil drawer organizer", "placement": ["Highlights"], "source": "traffic_keyword：月搜索量 174,762，流量占比 8.1%"},
+    {"keyword": "silverware organizer", "placement": ["五点"], "source": "traffic_keyword：月搜索量 225,249，流量占比 9.5%（第 1）"},
+    {"keyword": "kitchen drawer organizer", "placement": ["五点"], "source": "traffic_keyword：月搜索量 123,005，流量占比 4.7%"},
+    {"keyword": "drawer dividers", "placement": ["五点"], "source": "traffic_keyword：月搜索量 79,407，流量占比 0.9%"},
+    {"keyword": "kitchen drawer dividers", "placement": ["五点"], "source": "traffic_keyword：月搜索量 26,665，流量占比 0.7%（拆开写入）"},
+    {"keyword": "cutlery drawer organizer", "placement": ["五点"], "source": "traffic_keyword：月搜索量 51,114，流量占比 1.7%"},
+    {"keyword": "utensil organizer for kitchen drawers", "placement": ["五点"], "source": "traffic_keyword：月搜索量 23,151，流量占比 0.6%"},
+    {"keyword": "expandable drawer organizer", "placement": ["长描述"], "source": "traffic_keyword：月搜索量 41,979，流量占比 1.1%"},
+    {"keyword": "silverware drawer organizer", "placement": ["长描述"], "source": "traffic_keyword：月搜索量 57,563，流量占比 1.9%"},
+    {"keyword": "kitchen utensil drawer organizer", "placement": ["长描述"], "source": "traffic_keyword：月搜索量 26,792，流量占比 0.8%"},
+    {"keyword": "flatware organizers", "placement": ["长描述"], "source": "traffic_keyword：月搜索量 28,236，流量占比 0.7%"},
+    {"keyword": "utensil holder", "placement": ["后台"], "source": "traffic_keyword：月搜索量 218,907，流量占比 8.9%"},
+    {"keyword": "silverware holder", "placement": ["后台"], "source": "traffic_keyword：月搜索量 26,975，流量占比 0.7%"},
+    {"keyword": "silverware caddy", "placement": ["后台"], "source": "traffic_keyword：月搜索量 24,175，流量占比 0.7%"}
+  ],
+  "unused_keywords": [
+    {"keyword": "kitchen appliances、kitchen decor", "reason": "对标顺带吃到的流量，与产品无关"},
+    {"keyword": "silver tray", "reason": "容易被理解成餐盘"},
+    {"keyword": "silverware set with organizer", "reason": "搜的是带餐具的套装，产品不含餐具"},
+    {"keyword": "utensil holder countertop", "reason": "台面立式筒，形态不同"},
+    {"keyword": "organizer、tray、kitchen organizer、kitchen organization、drawer organizers", "reason": "泛词或复数重复，前台已覆盖核心部分"},
+    {"keyword": "oridom / Bayting / Lifewit 相关词", "reason": "竞品品牌词"}
+  ],
+  "rufus": {"status": "skipped", "reason": "未提供 Rufus 问题（产品信息.md 不存在）；浏览器自动采集未启用（PRD F7，P2）", "questions": []},
+  "todo_confirm": [
+    "品牌名（替换标题里的 [Brand]）",
+    "接缝加固工艺，能否做到隔板不脱落（五点 1）",
+    "收起 / 展开宽度范围，以及宽度锁定结构（标题「Locking」、五点 2）——做不到就从标题和五点删掉",
+    "刀槽长度、槽深、格数（Highlights、五点 3）",
+    "竹材、表面处理、涂层是否无异味（五点 4）",
+    "清洁方式",
+    "防滑垫数量（五点 5）",
+    "长描述里的尺寸、材质、包装内含"
+  ]
+}
