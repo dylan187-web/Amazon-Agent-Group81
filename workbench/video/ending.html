@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>结尾</title>
+<style>
+html,body{margin:0;height:100%;overflow:hidden}
+body{background:#0f1b33;font-family:-apple-system,"PingFang SC",sans-serif;color:#fff}
+.frame{position:absolute;left:5%;right:34%;top:6%;bottom:6%;border-radius:14px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.5);background:#fff}
+.frame img{width:100%;display:block;transition:transform 16s linear}
+.frame.go img{transform:translateY(-45%)}
+.side{position:absolute;right:4%;top:0;bottom:0;width:27%;display:flex;flex-direction:column;justify-content:center}
+.line{width:64px;height:5px;background:#ff9a3c;border-radius:3px;margin-bottom:22px}
+h2{font-size:40px;margin:0 0 20px}
+.url{font-size:21px;color:#cfe0ff;margin-bottom:30px;word-break:break-all}
+ul{list-style:none;padding:0;margin:0 0 36px;font-size:22px;color:#cdd6ea;line-height:2}
+.big{font-size:30px;font-weight:700;line-height:1.6;opacity:0;transition:opacity 1s}
+.big.on{opacity:1}
+</style></head>
+<body>
+  <div class="frame" id="f"><img src="repo.jpg" alt="GitHub 仓库"></div>
+  <div class="side">
+    <div class="line"></div>
+    <h2>已开源 · MIT</h2>
+    <div class="url">github.com/dylan187-web/<br>Amazon-Agent-Group81</div>
+    <ul><li>Claude Code / Codex 都能跑</li><li>四个阶段并行开发</li><li>一份交接约定拼成一条链</li></ul>
+    <div class="big" id="b">宁可停下来，<br>也不编一个数字。<br>—— 第 81 组</div>
+  </div>
+<script>
+window.startScroll = () => document.getElementById('f').classList.add('go');
+window.showBig = () => document.getElementById('b').classList.add('on');
+</script>
+</body></html>
