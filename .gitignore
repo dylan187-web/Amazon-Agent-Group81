@@ -13,8 +13,14 @@ runs/*
 *.gz
 *.zip
 *.xlsx
-*.csv
 data/
+# CSV 只挡运行结果（runs/ 已整体忽略）和 S2 核算脚本的默认输出目录——那里可能是真实结算数据
+output/
+import-output/
+fee-gate-output/
+settlement*.csv
+ads*.csv
+!**/assets/*_sample.csv
 
 # 系统与编辑器
 .DS_Store
