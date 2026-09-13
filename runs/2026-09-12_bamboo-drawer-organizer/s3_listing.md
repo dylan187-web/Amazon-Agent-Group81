@@ -87,6 +87,7 @@ holder caddy adjustable wooden wood insert storage organiser bin container
 | kitchen drawer dividers | 五点 | traffic_keyword：月搜索量 26,665，流量占比 0.7%（拆开写入） |
 | cutlery drawer organizer | 五点 | traffic_keyword：月搜索量 51,114，流量占比 1.7% |
 | utensil organizer for kitchen drawers | 五点 | traffic_keyword：月搜索量 23,151，流量占比 0.6% |
+| bamboo kitchen drawer organizer | 五点 | S1 在涨词：月搜索量 6,031，比去年同期高 49%（keyword_research / aba_research_trend，2026-08）（拆开写入第 2、4 条） |
 | expandable drawer organizer | 长描述 | traffic_keyword：月搜索量 41,979，流量占比 1.1% |
 | silverware drawer organizer | 长描述 | traffic_keyword：月搜索量 57,563，流量占比 1.9% |
 | kitchen utensil drawer organizer | 长描述 | traffic_keyword：月搜索量 26,792，流量占比 0.8% |
@@ -146,7 +147,7 @@ holder caddy adjustable wooden wood insert storage organiser bin container
 | ✅ | 无违禁宣传语 |  |
 | ✅ | 无竞品品牌名 / 黑名单词 |  |
 | ✅ | 不抄对标文案（连续 8 词） |  |
-| ✅ | 关键词清单不为空 | 19 |
+| ✅ | 关键词清单不为空 | 20 |
 | ✅ | 清单里的词都出现在声明位置 |  |
 | ✅ | 清单里的词都有来源 |  |
 | ✅ | 买家关心点 ≥3 个 | 8 |

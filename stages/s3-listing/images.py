@@ -322,6 +322,16 @@ def cmd_check(run, quiet=False):
             results[sid] = {"status": "HOLD", "rows": [], "reason": slot.get("hold_reason", "")}
             continue
         path = os.path.join(p["final"], final_name(plan, slot, concept))
+        preview = os.path.join(p["preview"], final_name(plan, slot, concept))
+        if not os.path.exists(path) and os.path.exists(preview):
+            # 新 clone：原图不入库，只有预览；沿用已提交的视觉质检，不重做像素检查
+            v = review.get(sid, {})
+            ok = str(v.get("verdict", "")).lower() == "pass"
+            all_ok &= ok
+            results[sid] = {"status": "PASS" if ok else "FAIL", "path": preview, "preview_only": True,
+                            "rows": [(True, "原图未入库，使用已提交的 1000px 预览，未重做像素检查"),
+                                     (ok, "视觉质检通过（沿用 review.json）", v.get("note", ""))]}
+            continue
         if not os.path.exists(path):
             results[sid] = {"status": "FAIL", "rows": [(False, "成图存在", path)]}
             all_ok = False
@@ -352,9 +362,14 @@ def cmd_render(run):
     _, concept = reference_images(p, plan)
     results, all_ok = cmd_check(run, quiet=True)
     os.makedirs(p["preview"], exist_ok=True)
+    meta = load_json(p["draft"], {}).get("meta", {})
     lines = ["# S3 Listing · 图片", "",
-             f"针对候选：{plan.get('candidate', '')}",
+             f"种子词：{meta.get('seed', '')}",
+             f"站点：{meta.get('site', 'US')}",
              f"生成时间：{time.strftime('%Y-%m-%d %H:%M')}",
+             "数据周期：沿用 s3_listing.md（图位依据取自其中的买家关心点与文案）",
+             f"上游文件：{os.path.join(run, 's3_draft.json')}、{os.path.join(run, 'images_plan.json')}", "",
+             f"针对候选：{plan.get('candidate', '')}",
              "出图：本机 Codex CLI 自带 image_gen；文字由 images.py 排版，模型不写字", ""]
     if concept:
         lines += ["> ⚠️ **本套图基于 AI 概念参考图生成（没有实拍图），只用于演示方案，不能直接上架。** "
@@ -365,7 +380,8 @@ def cmd_render(run):
         img_cell = "—"
         if r.get("path"):
             prev = os.path.join(p["preview"], os.path.basename(r["path"]))
-            Image.open(r["path"]).resize((PREVIEW, PREVIEW), Image.LANCZOS).save(prev, "JPEG", quality=80, optimize=True)
+            if not r.get("preview_only"):  # 只有原图在时才重新生成预览，避免反复压缩已提交的预览
+                Image.open(r["path"]).resize((PREVIEW, PREVIEW), Image.LANCZOS).save(prev, "JPEG", quality=80, optimize=True)
             img_cell = f"![{slot['id']}](images/preview/{os.path.basename(prev)})"
         text = " / ".join(x for x in [slot.get("headline", "")] + slot.get("points", []) if x) or "无"
         status = r["status"] + (f"：{r.get('reason')}" if r["status"] == "HOLD" else "")
@@ -380,7 +396,8 @@ def cmd_render(run):
         lines.append(f"**{sid}**：{r['status']}")
         lines += [f"- {'✅' if ok else '❌'} {item}" + (f"（{d[0]}）" if d and d[0] else "") for ok, item, *d in r["rows"]]
         lines.append("")
-    lines += ["结论：" + ("全部通过" if all_ok else "**有未通过项，见上**"), ""]
+    lines += ["结论：" + ("全部通过" if all_ok else "**有未通过项，见上**"), "", "---", "",
+              "卖家精灵调用：新调用 0 次 / 读缓存 0 次（图片步骤不调用卖家精灵，出图走 Codex CLI）", ""]
     with open(p["md"], "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
     print(f"已写出 {p['md']}")
