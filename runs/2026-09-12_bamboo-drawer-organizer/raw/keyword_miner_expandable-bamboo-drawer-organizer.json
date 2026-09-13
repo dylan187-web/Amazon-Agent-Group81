@@ -1,0 +1,1642 @@
+{
+  "code": "OK",
+  "message": "成功",
+  "data": {
+    "guestId": null,
+    "pages": 40,
+    "page": 1,
+    "size": 30,
+    "total": 1184,
+    "took": 0,
+    "url": null,
+    "order": {
+      "field": "",
+      "desc": true
+    },
+    "items": [
+      {
+        "marketplace": "US",
+        "keyword": "dresser",
+        "keywordCn": "设置",
+        "keywordJp": "ドレッサー",
+        "departments": [
+          {
+            "code": "Furniture",
+            "label": "Home / Furniture"
+          },
+          {
+            "code": "fashion",
+            "label": "Clothing, Shoes & Jewelry"
+          },
+          {
+            "code": "baby-products",
+            "label": "Baby"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 1693021,
+        "purchases": 6772,
+        "purchaseRate": 0.004,
+        "monopolyClickRate": 0.1324,
+        "products": 64,
+        "adProducts": 963,
+        "supplyDemandRatio": 26453.45,
+        "avgPrice": 39.94,
+        "avgRatings": null,
+        "avgRating": 4.3,
+        "bidMin": 0.63,
+        "bidMax": 1.05,
+        "bid": 0.84,
+        "cvsShareRate": 0.1184,
+        "wordCount": 1,
+        "titleDensity": 45,
+        "spr": 154,
+        "relevancy": 2.7,
+        "amazonChoice": true,
+        "searchRank": 77,
+        "trends": null,
+        "clicks": 838310,
+        "impressions": 44964620,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "desk organizer",
+        "keywordCn": "桌子上的组织者",
+        "keywordJp": "デスクオーガナイザー",
+        "departments": [
+          {
+            "code": "Furniture",
+            "label": "Home / Furniture"
+          },
+          {
+            "code": "office-products",
+            "label": "Office Products"
+          },
+          {
+            "code": "beauty",
+            "label": "Beauty & Personal Care"
+          },
+          {
+            "code": "electronics",
+            "label": "Electronics"
+          },
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "fashion",
+            "label": "Clothing, Shoes & Jewelry"
+          },
+          {
+            "code": "arts-crafts",
+            "label": "Arts, Crafts & Sewing"
+          },
+          {
+            "code": "wireless",
+            "label": "Cell Phones & Accessories"
+          },
+          {
+            "code": "automotive",
+            "label": "Automotive Parts & Accessories"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 697038,
+        "purchases": 13035,
+        "purchaseRate": 0.0187,
+        "monopolyClickRate": 0.1234,
+        "products": 277592,
+        "adProducts": 845,
+        "supplyDemandRatio": 2.51,
+        "avgPrice": 9.98,
+        "avgRatings": null,
+        "avgRating": 4.5,
+        "bidMin": 0.67,
+        "bidMax": 1.1,
+        "bid": 0.88,
+        "cvsShareRate": 0.0779,
+        "wordCount": 2,
+        "titleDensity": 16,
+        "spr": 302,
+        "relevancy": 2.7,
+        "amazonChoice": true,
+        "searchRank": 437,
+        "trends": null,
+        "clicks": 273508,
+        "impressions": 17204147,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "drawer organizer",
+        "keywordCn": "抽屉整理器",
+        "keywordJp": "ドロワーオーガナイザー",
+        "departments": [
+          {
+            "code": "office-products",
+            "label": "Office Products"
+          },
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "fashion",
+            "label": "Clothing, Shoes & Jewelry"
+          },
+          {
+            "code": "hi",
+            "label": "Tools & Home Improvement"
+          },
+          {
+            "code": "automotive",
+            "label": "Automotive Parts & Accessories"
+          },
+          {
+            "code": "beauty",
+            "label": "Beauty & Personal Care"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 547907,
+        "purchases": 15670,
+        "purchaseRate": 0.0286,
+        "monopolyClickRate": 0.2082,
+        "products": 55401,
+        "adProducts": 623,
+        "supplyDemandRatio": 9.89,
+        "avgPrice": 16.99,
+        "avgRatings": null,
+        "avgRating": 4.4,
+        "bidMin": 0.36,
+        "bidMax": 0.94,
+        "bid": 0.67,
+        "cvsShareRate": 0.1883,
+        "wordCount": 2,
+        "titleDensity": 32,
+        "spr": 361,
+        "relevancy": 44.6,
+        "amazonChoice": true,
+        "searchRank": 674,
+        "trends": null,
+        "clicks": 260525,
+        "impressions": 12715577,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "kitchen",
+        "keywordCn": "厨房",
+        "keywordJp": "キッチン",
+        "departments": [
+          {
+            "code": "Furniture",
+            "label": "Home / Furniture"
+          },
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "baby-products",
+            "label": "Baby"
+          },
+          {
+            "code": "hpc",
+            "label": "Health, Household & Baby Care"
+          },
+          {
+            "code": "hi",
+            "label": "Tools & Home Improvement"
+          },
+          {
+            "code": "industrial",
+            "label": "Industrial & Scientific"
+          },
+          {
+            "code": "handmade",
+            "label": "Handmade"
+          },
+          {
+            "code": "lawn-garden",
+            "label": "Garden & Outdoor"
+          },
+          {
+            "code": "pet-supplies",
+            "label": "Pet Supplies"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 500064,
+        "purchases": 1300,
+        "purchaseRate": 0.0026,
+        "monopolyClickRate": 0.106,
+        "products": 72,
+        "adProducts": 1165,
+        "supplyDemandRatio": 6945.33,
+        "avgPrice": 24.99,
+        "avgRatings": null,
+        "avgRating": 4.5,
+        "bidMin": 0.68,
+        "bidMax": 1.35,
+        "bid": 1.08,
+        "cvsShareRate": 0.0525,
+        "wordCount": 1,
+        "titleDensity": 24,
+        "spr": 30,
+        "relevancy": 6.8,
+        "amazonChoice": true,
+        "searchRank": 777,
+        "trends": null,
+        "clicks": 232031,
+        "impressions": 13235778,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "jewelry organizer",
+        "keywordCn": "珠宝收纳盒",
+        "keywordJp": "ジュエリーオーガナイザー",
+        "departments": [
+          {
+            "code": "Jewelry",
+            "label": "Jewelry"
+          },
+          {
+            "code": "Furniture",
+            "label": "Home / Furniture"
+          },
+          {
+            "code": "fashion",
+            "label": "Clothing, Shoes & Jewelry"
+          },
+          {
+            "code": "arts-crafts",
+            "label": "Arts, Crafts & Sewing"
+          },
+          {
+            "code": "office-products",
+            "label": "Office Products"
+          },
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "beauty",
+            "label": "Beauty & Personal Care"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 401352,
+        "purchases": 4816,
+        "purchaseRate": 0.012,
+        "monopolyClickRate": 0.1558,
+        "products": 72136,
+        "adProducts": 538,
+        "supplyDemandRatio": 5.56,
+        "avgPrice": 19.99,
+        "avgRatings": null,
+        "avgRating": 4.5,
+        "bidMin": 0.85,
+        "bidMax": 1.41,
+        "bid": 1.13,
+        "cvsShareRate": 0.0984,
+        "wordCount": 2,
+        "titleDensity": 20,
+        "spr": 111,
+        "relevancy": 2.7,
+        "amazonChoice": true,
+        "searchRank": 1111,
+        "trends": null,
+        "clicks": 175882,
+        "impressions": 11889461,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "dividers",
+        "keywordCn": "分隔器",
+        "keywordJp": "ディバイダー",
+        "departments": [
+          {
+            "code": "Furniture",
+            "label": "Home / Furniture"
+          },
+          {
+            "code": "office-products",
+            "label": "Office Products"
+          },
+          {
+            "code": "hi",
+            "label": "Tools & Home Improvement"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 234447,
+        "purchases": 15825,
+        "purchaseRate": 0.0675,
+        "monopolyClickRate": 0.2427,
+        "products": 73578,
+        "adProducts": 217,
+        "supplyDemandRatio": 3.19,
+        "avgPrice": 5.59,
+        "avgRatings": null,
+        "avgRating": 4.8,
+        "bidMin": 0.55,
+        "bidMax": 1.11,
+        "bid": 0.89,
+        "cvsShareRate": 0.1913,
+        "wordCount": 1,
+        "titleDensity": 48,
+        "spr": 359,
+        "relevancy": 2.7,
+        "amazonChoice": true,
+        "searchRank": 2467,
+        "trends": null,
+        "clicks": 105602,
+        "impressions": 6801372,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "silverware organizer",
+        "keywordCn": "银器收纳盒",
+        "keywordJp": "シルバーウェアオーガナイザー",
+        "departments": [
+          {
+            "code": "Tools",
+            "label": "Tools & Home Improvement"
+          },
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "office-products",
+            "label": "Office Products"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 225249,
+        "purchases": 8199,
+        "purchaseRate": 0.0364,
+        "monopolyClickRate": 0.2519,
+        "products": 6100,
+        "adProducts": 210,
+        "supplyDemandRatio": 36.93,
+        "avgPrice": 12.98,
+        "avgRatings": null,
+        "avgRating": 4.5,
+        "bidMin": 0.7,
+        "bidMax": 1.14,
+        "bid": 0.99,
+        "cvsShareRate": 0.1838,
+        "wordCount": 2,
+        "titleDensity": 17,
+        "spr": 187,
+        "relevancy": 39.2,
+        "amazonChoice": true,
+        "searchRank": 2589,
+        "trends": null,
+        "clicks": 99624,
+        "impressions": 6524455,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "utensil holder",
+        "keywordCn": "器皿架",
+        "keywordJp": "道具立て",
+        "departments": [
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 218907,
+        "purchases": 4269,
+        "purchaseRate": 0.0195,
+        "monopolyClickRate": 0.1272,
+        "products": 56,
+        "adProducts": 508,
+        "supplyDemandRatio": 3909.05,
+        "avgPrice": 18.99,
+        "avgRatings": null,
+        "avgRating": 4.8,
+        "bidMin": 0.6,
+        "bidMax": 1.07,
+        "bid": 0.86,
+        "cvsShareRate": 0.0965,
+        "wordCount": 2,
+        "titleDensity": 40,
+        "spr": 97,
+        "relevancy": 14.9,
+        "amazonChoice": true,
+        "searchRank": 2667,
+        "trends": null,
+        "clicks": 99317,
+        "impressions": 5413124,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "organizer",
+        "keywordCn": "组织者",
+        "keywordJp": "オーガナイザー",
+        "departments": [
+          {
+            "code": "Furniture",
+            "label": "Home / Furniture"
+          },
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "office-products",
+            "label": "Office Products"
+          },
+          {
+            "code": "beauty",
+            "label": "Beauty & Personal Care"
+          },
+          {
+            "code": "hi",
+            "label": "Tools & Home Improvement"
+          },
+          {
+            "code": "arts-crafts",
+            "label": "Arts, Crafts & Sewing"
+          },
+          {
+            "code": "fashion",
+            "label": "Clothing, Shoes & Jewelry"
+          },
+          {
+            "code": "baby-products",
+            "label": "Baby"
+          },
+          {
+            "code": "hpc",
+            "label": "Health, Household & Baby Care"
+          },
+          {
+            "code": "automotive",
+            "label": "Automotive Parts & Accessories"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 192073,
+        "purchases": 1248,
+        "purchaseRate": 0.0065,
+        "monopolyClickRate": 0.1382,
+        "products": 195457,
+        "adProducts": 1071,
+        "supplyDemandRatio": 0.98,
+        "avgPrice": 18.99,
+        "avgRatings": null,
+        "avgRating": 4.4,
+        "bidMin": 0.46,
+        "bidMax": 0.97,
+        "bid": 0.74,
+        "cvsShareRate": 0.1213,
+        "wordCount": 1,
+        "titleDensity": 40,
+        "spr": 30,
+        "relevancy": 6.8,
+        "amazonChoice": true,
+        "searchRank": 3005,
+        "trends": null,
+        "clicks": 76999,
+        "impressions": 4727788,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "utensil drawer organizer",
+        "keywordCn": "食具抽屉整理器",
+        "keywordJp": "道具の引き出しのオーガナイザー",
+        "departments": [
+          {
+            "code": "Tools",
+            "label": "Tools & Home Improvement"
+          },
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "office-products",
+            "label": "Office Products"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 174762,
+        "purchases": 5732,
+        "purchaseRate": 0.0328,
+        "monopolyClickRate": 0.2557,
+        "products": 5556,
+        "adProducts": 129,
+        "supplyDemandRatio": 31.45,
+        "avgPrice": 12.98,
+        "avgRatings": null,
+        "avgRating": 4.5,
+        "bidMin": 0.77,
+        "bidMax": 1.27,
+        "bid": 1.02,
+        "cvsShareRate": 0.1708,
+        "wordCount": 3,
+        "titleDensity": 4,
+        "spr": 130,
+        "relevancy": 51.4,
+        "amazonChoice": true,
+        "searchRank": 3486,
+        "trends": null,
+        "clicks": 68537,
+        "impressions": 4170089,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "kitchen organization",
+        "keywordCn": "厨房组织",
+        "keywordJp": "キッチンの整理整頓",
+        "departments": [
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "hi",
+            "label": "Tools & Home Improvement"
+          },
+          {
+            "code": "industrial",
+            "label": "Industrial & Scientific"
+          },
+          {
+            "code": "office-products",
+            "label": "Office Products"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 146250,
+        "purchases": 995,
+        "purchaseRate": 0.0068,
+        "monopolyClickRate": 0.1284,
+        "products": 106241,
+        "adProducts": 572,
+        "supplyDemandRatio": 1.38,
+        "avgPrice": 13.99,
+        "avgRatings": null,
+        "avgRating": 4.5,
+        "bidMin": 0.74,
+        "bidMax": 1.23,
+        "bid": 0.98,
+        "cvsShareRate": 0.0821,
+        "wordCount": 2,
+        "titleDensity": 1,
+        "spr": 23,
+        "relevancy": 12.2,
+        "amazonChoice": true,
+        "searchRank": 5121,
+        "trends": null,
+        "clicks": 69879,
+        "impressions": 3442671,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "cabinet organizer",
+        "keywordCn": "橱柜组织者",
+        "keywordJp": "キャビネットオーガナイザー",
+        "departments": [
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "office-products",
+            "label": "Office Products"
+          },
+          {
+            "code": "lawn-garden",
+            "label": "Garden & Outdoor"
+          },
+          {
+            "code": "industrial",
+            "label": "Industrial & Scientific"
+          },
+          {
+            "code": "beauty",
+            "label": "Beauty & Personal Care"
+          },
+          {
+            "code": "baby-products",
+            "label": "Baby"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 145863,
+        "purchases": 1911,
+        "purchaseRate": 0.0131,
+        "monopolyClickRate": 0.1365,
+        "products": 78506,
+        "adProducts": 746,
+        "supplyDemandRatio": 1.86,
+        "avgPrice": 21.99,
+        "avgRatings": null,
+        "avgRating": 4.4,
+        "bidMin": 0.52,
+        "bidMax": 0.89,
+        "bid": 0.8,
+        "cvsShareRate": 0.0926,
+        "wordCount": 2,
+        "titleDensity": 19,
+        "spr": 44,
+        "relevancy": 2.7,
+        "amazonChoice": true,
+        "searchRank": 4402,
+        "trends": null,
+        "clicks": 59317,
+        "impressions": 3471403,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "silverware tray for drawer",
+        "keywordCn": "抽屉银器托盘",
+        "keywordJp": "ドロワー用銀食器トレイ",
+        "departments": [
+          {
+            "code": "Tools",
+            "label": "Tools & Home Improvement"
+          },
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "office-products",
+            "label": "Office Products"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 143118,
+        "purchases": 26634,
+        "purchaseRate": 0.1861,
+        "monopolyClickRate": 0.3049,
+        "products": 2094,
+        "adProducts": 95,
+        "supplyDemandRatio": 68.35,
+        "avgPrice": 11.69,
+        "avgRatings": null,
+        "avgRating": 4.5,
+        "bidMin": 0.78,
+        "bidMax": 1.3,
+        "bid": 1.04,
+        "cvsShareRate": 0.1998,
+        "wordCount": 4,
+        "titleDensity": 3,
+        "spr": 605,
+        "relevancy": 28.4,
+        "amazonChoice": true,
+        "searchRank": 4702,
+        "trends": null,
+        "clicks": 58441,
+        "impressions": 3604615,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "drawer divider",
+        "keywordCn": "抽屉隔板",
+        "keywordJp": "ドロワー・デバイダー",
+        "departments": [
+          {
+            "code": "office-products",
+            "label": "Office Products"
+          },
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 132682,
+        "purchases": 4710,
+        "purchaseRate": 0.0355,
+        "monopolyClickRate": 0.3947,
+        "products": 8923,
+        "adProducts": 111,
+        "supplyDemandRatio": 14.87,
+        "avgPrice": 28.04,
+        "avgRatings": null,
+        "avgRating": 4.5,
+        "bidMin": 0.62,
+        "bidMax": 1.04,
+        "bid": 0.83,
+        "cvsShareRate": 0.2985,
+        "wordCount": 2,
+        "titleDensity": 42,
+        "spr": 108,
+        "relevancy": 23.0,
+        "amazonChoice": true,
+        "searchRank": 6554,
+        "trends": null,
+        "clicks": 62853,
+        "impressions": 3549285,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "kitchen storage",
+        "keywordCn": "厨房储存",
+        "keywordJp": "キッチン収納",
+        "departments": [
+          {
+            "code": "Furniture",
+            "label": "Home / Furniture"
+          },
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "hi",
+            "label": "Tools & Home Improvement"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 126361,
+        "purchases": 783,
+        "purchaseRate": 0.0062,
+        "monopolyClickRate": 0.0923,
+        "products": 125304,
+        "adProducts": 757,
+        "supplyDemandRatio": 1.01,
+        "avgPrice": 29.98,
+        "avgRatings": null,
+        "avgRating": 4.5,
+        "bidMin": 0.52,
+        "bidMax": 0.95,
+        "bid": 0.8,
+        "cvsShareRate": 0.1251,
+        "wordCount": 2,
+        "titleDensity": 4,
+        "spr": 18,
+        "relevancy": 2.7,
+        "amazonChoice": true,
+        "searchRank": 7408,
+        "trends": null,
+        "clicks": 50563,
+        "impressions": 3688867,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "kitchen gadgets",
+        "keywordCn": "厨房小工具",
+        "keywordJp": "キッチンガジェット",
+        "departments": [
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "lawn-garden",
+            "label": "Garden & Outdoor"
+          },
+          {
+            "code": "hpc",
+            "label": "Health, Household & Baby Care"
+          },
+          {
+            "code": "hi",
+            "label": "Tools & Home Improvement"
+          },
+          {
+            "code": "industrial",
+            "label": "Industrial & Scientific"
+          },
+          {
+            "code": "handmade",
+            "label": "Handmade"
+          },
+          {
+            "code": "office-products",
+            "label": "Office Products"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 125691,
+        "purchases": 1094,
+        "purchaseRate": 0.0087,
+        "monopolyClickRate": 0.1261,
+        "products": 54965,
+        "adProducts": 718,
+        "supplyDemandRatio": 2.29,
+        "avgPrice": 13.99,
+        "avgRatings": null,
+        "avgRating": 4.5,
+        "bidMin": 0.62,
+        "bidMax": 1.24,
+        "bid": 0.98,
+        "cvsShareRate": 0.0915,
+        "wordCount": 2,
+        "titleDensity": 8,
+        "spr": 25,
+        "relevancy": 5.4,
+        "amazonChoice": true,
+        "searchRank": 7281,
+        "trends": null,
+        "clicks": 61714,
+        "impressions": 3475933,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "kitchen drawer organizer",
+        "keywordCn": "厨房抽屉整理器",
+        "keywordJp": "キッチンドロワーオーガナイザー",
+        "departments": [
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "office-products",
+            "label": "Office Products"
+          },
+          {
+            "code": "beauty",
+            "label": "Beauty & Personal Care"
+          },
+          {
+            "code": "automotive",
+            "label": "Automotive Parts & Accessories"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 123005,
+        "purchases": 3641,
+        "purchaseRate": 0.0296,
+        "monopolyClickRate": 0.188,
+        "products": 25036,
+        "adProducts": 257,
+        "supplyDemandRatio": 4.91,
+        "avgPrice": 16.99,
+        "avgRatings": null,
+        "avgRating": 4.5,
+        "bidMin": 0.79,
+        "bidMax": 1.31,
+        "bid": 1.05,
+        "cvsShareRate": 0.1022,
+        "wordCount": 3,
+        "titleDensity": 7,
+        "spr": 84,
+        "relevancy": 52.7,
+        "amazonChoice": true,
+        "searchRank": 6611,
+        "trends": null,
+        "clicks": 60780,
+        "impressions": 3094971,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "desk drawer organizer",
+        "keywordCn": "办公桌抽屉整理器",
+        "keywordJp": "デスクドロワーオーガナイザー",
+        "departments": [
+          {
+            "code": "office-products",
+            "label": "Office Products"
+          },
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "beauty",
+            "label": "Beauty & Personal Care"
+          },
+          {
+            "code": "hi",
+            "label": "Tools & Home Improvement"
+          },
+          {
+            "code": "automotive",
+            "label": "Automotive Parts & Accessories"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 122743,
+        "purchases": 3486,
+        "purchaseRate": 0.0284,
+        "monopolyClickRate": 0.2112,
+        "products": 120729,
+        "adProducts": 478,
+        "supplyDemandRatio": 1.02,
+        "avgPrice": 18.99,
+        "avgRatings": null,
+        "avgRating": 4.5,
+        "bidMin": 0.78,
+        "bidMax": 1.3,
+        "bid": 1.04,
+        "cvsShareRate": 0.1529,
+        "wordCount": 3,
+        "titleDensity": 12,
+        "spr": 79,
+        "relevancy": 4.1,
+        "amazonChoice": true,
+        "searchRank": 6628,
+        "trends": null,
+        "clicks": 60493,
+        "impressions": 3383449,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "clothes organizer",
+        "keywordCn": "衣物整理箱",
+        "keywordJp": "洋服オーガナイザー",
+        "departments": [
+          {
+            "code": "Furniture",
+            "label": "Home / Furniture"
+          },
+          {
+            "code": "baby-products",
+            "label": "Baby"
+          },
+          {
+            "code": "industrial",
+            "label": "Industrial & Scientific"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 99855,
+        "purchases": 859,
+        "purchaseRate": 0.0086,
+        "monopolyClickRate": 0.1593,
+        "products": 70176,
+        "adProducts": 426,
+        "supplyDemandRatio": 1.42,
+        "avgPrice": 29.99,
+        "avgRatings": null,
+        "avgRating": 4.5,
+        "bidMin": 0.31,
+        "bidMax": 0.54,
+        "bid": 0.41,
+        "cvsShareRate": 0.1043,
+        "wordCount": 2,
+        "titleDensity": 3,
+        "spr": 20,
+        "relevancy": 2.7,
+        "amazonChoice": true,
+        "searchRank": 9213,
+        "trends": null,
+        "clicks": 39897,
+        "impressions": 2634864,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "organization",
+        "keywordCn": "组织",
+        "keywordJp": "組織",
+        "departments": [
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "office-products",
+            "label": "Office Products"
+          },
+          {
+            "code": "hi",
+            "label": "Tools & Home Improvement"
+          },
+          {
+            "code": "electronics",
+            "label": "Electronics"
+          },
+          {
+            "code": "beauty",
+            "label": "Beauty & Personal Care"
+          },
+          {
+            "code": "digital-text",
+            "label": "Kindle Store"
+          },
+          {
+            "code": "hpc",
+            "label": "Health, Household & Baby Care"
+          },
+          {
+            "code": "arts-crafts",
+            "label": "Arts, Crafts & Sewing"
+          },
+          {
+            "code": "automotive",
+            "label": "Automotive Parts & Accessories"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 99472,
+        "purchases": 617,
+        "purchaseRate": 0.0062,
+        "monopolyClickRate": 0.1259,
+        "products": 124097,
+        "adProducts": 607,
+        "supplyDemandRatio": 0.8,
+        "avgPrice": 21.99,
+        "avgRatings": null,
+        "avgRating": 4.5,
+        "bidMin": 0.56,
+        "bidMax": 0.9,
+        "bid": 0.75,
+        "cvsShareRate": 0.1247,
+        "wordCount": 1,
+        "titleDensity": 11,
+        "spr": 14,
+        "relevancy": 4.1,
+        "amazonChoice": true,
+        "searchRank": 9136,
+        "trends": null,
+        "clicks": 45487,
+        "impressions": 2309733,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "kitchen cabinet organizer",
+        "keywordCn": "厨房柜子的组织者",
+        "keywordJp": "キッチンキャビネットオーガナイザー",
+        "departments": [
+          {
+            "code": "Furniture",
+            "label": "Home / Furniture"
+          },
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "beauty",
+            "label": "Beauty & Personal Care"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 95443,
+        "purchases": 1031,
+        "purchaseRate": 0.0108,
+        "monopolyClickRate": 0.1063,
+        "products": 46232,
+        "adProducts": 558,
+        "supplyDemandRatio": 2.06,
+        "avgPrice": 21.99,
+        "avgRatings": null,
+        "avgRating": 4.5,
+        "bidMin": 0.45,
+        "bidMax": 0.84,
+        "bid": 0.69,
+        "cvsShareRate": 0.0708,
+        "wordCount": 3,
+        "titleDensity": 5,
+        "spr": 24,
+        "relevancy": 8.1,
+        "amazonChoice": true,
+        "searchRank": 10152,
+        "trends": null,
+        "clicks": 37716,
+        "impressions": 2337575,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "kitchen organizer",
+        "keywordCn": "厨房组织者",
+        "keywordJp": "キッチンオーガナイザー",
+        "departments": [
+          {
+            "code": "Furniture",
+            "label": "Home / Furniture"
+          },
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "hi",
+            "label": "Tools & Home Improvement"
+          },
+          {
+            "code": "office-products",
+            "label": "Office Products"
+          },
+          {
+            "code": "industrial",
+            "label": "Industrial & Scientific"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 91886,
+        "purchases": 855,
+        "purchaseRate": 0.0093,
+        "monopolyClickRate": 0.1448,
+        "products": 64,
+        "adProducts": 630,
+        "supplyDemandRatio": 1435.72,
+        "avgPrice": 21.99,
+        "avgRatings": null,
+        "avgRating": 4.5,
+        "bidMin": 0.78,
+        "bidMax": 1.14,
+        "bid": 0.89,
+        "cvsShareRate": 0.1118,
+        "wordCount": 2,
+        "titleDensity": 0,
+        "spr": 20,
+        "relevancy": 18.9,
+        "amazonChoice": true,
+        "searchRank": 10718,
+        "trends": null,
+        "clicks": 38025,
+        "impressions": 2611202,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "kitchen utensil holder",
+        "keywordCn": "厨房器皿架",
+        "keywordJp": "キッチンツールホルダー",
+        "departments": [
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 90089,
+        "purchases": 2432,
+        "purchaseRate": 0.027,
+        "monopolyClickRate": 0.1544,
+        "products": 25857,
+        "adProducts": 333,
+        "supplyDemandRatio": 3.48,
+        "avgPrice": 18.99,
+        "avgRatings": null,
+        "avgRating": 4.8,
+        "bidMin": 0.57,
+        "bidMax": 1.1,
+        "bid": 0.85,
+        "cvsShareRate": 0.1241,
+        "wordCount": 3,
+        "titleDensity": 18,
+        "spr": 56,
+        "relevancy": 14.9,
+        "amazonChoice": true,
+        "searchRank": 11256,
+        "trends": null,
+        "clicks": 34637,
+        "impressions": 2672827,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "drawer dividers",
+        "keywordCn": "抽屉分隔器",
+        "keywordJp": "ドロワー・デバイダー",
+        "departments": [
+          {
+            "code": "office-products",
+            "label": "Office Products"
+          },
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 79407,
+        "purchases": 2938,
+        "purchaseRate": 0.037,
+        "monopolyClickRate": 0.3727,
+        "products": 10035,
+        "adProducts": 246,
+        "supplyDemandRatio": 7.91,
+        "avgPrice": 28.04,
+        "avgRatings": null,
+        "avgRating": 4.5,
+        "bidMin": 0.62,
+        "bidMax": 1.04,
+        "bid": 0.83,
+        "cvsShareRate": 0.2542,
+        "wordCount": 2,
+        "titleDensity": 23,
+        "spr": 67,
+        "relevancy": 24.3,
+        "amazonChoice": true,
+        "searchRank": 13747,
+        "trends": null,
+        "clicks": 35136,
+        "impressions": 2195689,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "drawer organizers",
+        "keywordCn": "抽屉整理器",
+        "keywordJp": "ドロワーオーガナイザー",
+        "departments": [
+          {
+            "code": "office-products",
+            "label": "Office Products"
+          },
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "fashion",
+            "label": "Clothing, Shoes & Jewelry"
+          },
+          {
+            "code": "beauty",
+            "label": "Beauty & Personal Care"
+          },
+          {
+            "code": "automotive",
+            "label": "Automotive Parts & Accessories"
+          },
+          {
+            "code": "hi",
+            "label": "Tools & Home Improvement"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 77712,
+        "purchases": 2362,
+        "purchaseRate": 0.0304,
+        "monopolyClickRate": 0.2567,
+        "products": 56048,
+        "adProducts": 435,
+        "supplyDemandRatio": 1.39,
+        "avgPrice": 16.99,
+        "avgRatings": null,
+        "avgRating": 4.4,
+        "bidMin": 0.38,
+        "bidMax": 0.98,
+        "bid": 0.7,
+        "cvsShareRate": 0.2222,
+        "wordCount": 2,
+        "titleDensity": 10,
+        "spr": 54,
+        "relevancy": 36.5,
+        "amazonChoice": true,
+        "searchRank": 14133,
+        "trends": null,
+        "clicks": 37465,
+        "impressions": 2053047,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "kitchen accessories",
+        "keywordCn": "厨房配件",
+        "keywordJp": "キッチンアクセサリー",
+        "departments": [
+          {
+            "code": "Furniture",
+            "label": "Home / Furniture"
+          },
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "hi",
+            "label": "Tools & Home Improvement"
+          },
+          {
+            "code": "hpc",
+            "label": "Health, Household & Baby Care"
+          },
+          {
+            "code": "lawn-garden",
+            "label": "Garden & Outdoor"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 77507,
+        "purchases": 481,
+        "purchaseRate": 0.0062,
+        "monopolyClickRate": 0.1328,
+        "products": 135227,
+        "adProducts": 550,
+        "supplyDemandRatio": 0.57,
+        "avgPrice": 13.99,
+        "avgRatings": null,
+        "avgRating": 4.4,
+        "bidMin": 0.4,
+        "bidMax": 0.68,
+        "bid": 0.53,
+        "cvsShareRate": 0.0701,
+        "wordCount": 2,
+        "titleDensity": 0,
+        "spr": 11,
+        "relevancy": 5.4,
+        "amazonChoice": true,
+        "searchRank": 14138,
+        "trends": null,
+        "clicks": 32508,
+        "impressions": 1995373,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "seasoning organizer",
+        "keywordCn": "调料组织者",
+        "keywordJp": "調味料オーガナイザー",
+        "departments": [
+          {
+            "code": "Furniture",
+            "label": "Home / Furniture"
+          },
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "industrial",
+            "label": "Industrial & Scientific"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 77014,
+        "purchases": 1055,
+        "purchaseRate": 0.0137,
+        "monopolyClickRate": 0.1947,
+        "products": 5737,
+        "adProducts": 94,
+        "supplyDemandRatio": 13.42,
+        "avgPrice": 23.37,
+        "avgRatings": null,
+        "avgRating": 4.5,
+        "bidMin": 0.48,
+        "bidMax": 0.69,
+        "bid": 0.55,
+        "cvsShareRate": 0.1628,
+        "wordCount": 2,
+        "titleDensity": 13,
+        "spr": 25,
+        "relevancy": 2.7,
+        "amazonChoice": true,
+        "searchRank": 14724,
+        "trends": null,
+        "clicks": 34611,
+        "impressions": 1869570,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "drawer organizer clothes",
+        "keywordCn": "抽屉整理衣服",
+        "keywordJp": "引き出しオーガナイザー服",
+        "departments": [
+          {
+            "code": "Kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "Furniture",
+            "label": "Home / Furniture"
+          },
+          {
+            "code": "office-products",
+            "label": "Office Products"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 76973,
+        "purchases": 1986,
+        "purchaseRate": 0.0258,
+        "monopolyClickRate": 0.2019,
+        "products": 12800,
+        "adProducts": 94,
+        "supplyDemandRatio": 6.01,
+        "avgPrice": 17.99,
+        "avgRatings": null,
+        "avgRating": 4.5,
+        "bidMin": 0.53,
+        "bidMax": 1.13,
+        "bid": 0.9,
+        "cvsShareRate": 0.1111,
+        "wordCount": 3,
+        "titleDensity": 15,
+        "spr": 45,
+        "relevancy": 4.1,
+        "amazonChoice": true,
+        "searchRank": 14641,
+        "trends": null,
+        "clicks": 37746,
+        "impressions": 2025181,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "tray",
+        "keywordCn": "托盘",
+        "keywordJp": "トレイ",
+        "departments": [
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "fashion",
+            "label": "Clothing, Shoes & Jewelry"
+          },
+          {
+            "code": "office-products",
+            "label": "Office Products"
+          },
+          {
+            "code": "industrial",
+            "label": "Industrial & Scientific"
+          },
+          {
+            "code": "grocery",
+            "label": "Grocery & Gourmet Food"
+          },
+          {
+            "code": "arts-crafts",
+            "label": "Arts, Crafts & Sewing"
+          },
+          {
+            "code": "hpc",
+            "label": "Health, Household & Baby Care"
+          },
+          {
+            "code": "baby-products",
+            "label": "Baby"
+          },
+          {
+            "code": "electronics",
+            "label": "Electronics"
+          },
+          {
+            "code": "beauty",
+            "label": "Beauty & Personal Care"
+          },
+          {
+            "code": "pet-supplies",
+            "label": "Pet Supplies"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 75223,
+        "purchases": 985,
+        "purchaseRate": 0.0131,
+        "monopolyClickRate": 0.1144,
+        "products": 72,
+        "adProducts": 502,
+        "supplyDemandRatio": 1044.76,
+        "avgPrice": 19.99,
+        "avgRatings": null,
+        "avgRating": 4.5,
+        "bidMin": 0.44,
+        "bidMax": 1.08,
+        "bid": 0.86,
+        "cvsShareRate": 0.1058,
+        "wordCount": 1,
+        "titleDensity": 46,
+        "spr": 23,
+        "relevancy": 5.4,
+        "amazonChoice": true,
+        "searchRank": 15119,
+        "trends": null,
+        "clicks": 32901,
+        "impressions": 1838537,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "wedding registry must haves",
+        "keywordCn": "婚礼登记处必须有",
+        "keywordJp": "結婚式の登録は持っている必要があります",
+        "departments": [
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "fashion",
+            "label": "Clothing, Shoes & Jewelry"
+          },
+          {
+            "code": "hi",
+            "label": "Tools & Home Improvement"
+          },
+          {
+            "code": "lawn-garden",
+            "label": "Garden & Outdoor"
+          },
+          {
+            "code": "industrial",
+            "label": "Industrial & Scientific"
+          },
+          {
+            "code": "baby-products",
+            "label": "Baby"
+          },
+          {
+            "code": "hpc",
+            "label": "Health, Household & Baby Care"
+          },
+          {
+            "code": "electronics",
+            "label": "Electronics"
+          },
+          {
+            "code": "grocery",
+            "label": "Grocery & Gourmet Food"
+          },
+          {
+            "code": "handmade",
+            "label": "Handmade"
+          },
+          {
+            "code": "toys-and-games",
+            "label": "Toys & Games"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 69359,
+        "purchases": 1824,
+        "purchaseRate": 0.0263,
+        "monopolyClickRate": 0.1079,
+        "products": 772,
+        "adProducts": 269,
+        "supplyDemandRatio": 89.84,
+        "avgPrice": 19.99,
+        "avgRatings": null,
+        "avgRating": 4.5,
+        "bidMin": 0.32,
+        "bidMax": 0.54,
+        "bid": 0.43,
+        "cvsShareRate": 0.0,
+        "wordCount": 4,
+        "titleDensity": 0,
+        "spr": 42,
+        "relevancy": 2.7,
+        "amazonChoice": true,
+        "searchRank": 17388,
+        "trends": null,
+        "clicks": 31212,
+        "impressions": 2005426,
+        "topAsins": null
+      }
+    ],
+    "terminal": null,
+    "hasNextPage": true,
+    "guestVisited": false
+  }
+}

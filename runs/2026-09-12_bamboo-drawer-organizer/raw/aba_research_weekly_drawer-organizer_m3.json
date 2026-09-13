@@ -1,0 +1,939 @@
+{
+  "code": "OK",
+  "message": "成功",
+  "data": {
+    "guestId": null,
+    "pages": 0,
+    "page": 1,
+    "size": 15,
+    "total": 9936,
+    "took": 0,
+    "url": null,
+    "order": {
+      "field": "",
+      "desc": true
+    },
+    "items": [
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "labor day sale",
+        "keywordCn": "劳动节特卖",
+        "keywordJp": "レイバーデーセール",
+        "departments": [
+          "Clothing, Shoes & Jewelry",
+          "Health, Household & Baby Care",
+          "Cell Phones & Accessories"
+        ],
+        "searchRank": 1028,
+        "searchRankCv": 11559,
+        "searchRankCr": 0.9183,
+        "searches": 97210,
+        "purchaseRate": 0.032499998807907104,
+        "purchases": 3159,
+        "clicks": 41196,
+        "impressions": 2610854,
+        "searchRankGrowthValue": 11559,
+        "searchRankGrowthRate": 0.9183,
+        "cvsShareRate": 0.0858,
+        "clickShareRate": 0.0813,
+        "titleDensityExact": 2,
+        "cprExact": 32,
+        "w1SearchRank": 12587,
+        "w1RankGrowthValue": 11559,
+        "w1RankGrowthRate": 0.9183,
+        "w4SearchRank": 2119183,
+        "w4RankGrowthValue": 2118155,
+        "w4RankGrowthRate": 0.9995,
+        "w12SearchRank": null,
+        "w12RankGrowthValue": null,
+        "w12RankGrowthRate": null,
+        "top3Brands": [
+          "AUTOMET",
+          "OLANLY",
+          "Vevmon"
+        ],
+        "bid": 1.66,
+        "bidMax": 2.07,
+        "bidMin": 1.24,
+        "top3AsinDtoList": [
+          {
+            "asin": "B09SYYRBVP",
+            "imageUrl": "https://m.media-amazon.com/images/I/41ylu2zIyPL._AC_US200_.jpg",
+            "clickRate": 0.0322,
+            "conversionRate": 0.0218
+          },
+          {
+            "asin": "B0CZHDD1M9",
+            "imageUrl": "https://m.media-amazon.com/images/I/310tH0MzpsL._AC_US200_.jpg",
+            "clickRate": 0.025099999999999997,
+            "conversionRate": 0.0594
+          },
+          {
+            "asin": "B0FD771S38",
+            "imageUrl": "https://m.media-amazon.com/images/I/415+QmmOFvL._AC_SR200,200_.jpg",
+            "clickRate": 0.024,
+            "conversionRate": 0.0046
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "the knave and the moon",
+        "keywordCn": "骗子与月亮",
+        "keywordJp": "詐欺師と月",
+        "departments": [
+          "Kindle Store"
+        ],
+        "searchRank": 3115,
+        "searchRankCv": 12599,
+        "searchRankCr": 0.8018,
+        "searches": 47693,
+        "purchaseRate": 0.010499999858438969,
+        "purchases": 500,
+        "clicks": 19070,
+        "impressions": 1340499,
+        "searchRankGrowthValue": 12599,
+        "searchRankGrowthRate": 0.8018,
+        "cvsShareRate": 0.7302,
+        "clickShareRate": 0.8921,
+        "titleDensityExact": 4,
+        "cprExact": 7,
+        "w1SearchRank": 15714,
+        "w1RankGrowthValue": 12599,
+        "w1RankGrowthRate": 0.8018,
+        "w4SearchRank": 69762,
+        "w4RankGrowthValue": 66647,
+        "w4RankGrowthRate": 0.9553,
+        "w12SearchRank": 131465,
+        "w12RankGrowthValue": 128350,
+        "w12RankGrowthRate": 0.9763,
+        "top3Brands": [
+          "Orbit",
+          null,
+          "AUDIBLE"
+        ],
+        "bid": 0.35,
+        "bidMax": 0.44,
+        "bidMin": 0.2,
+        "top3AsinDtoList": [
+          {
+            "asin": "0316601845",
+            "imageUrl": "https://m.media-amazon.com/images/I/91-tVt0tkTL._SL1500_.jpg",
+            "clickRate": 0.5921,
+            "conversionRate": 0.46909999999999996
+          },
+          {
+            "asin": "B0FRFL7QTP",
+            "imageUrl": "https://m.media-amazon.com/images/I/91-tVt0tkTL._SL1500_.jpg",
+            "clickRate": 0.2002,
+            "conversionRate": 0.259
+          },
+          {
+            "asin": "B0FTMVFP4F",
+            "imageUrl": "https://m.media-amazon.com/images/I/91fBm9ZfYQL._SL1500_.jpg",
+            "clickRate": 0.0998,
+            "conversionRate": 0.0021
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "dumpling advent calendar 2026",
+        "keywordCn": "饺子倒计时日历 2026",
+        "keywordJp": "餃子のアドベントカレンダー 2026",
+        "departments": [],
+        "searchRank": 3683,
+        "searchRankCv": 21058,
+        "searchRankCr": 0.8511,
+        "searches": 42028,
+        "purchaseRate": 0.010300000198185444,
+        "purchases": 432,
+        "clicks": 16859,
+        "impressions": 1009660,
+        "searchRankGrowthValue": 21058,
+        "searchRankGrowthRate": 0.8511,
+        "cvsShareRate": 0.1282,
+        "clickShareRate": 0.2201,
+        "titleDensityExact": 0,
+        "cprExact": 7,
+        "w1SearchRank": 24741,
+        "w1RankGrowthValue": 21058,
+        "w1RankGrowthRate": 0.8511,
+        "w4SearchRank": 385103,
+        "w4RankGrowthValue": 381420,
+        "w4RankGrowthRate": 0.9904,
+        "w12SearchRank": 2459188,
+        "w12RankGrowthValue": 2455505,
+        "w12RankGrowthRate": 0.9985,
+        "top3Brands": [
+          "JZGPF",
+          "biqikav",
+          null
+        ],
+        "bid": 0.4,
+        "bidMax": 0.51,
+        "bidMin": 0.22,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0HH97BKJS",
+            "imageUrl": "https://m.media-amazon.com/images/I/61EMr0gRVaL._AC_US200_.jpg",
+            "clickRate": 0.0784,
+            "conversionRate": 0.0408
+          },
+          {
+            "asin": "B0HHFK4ZJG",
+            "imageUrl": "https://m.media-amazon.com/images/I/512tyLdp0OL._AC_US200_.jpg",
+            "clickRate": 0.0717,
+            "conversionRate": 0.0537
+          },
+          {
+            "asin": "B0HHK21J6Y",
+            "imageUrl": "https://m.media-amazon.com/images/I/51-fw9L+SHL._AC_US200_.jpg",
+            "clickRate": 0.07,
+            "conversionRate": 0.0337
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "orbitals switch 2",
+        "keywordCn": "轨道开关 2",
+        "keywordJp": "オービタルスイッチ2",
+        "departments": [
+          "Video Games",
+          "Software"
+        ],
+        "searchRank": 3851,
+        "searchRankCv": 23333,
+        "searchRankCr": 0.8583,
+        "searches": 40026,
+        "purchaseRate": 0.0032999999821186066,
+        "purchases": 132,
+        "clicks": 19759,
+        "impressions": 945260,
+        "searchRankGrowthValue": 23333,
+        "searchRankGrowthRate": 0.8583,
+        "cvsShareRate": 0.8671,
+        "clickShareRate": 0.9486,
+        "titleDensityExact": 0,
+        "cprExact": 5,
+        "w1SearchRank": 27184,
+        "w1RankGrowthValue": 23333,
+        "w1RankGrowthRate": 0.8583,
+        "w4SearchRank": 83585,
+        "w4RankGrowthValue": 79734,
+        "w4RankGrowthRate": 0.9539,
+        "w12SearchRank": 27002,
+        "w12RankGrowthValue": 23151,
+        "w12RankGrowthRate": 0.8574,
+        "top3Brands": [
+          "Nintendo",
+          null,
+          "Silver Lining Interactive"
+        ],
+        "bid": 0.35,
+        "bidMax": 0.44,
+        "bidMin": 0.31,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0H4NL84VP",
+            "imageUrl": "https://m.media-amazon.com/images/I/51CNUbB2faL._SX200_SY200_CR,0,0,200,200_.jpg",
+            "clickRate": 0.7028,
+            "conversionRate": 0.8204
+          },
+          {
+            "asin": "B0HC84THGL",
+            "imageUrl": "https://m.media-amazon.com/images/I/51iCDDqpDaL._SX200_SY200_CR,0,0,200,200_.jpg",
+            "clickRate": 0.16390000000000002,
+            "conversionRate": 0.0407
+          },
+          {
+            "asin": "B0H4RY7CW1",
+            "imageUrl": "https://m.media-amazon.com/images/I/51eOtY-uNnL._SX200_SY200_CR,0,0,200,200_.jpg",
+            "clickRate": 0.0819,
+            "conversionRate": 0.006
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "blood of the dawnwalker ps5",
+        "keywordCn": "《黎明行者之血》PS5",
+        "keywordJp": "ダウンウォーカーの血 PS5",
+        "departments": [
+          "Video Games",
+          "Software"
+        ],
+        "searchRank": 4862,
+        "searchRankCv": 25813,
+        "searchRankCr": 0.8415,
+        "searches": 34937,
+        "purchaseRate": 0.00430000014603138,
+        "purchases": 150,
+        "clicks": 16806,
+        "impressions": 887146,
+        "searchRankGrowthValue": 25813,
+        "searchRankGrowthRate": 0.8415,
+        "cvsShareRate": 0.9265,
+        "clickShareRate": 0.9464,
+        "titleDensityExact": 0,
+        "cprExact": 7,
+        "w1SearchRank": 30675,
+        "w1RankGrowthValue": 25813,
+        "w1RankGrowthRate": 0.8415,
+        "w4SearchRank": 226227,
+        "w4RankGrowthValue": 221365,
+        "w4RankGrowthRate": 0.9785,
+        "w12SearchRank": 420225,
+        "w12RankGrowthValue": 415363,
+        "w12RankGrowthRate": 0.9884,
+        "top3Brands": [
+          "Bandai Namco",
+          "Capcom",
+          "Playstation"
+        ],
+        "bid": 0.86,
+        "bidMax": 1.08,
+        "bidMin": 0.65,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0GWGTH4LF",
+            "imageUrl": "https://m.media-amazon.com/images/I/51yIuk7HCRL._SX200_SY200_CR,0,0,200,200_.jpg",
+            "clickRate": 0.9043000000000001,
+            "conversionRate": 0.9244
+          },
+          {
+            "asin": "B0H3RJD6RP",
+            "imageUrl": "https://m.media-amazon.com/images/I/417l3d+UhrL._SX200_SY200_CR,0,0,200,200_.jpg",
+            "clickRate": 0.026000000000000002,
+            "conversionRate": 0.0016
+          },
+          {
+            "asin": "B0H3X9XS4Z",
+            "imageUrl": "https://m.media-amazon.com/images/I/51yIuk7HCRL._SX200_SY200_CR,0,0,200,200_.jpg",
+            "clickRate": 0.0161,
+            "conversionRate": 0.0005
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "under story chloe benjamin",
+        "keywordCn": "故事之下：克洛伊·本杰明",
+        "keywordJp": "アンダーストーリー・クロエ・ベンジャミン",
+        "departments": [
+          "Kindle Store"
+        ],
+        "searchRank": 6071,
+        "searchRankCv": 34606,
+        "searchRankCr": 0.8508,
+        "searches": 28841,
+        "purchaseRate": 0.005900000222027302,
+        "purchases": 170,
+        "clicks": 11802,
+        "impressions": 852984,
+        "searchRankGrowthValue": 34606,
+        "searchRankGrowthRate": 0.8508,
+        "cvsShareRate": 0.8074,
+        "clickShareRate": 0.9596,
+        "titleDensityExact": 0,
+        "cprExact": 2,
+        "w1SearchRank": 40677,
+        "w1RankGrowthValue": 34606,
+        "w1RankGrowthRate": 0.8508,
+        "w4SearchRank": 772343,
+        "w4RankGrowthValue": 766272,
+        "w4RankGrowthRate": 0.9921,
+        "w12SearchRank": 1786990,
+        "w12RankGrowthValue": 1780919,
+        "w12RankGrowthRate": 0.9966,
+        "top3Brands": [
+          "G.P. Putnam's Sons",
+          "AUDIBLE",
+          "Atria Books"
+        ],
+        "bid": 0.21,
+        "bidMax": 0.26,
+        "bidMin": 0.18,
+        "top3AsinDtoList": [
+          {
+            "asin": "0593545214",
+            "imageUrl": "https://m.media-amazon.com/images/I/81hZmlIpH6L._SL1500_.jpg",
+            "clickRate": 0.732,
+            "conversionRate": 0.6548
+          },
+          {
+            "asin": "B0G678PTLQ",
+            "imageUrl": "https://m.media-amazon.com/images/I/81v-J82b+iL._SL1500_.jpg",
+            "clickRate": 0.12619999999999998,
+            "conversionRate": 0.15259999999999999
+          },
+          {
+            "asin": "B0GGNBPQGH",
+            "imageUrl": "https://m.media-amazon.com/images/I/912bT5D8COL._SL1500_.jpg",
+            "clickRate": 0.1014,
+            "conversionRate": 0.0
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "halloween finger lights",
+        "keywordCn": "万圣节手指灯",
+        "keywordJp": "ハロウィンフィンガーライト",
+        "departments": [
+          "Home & Kitchen",
+          "Toys & Games"
+        ],
+        "searchRank": 6190,
+        "searchRankCv": 19375,
+        "searchRankCr": 0.7579,
+        "searches": 28818,
+        "purchaseRate": 0.011099999770522118,
+        "purchases": 319,
+        "clicks": 13524,
+        "impressions": 760753,
+        "searchRankGrowthValue": 19375,
+        "searchRankGrowthRate": 0.7579,
+        "cvsShareRate": 0.0989,
+        "clickShareRate": 0.1852,
+        "titleDensityExact": 3,
+        "cprExact": 6,
+        "w1SearchRank": 25565,
+        "w1RankGrowthValue": 19375,
+        "w1RankGrowthRate": 0.7579,
+        "w4SearchRank": 1454175,
+        "w4RankGrowthValue": 1447985,
+        "w4RankGrowthRate": 0.9957,
+        "w12SearchRank": null,
+        "w12RankGrowthValue": null,
+        "w12RankGrowthRate": null,
+        "top3Brands": [
+          "Govetom",
+          null,
+          "Budbof"
+        ],
+        "bid": 1.07,
+        "bidMax": 1.34,
+        "bidMin": 0.8,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0F2MJTRSZ",
+            "imageUrl": "https://m.media-amazon.com/images/I/514yyzXuNqL._AC_US200_.jpg",
+            "clickRate": 0.0694,
+            "conversionRate": 0.0706
+          },
+          {
+            "asin": "B0HFWJZLWN",
+            "imageUrl": "https://m.media-amazon.com/images/I/51JJWoeHoxL._AC_US200_.jpg",
+            "clickRate": 0.0688,
+            "conversionRate": 0.0174
+          },
+          {
+            "asin": "B0F9YDX21K",
+            "imageUrl": "https://m.media-amazon.com/images/I/61lZ0+aNiTL._AC_US200_.jpg",
+            "clickRate": 0.047,
+            "conversionRate": 0.0109
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "knave and the moon",
+        "keywordCn": "恶棍与月亮",
+        "keywordJp": "悪党と月",
+        "departments": [
+          "Kindle Store"
+        ],
+        "searchRank": 6235,
+        "searchRankCv": 23221,
+        "searchRankCr": 0.7883,
+        "searches": 28279,
+        "purchaseRate": 0.007400000002235174,
+        "purchases": 209,
+        "clicks": 12121,
+        "impressions": 687108,
+        "searchRankGrowthValue": 23221,
+        "searchRankGrowthRate": 0.7883,
+        "cvsShareRate": 0.7247,
+        "clickShareRate": 0.8939,
+        "titleDensityExact": 3,
+        "cprExact": 8,
+        "w1SearchRank": 29456,
+        "w1RankGrowthValue": 23221,
+        "w1RankGrowthRate": 0.7883,
+        "w4SearchRank": 160277,
+        "w4RankGrowthValue": 154042,
+        "w4RankGrowthRate": 0.9611,
+        "w12SearchRank": 2124292,
+        "w12RankGrowthValue": 2118057,
+        "w12RankGrowthRate": 0.9971,
+        "top3Brands": [
+          "Orbit",
+          null,
+          "AUDIBLE"
+        ],
+        "bid": 0.23,
+        "bidMax": 0.29,
+        "bidMin": 0.18,
+        "top3AsinDtoList": [
+          {
+            "asin": "0316601845",
+            "imageUrl": "https://m.media-amazon.com/images/I/91-tVt0tkTL._SL1500_.jpg",
+            "clickRate": 0.6191,
+            "conversionRate": 0.4792
+          },
+          {
+            "asin": "B0FRFL7QTP",
+            "imageUrl": "https://m.media-amazon.com/images/I/91-tVt0tkTL._SL1500_.jpg",
+            "clickRate": 0.16820000000000002,
+            "conversionRate": 0.2438
+          },
+          {
+            "asin": "B0FTMVFP4F",
+            "imageUrl": "https://m.media-amazon.com/images/I/91fBm9ZfYQL._SL1500_.jpg",
+            "clickRate": 0.1066,
+            "conversionRate": 0.0017000000000000001
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "butterfly 6 ashley antoinette",
+        "keywordCn": "蝴蝶 6 阿什莉-安托瓦内特",
+        "keywordJp": "バタフライ 6 アシュリー・アントワネット",
+        "departments": [
+          "Kindle Store"
+        ],
+        "searchRank": 6194,
+        "searchRankCv": 214168,
+        "searchRankCr": 0.9719,
+        "searches": 27869,
+        "purchaseRate": 0.00989999994635582,
+        "purchases": 275,
+        "clicks": 12376,
+        "impressions": 730400,
+        "searchRankGrowthValue": 214168,
+        "searchRankGrowthRate": 0.9719,
+        "cvsShareRate": 0.9703,
+        "clickShareRate": 0.9498,
+        "titleDensityExact": 0,
+        "cprExact": 1,
+        "w1SearchRank": 220362,
+        "w1RankGrowthValue": 214168,
+        "w1RankGrowthRate": 0.9719,
+        "w4SearchRank": 867591,
+        "w4RankGrowthValue": 861397,
+        "w4RankGrowthRate": 0.9929,
+        "w12SearchRank": 943956,
+        "w12RankGrowthValue": 937762,
+        "w12RankGrowthRate": 0.9934,
+        "top3Brands": [
+          null,
+          "AUDIBLE",
+          "St. Martin's Griffin"
+        ],
+        "bid": 0.3,
+        "bidMax": 0.38,
+        "bidMin": 0.22,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0HHC6XFQQ",
+            "imageUrl": "https://m.media-amazon.com/images/I/81SUgrrosBL._SL1500_.jpg",
+            "clickRate": 0.9309000000000001,
+            "conversionRate": 0.9682
+          },
+          {
+            "asin": "B0GYK355R2",
+            "imageUrl": "https://m.media-amazon.com/images/I/41HLc-X+pwL._SX200_SY200_CR,0,0,200,200_.jpg",
+            "clickRate": 0.0108,
+            "conversionRate": 0.0
+          },
+          {
+            "asin": "B0CWB2HFKX",
+            "imageUrl": "https://m.media-amazon.com/images/I/41C-P3yI0GL._SX200_SY200_CR,0,0,200,200_.jpg",
+            "clickRate": 0.008100000000000001,
+            "conversionRate": 0.0021
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "hobonichi weeks 2027",
+        "keywordCn": "Hobonichi 周记 2027",
+        "keywordJp": "ホボニチウィークス 2027",
+        "departments": [
+          "Office Products"
+        ],
+        "searchRank": 7190,
+        "searchRankCv": 105710,
+        "searchRankCr": 0.9363,
+        "searches": 26266,
+        "purchaseRate": 0.0044999998062849045,
+        "purchases": 118,
+        "clicks": 10756,
+        "impressions": 612466,
+        "searchRankGrowthValue": 105710,
+        "searchRankGrowthRate": 0.9363,
+        "cvsShareRate": 0.1671,
+        "clickShareRate": 0.2745,
+        "titleDensityExact": 0,
+        "cprExact": 3,
+        "w1SearchRank": 112900,
+        "w1RankGrowthValue": 105710,
+        "w1RankGrowthRate": 0.9363,
+        "w4SearchRank": 278904,
+        "w4RankGrowthValue": 271714,
+        "w4RankGrowthRate": 0.9742,
+        "w12SearchRank": 2062374,
+        "w12RankGrowthValue": 2055184,
+        "w12RankGrowthRate": 0.9965,
+        "top3Brands": [
+          "HOBONICHI",
+          "receip",
+          "ALLAX"
+        ],
+        "bid": 0.2,
+        "bidMax": 0.22,
+        "bidMin": 0.18,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0H6P9F2S9",
+            "imageUrl": "https://m.media-amazon.com/images/I/21NLBPOQEgL._AC_US200_.jpg",
+            "clickRate": 0.1173,
+            "conversionRate": 0.06509999999999999
+          },
+          {
+            "asin": "B0H6P3DVSX",
+            "imageUrl": "https://m.media-amazon.com/images/I/319oKJ5Q28L._AC_US200_.jpg",
+            "clickRate": 0.0951,
+            "conversionRate": 0.0673
+          },
+          {
+            "asin": "B0H6PCFTQD",
+            "imageUrl": "https://m.media-amazon.com/images/I/41tVspWH1rL._AC_US200_.jpg",
+            "clickRate": 0.0621,
+            "conversionRate": 0.0347
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "emergency light bulbs",
+        "keywordCn": "应急灯泡",
+        "keywordJp": "非常灯",
+        "departments": [
+          "Industrial & Scientific"
+        ],
+        "searchRank": 7441,
+        "searchRankCv": 11108,
+        "searchRankCr": 0.5988,
+        "searches": 25769,
+        "purchaseRate": 0.043299999088048935,
+        "purchases": 1115,
+        "clicks": 11271,
+        "impressions": 749060,
+        "searchRankGrowthValue": 11108,
+        "searchRankGrowthRate": 0.5988,
+        "cvsShareRate": 0.2303,
+        "clickShareRate": 0.4206,
+        "titleDensityExact": 16,
+        "cprExact": 38,
+        "w1SearchRank": 18549,
+        "w1RankGrowthValue": 11108,
+        "w1RankGrowthRate": 0.5988,
+        "w4SearchRank": 164047,
+        "w4RankGrowthValue": 156606,
+        "w4RankGrowthRate": 0.9546,
+        "w12SearchRank": 74198,
+        "w12RankGrowthValue": 66757,
+        "w12RankGrowthRate": 0.8997,
+        "top3Brands": [
+          "Ostwiki",
+          "DEBAOBULB",
+          "BoRccdit"
+        ],
+        "bid": 1.14,
+        "bidMax": 1.31,
+        "bidMin": 1.02,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0C77XCCV7",
+            "imageUrl": "https://m.media-amazon.com/images/I/413frXRpfJL._AC_SR200,200_.jpg",
+            "clickRate": 0.217,
+            "conversionRate": 0.1495
+          },
+          {
+            "asin": "B0CMD1G6SX",
+            "imageUrl": "https://m.media-amazon.com/images/I/414dPnKPIrL._AC_SR200,200_.jpg",
+            "clickRate": 0.13470000000000001,
+            "conversionRate": 0.0424
+          },
+          {
+            "asin": "B0GFHDSVZ8",
+            "imageUrl": "https://m.media-amazon.com/images/I/41ixpoNgeLL._AC_SR200,200_.jpg",
+            "clickRate": 0.0689,
+            "conversionRate": 0.0384
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "nasomin iodine nasal spray",
+        "keywordCn": "Nasomin iodine 鼻腔喷雾器",
+        "keywordJp": "ナソミンヨード点鼻薬",
+        "departments": [
+          "Health, Household & Baby Care",
+          "Beauty & Personal Care"
+        ],
+        "searchRank": 7070,
+        "searchRankCv": 38491,
+        "searchRankCr": 0.8448,
+        "searches": 25216,
+        "purchaseRate": 0.12939999997615814,
+        "purchases": 3262,
+        "clicks": 25216,
+        "impressions": 610289,
+        "searchRankGrowthValue": 38491,
+        "searchRankGrowthRate": 0.8448,
+        "cvsShareRate": 0.7837,
+        "clickShareRate": 0.7946,
+        "titleDensityExact": 0,
+        "cprExact": 4,
+        "w1SearchRank": 45561,
+        "w1RankGrowthValue": 38491,
+        "w1RankGrowthRate": 0.8448,
+        "w4SearchRank": 233344,
+        "w4RankGrowthValue": 226274,
+        "w4RankGrowthRate": 0.9697,
+        "w12SearchRank": 121058,
+        "w12RankGrowthValue": 113988,
+        "w12RankGrowthRate": 0.9416,
+        "top3Brands": [
+          "TRIQUETRA HEALTH",
+          "NASOMIN",
+          "NOVEHA"
+        ],
+        "bid": 1.19,
+        "bidMax": 1.49,
+        "bidMin": 0.89,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0HCR5Q8VK",
+            "imageUrl": "https://m.media-amazon.com/images/I/41dmdwl4WJL._AC_US200_.jpg",
+            "clickRate": 0.6957,
+            "conversionRate": 0.7336
+          },
+          {
+            "asin": "B0CPYC1Y8X",
+            "imageUrl": "https://m.media-amazon.com/images/I/51EQCVQelDL._AC_US200_.jpg",
+            "clickRate": 0.051399999999999994,
+            "conversionRate": 0.023799999999999998
+          },
+          {
+            "asin": "B0HF8G6C3V",
+            "imageUrl": "https://m.media-amazon.com/images/I/41PpHfTZhiL._AC_US200_.jpg",
+            "clickRate": 0.0475,
+            "conversionRate": 0.0263
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "mayd",
+        "keywordCn": "梅德",
+        "keywordJp": "メイド",
+        "departments": [],
+        "searchRank": 8970,
+        "searchRankCv": 104794,
+        "searchRankCr": 0.9212,
+        "searches": 21673,
+        "purchaseRate": 0.011500000022351742,
+        "purchases": 249,
+        "clicks": 10554,
+        "impressions": 557965,
+        "searchRankGrowthValue": 104794,
+        "searchRankGrowthRate": 0.9212,
+        "cvsShareRate": 0.0,
+        "clickShareRate": 0.9688,
+        "titleDensityExact": 0,
+        "cprExact": 1,
+        "w1SearchRank": 113764,
+        "w1RankGrowthValue": 104794,
+        "w1RankGrowthRate": 0.9212,
+        "w4SearchRank": 899775,
+        "w4RankGrowthValue": 890805,
+        "w4RankGrowthRate": 0.99,
+        "w12SearchRank": 1512827,
+        "w12RankGrowthValue": 1503857,
+        "w12RankGrowthRate": 0.9941,
+        "top3Brands": [
+          null,
+          null,
+          null
+        ],
+        "bid": 3.08,
+        "bidMax": 3.88,
+        "bidMin": 2.48,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0H6W5D1CC",
+            "imageUrl": null,
+            "clickRate": 0.9070999999999999,
+            "conversionRate": 0.0
+          },
+          {
+            "asin": "B0GWPG14J1",
+            "imageUrl": null,
+            "clickRate": 0.0327,
+            "conversionRate": 0.0
+          },
+          {
+            "asin": "B07SKLW79B",
+            "imageUrl": null,
+            "clickRate": 0.028999999999999998,
+            "conversionRate": 0.0
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "kitsch heatless curls headband",
+        "keywordCn": "kitsch无热卷发头带",
+        "keywordJp": "キッチ ヒートレス カール ヘッドバンド",
+        "departments": [
+          "Beauty & Personal Care"
+        ],
+        "searchRank": 9006,
+        "searchRankCv": 28493,
+        "searchRankCr": 0.7598,
+        "searches": 20788,
+        "purchaseRate": 0.008299999870359898,
+        "purchases": 172,
+        "clicks": 9059,
+        "impressions": 548214,
+        "searchRankGrowthValue": 28493,
+        "searchRankGrowthRate": 0.7598,
+        "cvsShareRate": 0.5055,
+        "clickShareRate": 0.6115,
+        "titleDensityExact": 0,
+        "cprExact": 6,
+        "w1SearchRank": 37499,
+        "w1RankGrowthValue": 28493,
+        "w1RankGrowthRate": 0.7598,
+        "w4SearchRank": 84825,
+        "w4RankGrowthValue": 75819,
+        "w4RankGrowthRate": 0.8938,
+        "w12SearchRank": 633327,
+        "w12RankGrowthValue": 624321,
+        "w12RankGrowthRate": 0.9858,
+        "top3Brands": [
+          "Kitsch",
+          "RIFFIN",
+          "WEXRWI"
+        ],
+        "bid": 0.44,
+        "bidMax": 0.55,
+        "bidMin": 0.33,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0G739TP8C",
+            "imageUrl": "https://m.media-amazon.com/images/I/41ulh2UBSAL._SS200_.jpg",
+            "clickRate": 0.40979999999999994,
+            "conversionRate": 0.4598
+          },
+          {
+            "asin": "B0H6V7VWR4",
+            "imageUrl": "https://m.media-amazon.com/images/I/41Fxg0usJRL._SS200_.jpg",
+            "clickRate": 0.1265,
+            "conversionRate": 0.0315
+          },
+          {
+            "asin": "B0HD84WFSC",
+            "imageUrl": "https://m.media-amazon.com/images/I/41p+AFCUrFL._SS200_.jpg",
+            "clickRate": 0.07519999999999999,
+            "conversionRate": 0.014199999999999999
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "labor day decorations",
+        "keywordCn": "劳动节装饰品",
+        "keywordJp": "労働者の日の装飾",
+        "departments": [
+          "Home & Kitchen"
+        ],
+        "searchRank": 9722,
+        "searchRankCv": 12686,
+        "searchRankCr": 0.5661,
+        "searches": 19598,
+        "purchaseRate": 0.02070000022649765,
+        "purchases": 405,
+        "clicks": 7571,
+        "impressions": 540642,
+        "searchRankGrowthValue": 12686,
+        "searchRankGrowthRate": 0.5661,
+        "cvsShareRate": 0.0683,
+        "clickShareRate": 0.124,
+        "titleDensityExact": 7,
+        "cprExact": 7,
+        "w1SearchRank": 22408,
+        "w1RankGrowthValue": 12686,
+        "w1RankGrowthRate": 0.5661,
+        "w4SearchRank": 109340,
+        "w4RankGrowthValue": 99618,
+        "w4RankGrowthRate": 0.9111,
+        "w12SearchRank": 846121,
+        "w12RankGrowthValue": 836399,
+        "w12RankGrowthRate": 0.9885,
+        "top3Brands": [
+          "Childom",
+          "VeyoCraft",
+          "CHYAGCLT"
+        ],
+        "bid": 1.0,
+        "bidMax": 1.25,
+        "bidMin": 0.75,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0D7PG4FT6",
+            "imageUrl": "https://m.media-amazon.com/images/I/51tldobNPJL._AC_US200_.jpg",
+            "clickRate": 0.044000000000000004,
+            "conversionRate": 0.014499999999999999
+          },
+          {
+            "asin": "B0BKRY6RH1",
+            "imageUrl": "https://m.media-amazon.com/images/I/510o4zYpaEL._AC_US200_.jpg",
+            "clickRate": 0.04019999999999999,
+            "conversionRate": 0.026000000000000002
+          },
+          {
+            "asin": "B07SVXSKCK",
+            "imageUrl": "https://m.media-amazon.com/images/I/51QVF5KopnL._AC_US200_.jpg",
+            "clickRate": 0.0398,
+            "conversionRate": 0.0278
+          }
+        ]
+      }
+    ],
+    "terminal": null,
+    "hasNextPage": true,
+    "guestVisited": false
+  }
+}
