@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "errors": [],
+  "draft_sha256": "ef377fda4bab8143cdbc0be8b46afaec037a84be55a072dadc3bf35adb863bd7",
+  "s3_sha256": "9ecc6c2c87c810343e11aa515fb210599d8b7e399f5015f49397c306cfb0fbfc",
+  "scope": "字段、来源、预算与否词字面冲突；不验证业务效果"
+}

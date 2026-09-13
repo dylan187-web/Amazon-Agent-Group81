@@ -1,0 +1,156 @@
+{
+  "code": "OK",
+  "message": "成功",
+  "data": {
+    "guestId": null,
+    "pages": 1,
+    "page": 1,
+    "size": 5,
+    "total": 3,
+    "took": 0,
+    "url": null,
+    "order": {
+      "field": "",
+      "desc": true
+    },
+    "items": [
+      {
+        "marketplace": "US",
+        "keyword": "utensil organizer for kitchen drawers",
+        "keywordCn": "厨房抽屉用具组织者",
+        "keywordJp": "キッチン引き出し用調理器具オーガナイザー",
+        "departments": [
+          {
+            "code": "Tools",
+            "label": "Tools & Home Improvement"
+          },
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "office-products",
+            "label": "Office Products"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 23151,
+        "purchases": 609,
+        "purchaseRate": 0.0263,
+        "monopolyClickRate": 0.2435,
+        "products": 5948,
+        "adProducts": 95,
+        "supplyDemandRatio": 3.89,
+        "avgPrice": 11.69,
+        "avgRatings": null,
+        "avgRating": 4.5,
+        "bidMin": null,
+        "bidMax": null,
+        "bid": null,
+        "cvsShareRate": 0.151,
+        "wordCount": 5,
+        "titleDensity": 4,
+        "spr": 14,
+        "relevancy": null,
+        "amazonChoice": true,
+        "searchRank": 72698,
+        "trends": null,
+        "clicks": 8922,
+        "impressions": 586490,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "bamboo kitchen drawer organizer",
+        "keywordCn": "竹厨房抽屉组织者",
+        "keywordJp": "竹製キッチン引き出しオーガナイザー",
+        "departments": [
+          {
+            "code": "Tools",
+            "label": "Tools & Home Improvement"
+          },
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "office-products",
+            "label": "Office Products"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 6031,
+        "purchases": 1000,
+        "purchaseRate": 0.1658,
+        "monopolyClickRate": 0.2895,
+        "products": 1889,
+        "adProducts": 38,
+        "supplyDemandRatio": 3.19,
+        "avgPrice": 33.99,
+        "avgRatings": null,
+        "avgRating": 4.5,
+        "bidMin": 0.65,
+        "bidMax": 1.74,
+        "bid": 0.87,
+        "cvsShareRate": 0.2449,
+        "wordCount": 4,
+        "titleDensity": 11,
+        "spr": 23,
+        "relevancy": null,
+        "amazonChoice": true,
+        "searchRank": 260199,
+        "trends": null,
+        "clicks": 2399,
+        "impressions": 141323,
+        "topAsins": null
+      },
+      {
+        "marketplace": "US",
+        "keyword": "expandable bamboo drawer organizer",
+        "keywordCn": "可扩展的竹抽屉组织者",
+        "keywordJp": "拡張可能な竹の引き出しオーガナイザー",
+        "departments": [
+          {
+            "code": "kitchen",
+            "label": "Home & Kitchen"
+          },
+          {
+            "code": "office-products",
+            "label": "Office Products"
+          }
+        ],
+        "month": "2026.08",
+        "supplement": "N",
+        "searches": 2079,
+        "purchases": 464,
+        "purchaseRate": 0.2231,
+        "monopolyClickRate": 0.5362,
+        "products": 626,
+        "adProducts": 13,
+        "supplyDemandRatio": 3.32,
+        "avgPrice": 24.99,
+        "avgRatings": null,
+        "avgRating": 4.5,
+        "bidMin": 0.82,
+        "bidMax": 2.31,
+        "bid": 1.15,
+        "cvsShareRate": 0.2143,
+        "wordCount": 4,
+        "titleDensity": 1,
+        "spr": 11,
+        "relevancy": null,
+        "amazonChoice": true,
+        "searchRank": 719721,
+        "trends": null,
+        "clicks": 913,
+        "impressions": 58022,
+        "topAsins": null
+      }
+    ],
+    "terminal": null,
+    "hasNextPage": false,
+    "guestVisited": false
+  }
+}
