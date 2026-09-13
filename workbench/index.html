@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amazon Agent Group81 · 工作台</title>
+<style>
+:root{
+  --navy:#0f1b33; --navy2:#16264a; --ink:#1b2437; --muted:#6b7488; --line:#e4e8f0;
+  --bg:#f4f6fb; --card:#fff; --blue:#2f6bff; --orange:#ff9a3c; --green:#18a058; --amber:#e0a100; --red:#d64545;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{font:14px/1.55 -apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--bg)}
+.app{display:grid;grid-template-columns:232px 1fr;min-height:100vh}
+aside{background:linear-gradient(180deg,var(--navy),var(--navy2));color:#cdd6ea;padding:22px 14px;position:sticky;top:0;height:100vh}
+.brand{font-weight:700;color:#fff;font-size:15px;padding:0 10px 4px}
+.brand-line{width:36px;height:3px;background:var(--orange);margin:8px 10px 22px;border-radius:2px}
+nav a{display:flex;align-items:center;gap:10px;padding:10px 12px;margin:3px 0;border-radius:10px;color:#cdd6ea;text-decoration:none}
+nav a:hover{background:rgba(255,255,255,.06)}
+nav a.on{background:var(--blue);color:#fff;font-weight:600}
+nav a .ic{width:20px;text-align:center}
+nav a .soon{margin-left:auto;font-size:11px;opacity:.6}
+.side-foot{position:absolute;bottom:18px;left:24px;right:14px;font-size:12px;color:#8fa0c2}
+main{padding:28px 36px 60px;max-width:1640px}
+.top{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:13px;margin-bottom:14px}
+.pill{display:inline-block;padding:2px 10px;border-radius:999px;background:#eaf0ff;color:var(--blue);font-size:12px}
+.pill.o{background:#fff1e3;color:#c46a12}.pill.g{background:#e6f6ee;color:var(--green)}.pill.r{background:#fdeaea;color:var(--red)}.pill.a{background:#fff6d8;color:#9a7300}
+h1{font-size:26px;margin:6px 0 18px}
+h2{font-size:18px;margin:26px 0 12px}
+h3{font-size:15px;margin:0 0 8px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;box-shadow:0 1px 2px rgba(15,27,51,.04)}
+.ask{display:flex;gap:10px;align-items:center;padding:10px 10px 10px 18px}
+.ask input{flex:1;border:0;font-size:16px;outline:none;color:var(--ink);background:transparent}
+.go{width:44px;height:44px;border-radius:12px;border:0;background:var(--blue);color:#fff;font-size:22px;cursor:pointer}
+.go:disabled{opacity:.5;cursor:default}
+.replay-note{font-size:12px;color:var(--muted);margin:8px 2px 0}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:22px;position:relative}
+.step{position:relative;cursor:pointer;transition:transform .2s,box-shadow .2s,opacity .3s}
+.step:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(15,27,51,.08)}
+.step .no{font-size:12px;color:var(--muted)}
+.step .ttl{font-weight:700;font-size:16px;margin:2px 0 10px;display:flex;align-items:center;gap:8px}
+.step .big{font-size:24px;font-weight:800;color:var(--navy)}
+.step .sub{color:var(--muted);font-size:12.5px;min-height:38px}
+.step .st{position:absolute;top:14px;right:14px;font-size:12px}
+.step.wait{opacity:.45}
+.step.run{outline:2px solid var(--blue)}
+.step.run .st::after{content:"";display:inline-block;width:10px;height:10px;border:2px solid var(--blue);border-right-color:transparent;border-radius:50%;animation:spin .8s linear infinite;margin-left:6px;vertical-align:-1px}
+@keyframes spin{to{transform:rotate(360deg)}}
+.log{font:12.5px/1.7 ui-monospace,SFMono-Regular,Menlo,monospace;background:#0f1b33;color:#cfe0ff;border-radius:12px;padding:14px 16px;margin-top:16px;min-height:120px}
+.log .d{color:#7f93b8}.log .ok{color:#7ee2a8}
+.trace{display:flex;flex-wrap:wrap;align-items:stretch;gap:8px;margin-top:10px}
+.trace .node{flex:1;min-width:170px;background:#f8faff;border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.trace .node small{color:var(--muted);display:block}
+.trace .arrow{align-self:center;color:var(--muted)}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:600;background:#fafbfe}
+.grid2{display:grid;grid-template-columns:1.25fr 1fr;gap:16px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.kw{display:inline-block;padding:2px 9px;margin:2px 4px 2px 0;border-radius:8px;background:#eef2fb;cursor:pointer;font-size:12.5px;border:1px solid transparent}
+.kw:hover{border-color:#b8c7ee}
+.kw.hl{background:var(--orange);color:#fff}
+.hlrow{background:#fff6ec}
+.cand{position:relative}
+.cand.sel{outline:2px solid var(--orange)}
+.cand .tag{position:absolute;top:14px;right:14px}
+.num{font-weight:700}
+.src{border-bottom:1px dashed #9aa6bf;cursor:help}
+.verdict{font-size:22px;font-weight:800;margin:6px 0}
+.v-做{color:var(--green)}.v-观望{color:var(--amber)}.v-放弃{color:var(--red)}
+.callout{background:#fff8ef;border:1px solid #ffd9b0;border-radius:12px;padding:12px 14px;margin-top:12px}
+.callout.b{background:#f1f5ff;border-color:#cfdcff}
+.listing-title{font-size:17px;font-weight:700;line-height:1.45}
+.meta-line{color:var(--muted);font-size:12px;margin-top:4px}
+ol.bul{padding-left:18px;margin:6px 0}ol.bul li{margin:6px 0}
+.imgs{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}
+@media (min-width:1500px){.imgs{grid-template-columns:repeat(7,1fr)}}
+.imgs figure{margin:0;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.imgs img{width:100%;aspect-ratio:1;object-fit:cover;display:block;background:#f3f4f7}
+.imgs .hold{aspect-ratio:1;display:flex;align-items:center;justify-content:center;color:var(--muted);background:repeating-linear-gradient(45deg,#f6f7fa,#f6f7fa 10px,#eef0f5 10px,#eef0f5 20px);padding:12px;text-align:center;font-size:12px}
+.imgs figcaption{padding:8px 10px;font-size:12px}
+.bar{display:flex;height:34px;border-radius:10px;overflow:hidden;margin:6px 0 4px}
+.bar div{display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:13px}
+.m-精准{background:var(--blue)}.m-词组{background:#7a5cff}.m-广泛{background:var(--orange)}
+.adcol h3{display:flex;justify-content:space-between}
+.ad{padding:9px 0;border-bottom:1px solid var(--line)}
+.ad:last-child{border-bottom:0}
+.ad .r{color:var(--muted);font-size:12px}
+ul.plain{margin:6px 0;padding-left:18px}ul.plain li{margin:4px 0}
+.foot{margin-top:28px;color:var(--muted);font-size:12px}
+.empty{text-align:center;padding:80px 20px;color:var(--muted)}
+details summary{cursor:pointer;color:var(--blue)}
+</style>
+</head>
+<body>
+<div class="app">
+  <aside>
+    <div class="brand">Amazon Agent Group81</div>
+    <div class="brand-line"></div>
+    <nav id="nav"></nav>
+    <div class="side-foot" id="sidefoot"></div>
+  </aside>
+  <main id="main"></main>
+</div>
+<script src="data.js"></script>
+<script>
+const R = window.RUN;
+const PAGES = [
+  ["home","⌂","首页"],["s1","◎","选品研究"],["s2","$","利润分析"],["s3","▤","Listing 生成"],["s4","◉","广告投放"],["board","▦","数据看板"]
+];
+let hl = "";          // 当前高亮的关键词（小写），用于跨页面链路追踪
+let played = false;
+
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const md = s => esc(s).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>").replace(/`(.+?)`/g,"<code>$1</code>");
+const kw = (w, title) => `<span class="kw ${w.toLowerCase()===hl?"hl":""}" data-kw="${esc(w.toLowerCase())}" ${title?`title="${esc(title)}"`:""}>${esc(w)}</span>`;
+const calls = c => c ? `${c.new} 次新调用 / ${c.cache} 次读缓存` : "未记录";
+const totalNew = () => ["s1","s2","s3","s4"].reduce((n,k)=>n+((R[k].calls||{}).new||0),0);
+const sel = () => R.s1.candidates.find(c => c["候选编号"] === R.s2.selected) || {};
+const selRow = () => R.s2.rows.find(r => r["候选编号"] === R.s2.selected) || {};
+const verdictCls = v => v==="值得做"?"做":v;
+
+function nav(){
+  const cur = location.hash.slice(1) || "home";
+  document.getElementById("nav").innerHTML = PAGES.map(([id,ic,name]) =>
+    `<a href="#${id}" class="${cur===id?"on":""}"><span class="ic">${ic}</span>${name}${id==="board"?'<span class="soon">规划中</span>':""}</a>`).join("");
+  document.getElementById("sidefoot").innerHTML = `运行：${esc(R.run)}<br>卖家精灵新调用合计 ${totalNew()} 次`;
+}
+
+function topbar(extra){
+  return `<div class="top"><span>种子词 <b>${esc(R.seed)}</b> · 站点 ${esc(R.site)} ${extra||""}</span><span>从想法到增长</span></div>`;
+}
+
+/* ---------------- 首页 ---------------- */
+function home(){
+  const c = sel(), r = selRow();
+  const steps = [
+    ["s1","S1","选品研究",`${R.s1.rising.length} 个在涨词`,`${R.s1.candidates.length} 个候选竞品，每个都能追到在涨词`],
+    ["s2","S2","利润分析",`选中 ${esc(R.s2.selected)}`,`扣完 FBA 费和佣金后每件剩 $${esc(r["每件剩"])}（${esc(r["成本口径"])}）`],
+    ["s3","S3","生成 Listing",R.s3.check.includes("全部通过")?"检查全过":"待修正",`${R.s3.keywords.length} 个关键词有来源 · ${R.s3.images.filter(i=>i.src).length} 张图`],
+    ["s4","S4","启动广告",`${R.s4.ads.length} 个投放词`,`${R.s4.deferred.length} 个暂缓 · ${R.s4.negatives.length} 条否定预案`],
+  ];
+  return topbar() + `
+  <h1>用一句话，完成你的 Amazon 生意</h1>
+  <div class="card ask"><input id="q" value="对「${esc(R.seed)}」跑一遍，站点 ${esc(R.site)}"><button class="go" id="go" title="回放这次运行">→</button></div>
+  <div class="replay-note">演示为<b>回放</b>：数据来自 <code>runs/${esc(R.run)}</code> 的真实运行结果；真实运行在 Claude Code / Codex 里说同一句话触发。</div>
+  <div class="steps" id="steps">${steps.map(([id,no,t,big,sub],i)=>`
+    <div class="card step ${played?"":"wait"}" data-go="${id}" id="st${i}">
+      <span class="st pill ${played?"g":""}">${played?"已完成":"待运行"}</span>
+      <div class="no">${no}</div><div class="ttl">${t}</div>
+      <div class="big">${big}</div><div class="sub">${sub}</div>
+    </div>`).join("")}</div>
+  <div class="log" id="log">${played?logLines().join("<br>"):'<span class="d">$ 等待指令…</span>'}</div>
+  <h2>一条完整追踪</h2>
+  <div class="card"><div class="trace">
+    <div class="node"><small>S1 在涨词</small>${kw(c["来自哪个词"]||"")}</div><div class="arrow">→</div>
+    <div class="node"><small>S1 候选 ${esc(c["候选编号"])}</small><b>${esc(c["ASIN"])}</b> · ${esc(c["价格"])}<br><small>${md((c["需求点"]||"").split("：")[0])}</small></div><div class="arrow">→</div>
+    <div class="node"><small>S2 利润</small><span class="verdict v-${verdictCls(r["结论"])}" style="font-size:18px">${esc(r["结论"])}</span><br>每件剩 $${esc(r["每件剩"])}</div><div class="arrow">→</div>
+    <div class="node"><small>S3 标题</small>${esc(R.s3.listing.title)}</div><div class="arrow">→</div>
+    <div class="node"><small>S4 广告</small>${R.s4.budgets.map(b=>`${b.match} ${b.percent}%`).join(" · ")}<br><small>${R.s4.ads.length} 个词全部来自 S3 清单</small></div>
+  </div></div>
+  <div class="foot">点任意关键词，其他页面里同一个词会一起高亮。</div>`;
+}
+
+function logLines(){
+  return [
+    `<span class="d">$</span> 对「${esc(R.seed)}」跑一遍，站点 ${esc(R.site)}`,
+    `<span class="ok">✔</span> S1 选品：${calls(R.s1.calls)} → ${R.s1.rising.length} 个在涨词、${R.s1.candidates.length} 个候选`,
+    `<span class="ok">✔</span> S2 利润：${calls(R.s2.calls)} → 选中 ${esc(R.s2.selected)}`,
+    `<span class="ok">✔</span> S3 Listing：${calls(R.s3.calls)} → check_listing.py ${esc(R.s3.check)}`,
+    `<span class="ok">✔</span> S4 广告：${calls(R.s4.calls)} → check_ads.py ${R.s4.passed?"结构校验通过":"未通过"}`,
+    `<span class="d">卖家精灵新调用合计 ${totalNew()} 次</span>`,
+  ];
+}
+
+function play(){
+  const btn = document.getElementById("go"), log = document.getElementById("log"), lines = logLines();
+  btn.disabled = true; log.innerHTML = lines[0];
+  let i = 0;
+  const tick = () => {
+    if (i > 0) { const p = document.getElementById("st"+(i-1)); p.classList.remove("run"); p.querySelector(".st").className="st pill g"; p.querySelector(".st").textContent="已完成"; log.innerHTML = lines.slice(0,i+1).join("<br>"); }
+    if (i < 4) { const s = document.getElementById("st"+i); s.classList.remove("wait"); s.classList.add("run"); s.querySelector(".st").className="st pill"; s.querySelector(".st").textContent="运行中"; i++; setTimeout(tick, 1100); }
+    else { log.innerHTML = lines.join("<br>"); played = true; btn.disabled = false; }
+  };
+  tick();
+}
+
+/* ---------------- S1 ---------------- */
+function s1(){
+  return topbar(`· <span class="src" title="${esc(R.s1.period)}">数据周期</span> · ${calls(R.s1.calls)}`) + `
+  <h1>选品研究 <span class="pill">S1</span></h1>
+  ${R.s1.judgement?`<div class="callout b">${md(R.s1.judgement)}</div>`:""}
+  <h2>① 在涨词</h2>
+  <div class="card"><table><tr><th>词</th><th>搜索量 / 排名</th><th>趋势方向</th><th>数据周期</th></tr>
+  ${R.s1.rising.map(w=>`<tr class="${w["词"].toLowerCase()===hl?"hlrow":""}"><td>${kw(w["词"])}</td><td>${md(w["搜索量或 ABA 排名"])}</td><td>${md(w["趋势方向"])}</td><td>${esc(w["数据周期"])}</td></tr>`).join("")}
+  </table></div>
+  <h2>② 候选竞品</h2>
+  <div class="grid3">${R.s1.candidates.map(c=>{
+    const row = R.s2.rows.find(r=>r["候选编号"]===c["候选编号"])||{};
+    const isSel = c["候选编号"]===R.s2.selected;
+    return `<div class="card cand ${isSel?"sel":""}">
+      <span class="tag pill ${isSel?"o":""}">${isSel?"S2 选中":esc(row["结论"]||"")}</span>
+      <h3>${esc(c["候选编号"])} · ${esc(c["ASIN"])}</h3>
+      <div>来自 ${kw(c["来自哪个词"])}</div>
+      <div style="margin:8px 0"><span class="num">${esc(c["价格"])}</span> · 月销 <span class="num">${md(c["月销量估算"])}</span></div>
+      <div class="meta-line">需求点</div><div>${md(c["需求点"])}</div>
+    </div>`;}).join("")}</div>
+  ${R.s1.common_need?`<div class="callout"><b>跨竞品的共同需求：</b>${md(R.s1.common_need)}</div>`:""}`;
+}
+
+/* ---------------- S2 ---------------- */
+function s2(){
+  return topbar(`· ${calls(R.s2.calls)}`) + `
+  <h1>利润分析 <span class="pill">S2</span></h1>
+  <div class="grid3">${R.s2.rows.map(r=>{
+    const isSel = r["候选编号"]===R.s2.selected;
+    return `<div class="card cand ${isSel?"sel":""}">
+      ${isSel?'<span class="tag pill o">选中</span>':""}
+      <h3>${esc(r["候选编号"])} · 售价 ${esc(r["售价"])}</h3>
+      <div class="verdict v-${verdictCls(r["结论"])}">${esc(r["结论"])}</div>
+      <div>每件剩 <span class="num" style="font-size:20px">$${esc(r["每件剩"])}</span> <span class="pill ${r["成本口径"]==="估算"?"a":"g"}">${esc(r["成本口径"])}</span></div>
+      <div class="meta-line">${md(r["利润估算"])}</div>
+      <p>${md(r["理由"])}</p>
+    </div>`;}).join("")}</div>
+  <div class="callout"><b>口径说明：</b>「估算」= 售价 − FBA 费 − 15% 佣金，<b>还没扣采购、头程、广告</b>，不是净利润。
+  用户填了采购价和头程后，S2 会调用 Snow 开发的 <code>amazon-cost-profit</code> 精算引擎，给出单件经营利润、保本售价和单件广告上限。</div>`;
+}
+
+/* ---------------- S3 ---------------- */
+function s3(){
+  const L = R.s3.listing;
+  return topbar(`· 针对 ${esc(R.s3.candidate.split("（")[0])} · ${calls(R.s3.calls)}`) + `
+  <h1>Listing 生成 <span class="pill">S3</span> <span class="pill ${R.s3.check.includes("全部通过")?"g":"r"}">check_listing.py：${esc(R.s3.check)}</span></h1>
+  <div class="grid2">
+    <div class="card">
+      <div class="meta-line">标题（${L.title.length} 字符）</div>
+      <div class="listing-title">${esc(L.title)}</div>
+      <div class="meta-line" style="margin-top:12px">Item Highlights</div><div>${esc(L.highlights)}</div>
+      <div class="meta-line" style="margin-top:12px">五点描述</div>
+      <ol class="bul">${L.bullets.map(b=>`<li>${esc(b)}</li>`).join("")}</ol>
+      <details><summary>长描述</summary><p style="white-space:pre-wrap">${esc(L.description)}</p></details>
+      <div class="meta-line" style="margin-top:12px">后台搜索词</div><code>${esc(L.search_terms)}</code>
+    </div>
+    <div>
+      <div class="card"><h3>买家关心点 → 卖点</h3>
+      <table><tr><th>关心点</th><th>次数</th><th>回应位置</th></tr>
+      ${R.s3.concerns.map(c=>`<tr><td title="${esc(c.quote)}"><span class="src">${esc(c.concern)}</span></td><td>${esc(c.count)}</td><td>${esc(c.our_position)}</td></tr>`).join("")}
+      </table><div class="meta-line">悬停关心点可看买家原话</div></div>
+      <div class="card" style="margin-top:14px"><h3>关键词清单（${R.s3.keywords.length} 个，都有来源）</h3>
+      ${R.s3.keywords.map(k=>kw(k.keyword, (k.placement||[]).join("、")+"｜"+k.source)).join("")}
+      <div class="meta-line">悬停看放在哪、来源和数字</div></div>
+    </div>
+  </div>
+  <h2>图片（7 个图位）</h2>
+  <div class="imgs">${R.s3.images.map(i=>`<figure>
+    ${i.src?`<img src="${esc(i.src)}" alt="${esc(i.slot)}" loading="lazy">`:`<div class="hold">HOLD<br>${esc(i.qc.replace(/^HOLD：?/,""))}</div>`}
+    <figcaption><b>${esc(i.slot)}</b> <span class="pill ${i.qc.startsWith("PASS")?"g":"a"}">${esc(i.qc.split("：")[0])}</span><br>${esc(i.purpose)}</figcaption></figure>`).join("")}</div>
+  <div class="callout">图片基于 AI 概念参考图生成，只用于演示方案，不能直接上架。上架前待确认：${R.s3.todo.length} 项（品牌名、锁定结构、刀槽长度等）。</div>`;
+}
+
+/* ---------------- S4 ---------------- */
+function s4(){
+  const groups = ["精准","词组","广泛"];
+  return topbar(`· 策略 ${esc(R.s4.strategy)} · ${calls(R.s4.calls)}`) + `
+  <h1>广告投放 <span class="pill">S4</span> <span class="pill ${R.s4.passed?"g":"r"}">check_ads.py：${R.s4.passed?"结构校验通过":"未通过"}</span></h1>
+  <div class="card"><h3>预算分配 ${R.s4.daily_budget?"":'<span class="pill a">未提供日预算，只给比例</span>'}</h3>
+    <div class="bar">${R.s4.budgets.filter(b=>b.percent>0).map(b=>`<div class="m-${b.match}" style="width:${b.percent}%">${b.match} ${b.percent}%</div>`).join("")}</div>
+  </div>
+  <div class="grid3" style="margin-top:14px">${groups.map(g=>{
+    const ads = R.s4.ads.filter(a=>a.match===g);
+    return `<div class="card adcol"><h3><span>${g}匹配</span><span class="pill">${ads.length} 个</span></h3>
+    ${ads.length?ads.map(a=>`<div class="ad">${kw(a.keyword)}
+      <span class="src num" title="${esc(a.bid_source+"｜"+a.bid_period+(a.missing_reason?"｜"+a.missing_reason:""))}">${a.bid==="未查到"?"未查到":"$"+a.bid}</span>
+      ${a.bid_min&&a.bid_min!=="未查到"?`<span class="r">（$${a.bid_min}–$${a.bid_max}）</span>`:""}
+      <div class="r">${esc(a.reason)}</div></div>`).join(""):'<div class="r">本组为空</div>'}
+    </div>`;}).join("")}</div>
+  <div class="grid2" style="margin-top:14px">
+    <div class="card"><h3>暂缓词（${R.s4.deferred.length}）</h3>
+      <table>${R.s4.deferred.map(d=>`<tr><td>${kw(d.keyword)}</td><td>${esc(d.reason)}</td></tr>`).join("")}</table></div>
+    <div class="card"><h3>否定预案（${R.s4.negatives.length}）</h3>
+      <table><tr><th>否定词</th><th>方式</th><th>范围</th></tr>${R.s4.negatives.map(n=>`<tr title="${esc(n.reason)}"><td><span class="src">${esc(n.keyword)}</span></td><td>${esc(n.match)}</td><td>${esc(n.scopes.join("、"))}</td></tr>`).join("")}</table>
+      <div class="meta-line">悬停看理由和证据</div></div>
+  </div>
+  <div class="callout"><b>假设与缺口：</b><ul class="plain">${R.s4.notes.map(n=>`<li>${esc(n)}</li>`).join("")}</ul></div>`;
+}
+
+function board(){
+  return topbar() + `<h1>数据看板</h1><div class="card empty">规划中：接入真实广告报表后，用于复盘投放效果。<br>当前版本不展示没有数据支撑的指标。</div>`;
+}
+
+function render(){
+  const page = location.hash.slice(1) || "home";
+  const fn = {home,s1,s2,s3,s4,board}[page] || home;
+  document.getElementById("main").innerHTML = fn();
+  nav();
+  const go = document.getElementById("go");
+  if (go) go.onclick = play;
+  document.querySelectorAll(".step").forEach(s => s.onclick = () => location.hash = s.dataset.go);
+  document.querySelectorAll(".kw").forEach(k => k.onclick = e => { e.stopPropagation(); hl = hl===k.dataset.kw ? "" : k.dataset.kw; render(); });
+}
+
+if (!R) document.getElementById("main").innerHTML = '<div class="card empty">没有找到 data.js。先运行：python3 workbench/build.py runs/&lt;本次&gt;</div>';
+else { window.onhashchange = () => { render(); window.scrollTo(0,0); }; render(); }
+</script>
+</body>
+</html>
