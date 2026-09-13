@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "seed": "bamboo drawer organizer",
+    "site": "US",
+    "generated": "2026-09-13（虚构样例）",
+    "data_period": "全部虚构，无真实统计",
+    "upstream": "samples/s3_listing.md",
+    "candidate": "C1",
+    "strategy_version": "s4-v1.0",
+    "sellersprite_calls": {
+      "new": 0,
+      "cache": 0
+    }
+  },
+  "ads": [
+    {
+      "keyword": "bamboo drawer organizer",
+      "match": "精准",
+      "bid": "未查到",
+      "bid_min": "未查到",
+      "bid_max": "未查到",
+      "bid_source": "虚构样例，不调用卖家精灵",
+      "bid_period": "虚构",
+      "missing_reason": "样例未提供竞价",
+      "source": "S3 标题；S1 在涨词（虚构）",
+      "reason": "材质、收纳形态和抽屉用途一致，核心意图"
+    },
+    {
+      "keyword": "kitchen drawer organizer",
+      "match": "词组",
+      "bid": "未查到",
+      "bid_source": "虚构样例，不调用卖家精灵",
+      "bid_period": "虚构",
+      "missing_reason": "样例未提供竞价",
+      "source": "S3 长描述；traffic_keyword（虚构）",
+      "reason": "同类厨房抽屉用途，以词组探索相关修饰词"
+    },
+    {
+      "keyword": "utensil tray",
+      "match": "广泛",
+      "bid": "未查到",
+      "bid_source": "虚构样例，不调用卖家精灵",
+      "bid_period": "虚构",
+      "missing_reason": "样例未提供竞价",
+      "source": "S3 后台；traffic_keyword（虚构）",
+      "reason": "餐具托盘形态相关，小比例探索；可能扩展到非抽屉场景，需要真实搜索词复核"
+    }
+  ],
+  "deferred": [
+    {
+      "keyword": "expandable drawer organizer",
+      "reason": "扩展功能和宽度尚未确认；确认后再纳入"
+    },
+    {
+      "keyword": "kitchen drawer dividers",
+      "reason": "可能寻找独立分隔板，需确认本品形态及意图"
+    },
+    {
+      "keyword": "silverware holder",
+      "reason": "可能为台面餐具架，抽屉购买意图不明确"
+    }
+  ],
+  "budgets": [
+    {
+      "match": "精准",
+      "percent": 60
+    },
+    {
+      "match": "词组",
+      "percent": 30
+    },
+    {
+      "match": "广泛",
+      "percent": 10
+    }
+  ],
+  "daily_budget": null,
+  "negatives": [
+    {
+      "keyword": "countertop",
+      "match": "否定词组",
+      "scopes": [
+        "广泛"
+      ],
+      "reason": "虚构业务假设：本品只适用抽屉，排除明确台面场景；未用真实搜索词验证"
+    }
+  ],
+  "notes": [
+    "全部虚构，仅用于课程开发对接，不能作为市场或投放证据。",
+    "三组均非空，初始假设 60%/30%/10%；未提供日预算。",
+    "全部竞价未查到；功能、规格和否定预案待确认。",
+    "流程通过不代表业务效果已验证。"
+  ]
+}
