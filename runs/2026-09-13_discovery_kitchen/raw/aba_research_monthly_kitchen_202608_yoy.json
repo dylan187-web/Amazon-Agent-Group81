@@ -1,0 +1,950 @@
+{
+  "code": "OK",
+  "message": "成功",
+  "data": {
+    "guestId": null,
+    "pages": 0,
+    "page": 1,
+    "size": 15,
+    "total": 1174,
+    "took": 0,
+    "url": null,
+    "order": {
+      "field": "",
+      "desc": true
+    },
+    "items": [
+      {
+        "marketplace": "US",
+        "date": "202608",
+        "keyword": "first day of school decorations",
+        "keywordCn": "开学第一天",
+        "keywordJp": "学校の装飾の初日",
+        "departments": [
+          "Home & Kitchen",
+          "Office Products"
+        ],
+        "searchRank": 2716,
+        "searchRankCv": 13201,
+        "searchRankCr": 0.8294,
+        "searches": 223301,
+        "purchaseRate": 0.010900000110268593,
+        "purchases": 2433,
+        "clicks": 104038,
+        "impressions": 6140380,
+        "searchRankGrowthValue": 13201,
+        "searchRankGrowthRate": 0.8294,
+        "cvsShareRate": 0.0992,
+        "clickShareRate": 0.1339,
+        "titleDensityExact": 12,
+        "cprExact": 56,
+        "w1SearchRank": 15917,
+        "w1RankGrowthValue": 13201,
+        "w1RankGrowthRate": 0.8294,
+        "w4SearchRank": 2278446,
+        "w4RankGrowthValue": 2275730,
+        "w4RankGrowthRate": 0.9988,
+        "w12SearchRank": 3933,
+        "w12RankGrowthValue": 1217,
+        "w12RankGrowthRate": 0.3094,
+        "top3Brands": [
+          "Shzbtdo",
+          "M AMFEOV",
+          "BEAWART"
+        ],
+        "bid": null,
+        "bidMax": null,
+        "bidMin": null,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0FCRXLKP6",
+            "imageUrl": "https://m.media-amazon.com/images/I/41q8pv+TR8L._AC_US200_.jpg",
+            "clickRate": 0.0762,
+            "conversionRate": 0.0616
+          },
+          {
+            "asin": "B0F64S96F2",
+            "imageUrl": "https://m.media-amazon.com/images/I/41sdCvusGnL._AC_US200_.jpg",
+            "clickRate": 0.029300000000000003,
+            "conversionRate": 0.023700000000000002
+          },
+          {
+            "asin": "B0D91G7ZBQ",
+            "imageUrl": "https://m.media-amazon.com/images/I/41t42EiMCRL._AC_US200_.jpg",
+            "clickRate": 0.028399999999999998,
+            "conversionRate": 0.0139
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": "202608",
+        "keyword": "fall garland",
+        "keywordCn": "秋季花环",
+        "keywordJp": "秋の花輪",
+        "departments": [
+          "Home & Kitchen"
+        ],
+        "searchRank": 2729,
+        "searchRankCv": 16612,
+        "searchRankCr": 0.8589,
+        "searches": 221803,
+        "purchaseRate": 0.013100000098347664,
+        "purchases": 2949,
+        "clicks": 107057,
+        "impressions": 5776687,
+        "searchRankGrowthValue": 16612,
+        "searchRankGrowthRate": 0.8589,
+        "cvsShareRate": 0.0822,
+        "clickShareRate": 0.1196,
+        "titleDensityExact": 14,
+        "cprExact": 67,
+        "w1SearchRank": 19341,
+        "w1RankGrowthValue": 16612,
+        "w1RankGrowthRate": 0.8589,
+        "w4SearchRank": 560136,
+        "w4RankGrowthValue": 557407,
+        "w4RankGrowthRate": 0.9951,
+        "w12SearchRank": 3152,
+        "w12RankGrowthValue": 423,
+        "w12RankGrowthRate": 0.1342,
+        "top3Brands": [
+          "VALERY MADELYN",
+          "Waipfaru",
+          "CQURE"
+        ],
+        "bid": 1.05,
+        "bidMax": 1.31,
+        "bidMin": 0.77,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0D4TXP28D",
+            "imageUrl": "https://m.media-amazon.com/images/I/51+NsVW0VNL._AC_US200_.jpg",
+            "clickRate": 0.043,
+            "conversionRate": 0.0308
+          },
+          {
+            "asin": "B0C4HDZPZK",
+            "imageUrl": "https://m.media-amazon.com/images/I/416S4GAHKkL._AC_US200_.jpg",
+            "clickRate": 0.0387,
+            "conversionRate": 0.011399999999999999
+          },
+          {
+            "asin": "B0D9D3RNZ3",
+            "imageUrl": "https://m.media-amazon.com/images/I/51QGOhQcR-L._AC_US200_.jpg",
+            "clickRate": 0.0379,
+            "conversionRate": 0.04
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": "202608",
+        "keyword": "halloween squishies",
+        "keywordCn": "万圣节软饼",
+        "keywordJp": "ハロウィンスクイーズ",
+        "departments": [
+          "Home & Kitchen",
+          "Toys & Games"
+        ],
+        "searchRank": 3190,
+        "searchRankCv": 34855,
+        "searchRankCr": 0.9162,
+        "searches": 183904,
+        "purchaseRate": 0.16760000586509705,
+        "purchases": 30859,
+        "clicks": 72113,
+        "impressions": 5183707,
+        "searchRankGrowthValue": 34855,
+        "searchRankGrowthRate": 0.9162,
+        "cvsShareRate": 0.1025,
+        "clickShareRate": 0.1859,
+        "titleDensityExact": 3,
+        "cprExact": 700,
+        "w1SearchRank": 38045,
+        "w1RankGrowthValue": 34855,
+        "w1RankGrowthRate": 0.9162,
+        "w4SearchRank": 2146758,
+        "w4RankGrowthValue": 2143568,
+        "w4RankGrowthRate": 0.9985,
+        "w12SearchRank": 227364,
+        "w12RankGrowthValue": 224174,
+        "w12RankGrowthRate": 0.986,
+        "top3Brands": [
+          null,
+          "Kidific",
+          "EFLSJIO"
+        ],
+        "bid": 0.54,
+        "bidMax": 0.68,
+        "bidMin": 0.43,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0HFKPK7ZF",
+            "imageUrl": "https://m.media-amazon.com/images/I/510AK3m76TL._AC_US200_.jpg",
+            "clickRate": 0.0731,
+            "conversionRate": 0.0207
+          },
+          {
+            "asin": "B0FLD9LT5R",
+            "imageUrl": "https://m.media-amazon.com/images/I/51sYbK1aruL._AC_US200_.jpg",
+            "clickRate": 0.0698,
+            "conversionRate": 0.0508
+          },
+          {
+            "asin": "B0H4TVVGM8",
+            "imageUrl": "https://m.media-amazon.com/images/I/51nj7iOvqsL._AC_US200_.jpg",
+            "clickRate": 0.043,
+            "conversionRate": 0.031
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": "202608",
+        "keyword": "fall pillow covers",
+        "keywordCn": "秋季枕头套",
+        "keywordJp": "秋の枕カバー",
+        "departments": [
+          "Home & Kitchen"
+        ],
+        "searchRank": 3619,
+        "searchRankCv": 24677,
+        "searchRankCr": 0.8721,
+        "searches": 174304,
+        "purchaseRate": 0.13510000705718994,
+        "purchases": 23565,
+        "clicks": 80049,
+        "impressions": 4225359,
+        "searchRankGrowthValue": 24677,
+        "searchRankGrowthRate": 0.8721,
+        "cvsShareRate": 0.0692,
+        "clickShareRate": 0.1228,
+        "titleDensityExact": 15,
+        "cprExact": 535,
+        "w1SearchRank": 28296,
+        "w1RankGrowthValue": 24677,
+        "w1RankGrowthRate": 0.8721,
+        "w4SearchRank": 975762,
+        "w4RankGrowthValue": 972143,
+        "w4RankGrowthRate": 0.9963,
+        "w12SearchRank": 3589,
+        "w12RankGrowthValue": -30,
+        "w12RankGrowthRate": -0.0084,
+        "top3Brands": [
+          "MIULEE",
+          "AVOIN colorlife",
+          "DFXSZ"
+        ],
+        "bid": 0.76,
+        "bidMax": 0.96,
+        "bidMin": 0.55,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0D5RBBWWG",
+            "imageUrl": "https://m.media-amazon.com/images/I/514AYgIl52L._AC_US200_.jpg",
+            "clickRate": 0.0592,
+            "conversionRate": 0.0341
+          },
+          {
+            "asin": "B0D5YS5FTM",
+            "imageUrl": "https://m.media-amazon.com/images/I/51gVeMa0pjL._AC_US200_.jpg",
+            "clickRate": 0.037000000000000005,
+            "conversionRate": 0.0271
+          },
+          {
+            "asin": "B0GWC67CY7",
+            "imageUrl": "https://m.media-amazon.com/images/I/51th5EEtecL._AC_US200_.jpg",
+            "clickRate": 0.026600000000000002,
+            "conversionRate": 0.008
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": "202608",
+        "keyword": "first day of school",
+        "keywordCn": "上学第一天",
+        "keywordJp": "始業日",
+        "departments": [
+          "Home & Kitchen",
+          "Toys & Games",
+          "Office Products"
+        ],
+        "searchRank": 6731,
+        "searchRankCv": 21680,
+        "searchRankCr": 0.7631,
+        "searches": 132379,
+        "purchaseRate": 0.01759999990463257,
+        "purchases": 2356,
+        "clicks": 55744,
+        "impressions": 3501447,
+        "searchRankGrowthValue": 21680,
+        "searchRankGrowthRate": 0.7631,
+        "cvsShareRate": 0.117,
+        "clickShareRate": 0.1605,
+        "titleDensityExact": 29,
+        "cprExact": 54,
+        "w1SearchRank": 28411,
+        "w1RankGrowthValue": 21680,
+        "w1RankGrowthRate": 0.7631,
+        "w4SearchRank": 551956,
+        "w4RankGrowthValue": 545225,
+        "w4RankGrowthRate": 0.9878,
+        "w12SearchRank": 10052,
+        "w12RankGrowthValue": 3321,
+        "w12RankGrowthRate": 0.3304,
+        "top3Brands": [
+          "Melisheer",
+          "Momo & Nashi",
+          "Shzbtdo"
+        ],
+        "bid": 0.96,
+        "bidMax": 1.09,
+        "bidMin": 0.73,
+        "top3AsinDtoList": [
+          {
+            "asin": "B08T16ZDR9",
+            "imageUrl": "https://m.media-amazon.com/images/I/51vOud9qlkL._AC_US200_.jpg",
+            "clickRate": 0.0718,
+            "conversionRate": 0.0579
+          },
+          {
+            "asin": "B0FCRXLKP6",
+            "imageUrl": "https://m.media-amazon.com/images/I/41q8pv+TR8L._AC_US200_.jpg",
+            "clickRate": 0.0572,
+            "conversionRate": 0.0418
+          },
+          {
+            "asin": "B0C61VLZ3N",
+            "imageUrl": "https://m.media-amazon.com/images/I/51V0+DH+rJL._AC_US200_.jpg",
+            "clickRate": 0.0315,
+            "conversionRate": 0.0173
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": "202608",
+        "keyword": "school planner",
+        "keywordCn": "学校规划师",
+        "keywordJp": "スクールプランナー",
+        "departments": [
+          "Home & Kitchen",
+          "Office Products"
+        ],
+        "searchRank": 7092,
+        "searchRankCv": 17692,
+        "searchRankCr": 0.7138,
+        "searches": 125893,
+        "purchaseRate": 0.025800000876188278,
+        "purchases": 3248,
+        "clicks": 54489,
+        "impressions": 3736951,
+        "searchRankGrowthValue": 17692,
+        "searchRankGrowthRate": 0.7138,
+        "cvsShareRate": 0.0866,
+        "clickShareRate": 0.2036,
+        "titleDensityExact": 2,
+        "cprExact": 74,
+        "w1SearchRank": 24784,
+        "w1RankGrowthValue": 17692,
+        "w1RankGrowthRate": 0.7138,
+        "w4SearchRank": 167664,
+        "w4RankGrowthValue": 160572,
+        "w4RankGrowthRate": 0.9577,
+        "w12SearchRank": 9416,
+        "w12RankGrowthValue": 2324,
+        "w12RankGrowthRate": 0.2468,
+        "top3Brands": [
+          "VALOME",
+          "Taja",
+          "Forvencer"
+        ],
+        "bid": 0.49,
+        "bidMax": 0.56,
+        "bidMin": 0.32,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0FH64LBW5",
+            "imageUrl": "https://m.media-amazon.com/images/I/41oZBFuJLzL._AC_US200_.jpg",
+            "clickRate": 0.0758,
+            "conversionRate": 0.0349
+          },
+          {
+            "asin": "B0GDWTXGPV",
+            "imageUrl": "https://m.media-amazon.com/images/I/41Z9x1OfgXL._AC_US200_.jpg",
+            "clickRate": 0.0663,
+            "conversionRate": 0.02
+          },
+          {
+            "asin": "B0FB2FCSSP",
+            "imageUrl": "https://m.media-amazon.com/images/I/41TGCtuwUKL._AC_US200_.jpg",
+            "clickRate": 0.061500000000000006,
+            "conversionRate": 0.0317
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": "202608",
+        "keyword": "halloween party decorations",
+        "keywordCn": "万圣节派对装饰品",
+        "keywordJp": "ハロウィーンパーティーの装飾",
+        "departments": [
+          "Industrial & Scientific",
+          "Home & Kitchen"
+        ],
+        "searchRank": 9051,
+        "searchRankCv": 38389,
+        "searchRankCr": 0.8092,
+        "searches": 100874,
+        "purchaseRate": 0.0142000000923872,
+        "purchases": 1442,
+        "clicks": 41040,
+        "impressions": 2643508,
+        "searchRankGrowthValue": 38389,
+        "searchRankGrowthRate": 0.8092,
+        "cvsShareRate": 0.0485,
+        "clickShareRate": 0.3479,
+        "titleDensityExact": 12,
+        "cprExact": 33,
+        "w1SearchRank": 47440,
+        "w1RankGrowthValue": 38389,
+        "w1RankGrowthRate": 0.8092,
+        "w4SearchRank": 316594,
+        "w4RankGrowthValue": 307543,
+        "w4RankGrowthRate": 0.9714,
+        "w12SearchRank": 14044,
+        "w12RankGrowthValue": 4993,
+        "w12RankGrowthRate": 0.3555,
+        "top3Brands": [
+          "Vitery",
+          "Bxoryn",
+          "OHOME"
+        ],
+        "bid": 0.87,
+        "bidMax": 1.09,
+        "bidMin": 0.65,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0FG2KGF4Z",
+            "imageUrl": "https://m.media-amazon.com/images/I/51afHj7+UeL._AC_US200_.jpg",
+            "clickRate": 0.1936,
+            "conversionRate": 0.0
+          },
+          {
+            "asin": "B0H2Z46GTJ",
+            "imageUrl": "https://m.media-amazon.com/images/I/41G-fMhJGoL._AC_US200_.jpg",
+            "clickRate": 0.1225,
+            "conversionRate": 0.0129
+          },
+          {
+            "asin": "B0BBVL5CJG",
+            "imageUrl": "https://m.media-amazon.com/images/I/41kkX6GXfML._SX200_SY200_CR,0,0,200,200_.jpg",
+            "clickRate": 0.0318,
+            "conversionRate": 0.0356
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": "202608",
+        "keyword": "vintage halloween decor",
+        "keywordCn": "复古万圣节装饰",
+        "keywordJp": "ヴィンテージのハロウィーンの装飾",
+        "departments": [
+          "Home & Kitchen",
+          "Office Products",
+          "Handmade"
+        ],
+        "searchRank": 9438,
+        "searchRankCv": 14143,
+        "searchRankCr": 0.5998,
+        "searches": 98019,
+        "purchaseRate": 0.005900000222027302,
+        "purchases": 578,
+        "clicks": 41258,
+        "impressions": 2758694,
+        "searchRankGrowthValue": 14143,
+        "searchRankGrowthRate": 0.5998,
+        "cvsShareRate": 0.0641,
+        "clickShareRate": 0.1738,
+        "titleDensityExact": 4,
+        "cprExact": 14,
+        "w1SearchRank": 23581,
+        "w1RankGrowthValue": 14143,
+        "w1RankGrowthRate": 0.5998,
+        "w4SearchRank": 238804,
+        "w4RankGrowthValue": 229366,
+        "w4RankGrowthRate": 0.9605,
+        "w12SearchRank": 14649,
+        "w12RankGrowthValue": 5211,
+        "w12RankGrowthRate": 0.3557,
+        "top3Brands": [
+          "TeloNook",
+          "Beistle",
+          "Vitery"
+        ],
+        "bid": 0.4,
+        "bidMax": 0.49,
+        "bidMin": 0.35,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0H7R58VL5",
+            "imageUrl": "https://m.media-amazon.com/images/I/41l5JOedhhL._AC_US200_.jpg",
+            "clickRate": 0.0626,
+            "conversionRate": 0.043899999999999995
+          },
+          {
+            "asin": "B0FG2KGF4Z",
+            "imageUrl": "https://m.media-amazon.com/images/I/51afHj7+UeL._AC_US200_.jpg",
+            "clickRate": 0.0602,
+            "conversionRate": 0.0009
+          },
+          {
+            "asin": "B0C73KN8QC",
+            "imageUrl": "https://m.media-amazon.com/images/I/319F39CX7hL._AC_US200_.jpg",
+            "clickRate": 0.051,
+            "conversionRate": 0.019299999999999998
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": "202608",
+        "keyword": "academic planner",
+        "keywordCn": "学业规划师",
+        "keywordJp": "アカデミックプランナー",
+        "departments": [
+          "Home & Kitchen",
+          "Office Products"
+        ],
+        "searchRank": 10890,
+        "searchRankCv": 14788,
+        "searchRankCr": 0.5759,
+        "searches": 91519,
+        "purchaseRate": 0.012400000356137753,
+        "purchases": 1134,
+        "clicks": 37850,
+        "impressions": 2523042,
+        "searchRankGrowthValue": 14788,
+        "searchRankGrowthRate": 0.5759,
+        "cvsShareRate": 0.0343,
+        "clickShareRate": 0.194,
+        "titleDensityExact": 23,
+        "cprExact": 26,
+        "w1SearchRank": 25678,
+        "w1RankGrowthValue": 14788,
+        "w1RankGrowthRate": 0.5759,
+        "w4SearchRank": 106972,
+        "w4RankGrowthValue": 96082,
+        "w4RankGrowthRate": 0.8982,
+        "w12SearchRank": 8491,
+        "w12RankGrowthValue": -2399,
+        "w12RankGrowthRate": -0.2825,
+        "top3Brands": [
+          "PAPERAGE",
+          "Blue Sky",
+          "Lamare"
+        ],
+        "bid": 0.72,
+        "bidMax": 0.99,
+        "bidMin": 0.5,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0D1VL8C7K",
+            "imageUrl": "https://m.media-amazon.com/images/I/41vJ6w52ZCL._AC_US200_.jpg",
+            "clickRate": 0.11019999999999999,
+            "conversionRate": 0.017
+          },
+          {
+            "asin": "B0GDWTXGPV",
+            "imageUrl": "https://m.media-amazon.com/images/I/41Z9x1OfgXL._AC_US200_.jpg",
+            "clickRate": 0.0449,
+            "conversionRate": 0.0101
+          },
+          {
+            "asin": "B0GSXM5YC9",
+            "imageUrl": "https://m.media-amazon.com/images/I/41SaIpO4IbL._AC_US200_.jpg",
+            "clickRate": 0.038900000000000004,
+            "conversionRate": 0.0072
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": "202608",
+        "keyword": "locker decorations for girls",
+        "keywordCn": "女孩的储物柜装饰品",
+        "keywordJp": "女の子のためのロッカーの装飾",
+        "departments": [
+          "Home & Kitchen",
+          "Office Products"
+        ],
+        "searchRank": 10899,
+        "searchRankCv": 47069,
+        "searchRankCr": 0.812,
+        "searches": 91605,
+        "purchaseRate": 0.01360000018030405,
+        "purchases": 1245,
+        "clicks": 44414,
+        "impressions": 2691573,
+        "searchRankGrowthValue": 47069,
+        "searchRankGrowthRate": 0.812,
+        "cvsShareRate": 0.0756,
+        "clickShareRate": 0.0991,
+        "titleDensityExact": 1,
+        "cprExact": 29,
+        "w1SearchRank": 57968,
+        "w1RankGrowthValue": 47069,
+        "w1RankGrowthRate": 0.812,
+        "w4SearchRank": 1016100,
+        "w4RankGrowthValue": 1005201,
+        "w4RankGrowthRate": 0.9893,
+        "w12SearchRank": 24100,
+        "w12RankGrowthValue": 13201,
+        "w12RankGrowthRate": 0.5478,
+        "top3Brands": [
+          "KEYDUACU",
+          "QAUYETM",
+          "Gosodeny"
+        ],
+        "bid": 0.48,
+        "bidMax": 0.57,
+        "bidMin": 0.37,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0CHR44CXX",
+            "imageUrl": "https://m.media-amazon.com/images/I/41CLyFCXs9L._AC_US200_.jpg",
+            "clickRate": 0.036000000000000004,
+            "conversionRate": 0.030899999999999997
+          },
+          {
+            "asin": "B07QB993GQ",
+            "imageUrl": "https://m.media-amazon.com/images/I/31K5ny7yehL._AC_US200_.jpg",
+            "clickRate": 0.0345,
+            "conversionRate": 0.0213
+          },
+          {
+            "asin": "B0F2B1WR9G",
+            "imageUrl": "https://m.media-amazon.com/images/I/410LriTZM5L._AC_US200_.jpg",
+            "clickRate": 0.0286,
+            "conversionRate": 0.023399999999999997
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": "202608",
+        "keyword": "back to school banner",
+        "keywordCn": "回到校旗",
+        "keywordJp": "学校に戻るバナー",
+        "departments": [
+          "Home & Kitchen",
+          "Toys & Games"
+        ],
+        "searchRank": 11741,
+        "searchRankCv": 21326,
+        "searchRankCr": 0.6449,
+        "searches": 87577,
+        "purchaseRate": 0.010400000028312206,
+        "purchases": 928,
+        "clicks": 35957,
+        "impressions": 2502075,
+        "searchRankGrowthValue": 21326,
+        "searchRankGrowthRate": 0.6449,
+        "cvsShareRate": 0.0962,
+        "clickShareRate": 0.1107,
+        "titleDensityExact": 27,
+        "cprExact": 22,
+        "w1SearchRank": 33067,
+        "w1RankGrowthValue": 21326,
+        "w1RankGrowthRate": 0.6449,
+        "w4SearchRank": 1215045,
+        "w4RankGrowthValue": 1203304,
+        "w4RankGrowthRate": 0.9903,
+        "w12SearchRank": 10812,
+        "w12RankGrowthValue": -929,
+        "w12RankGrowthRate": -0.0859,
+        "top3Brands": [
+          "Shzbtdo",
+          "KatchOn",
+          "Wakeys"
+        ],
+        "bid": 0.87,
+        "bidMax": 1.0,
+        "bidMin": 0.72,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0FCRXLKP6",
+            "imageUrl": "https://m.media-amazon.com/images/I/41q8pv+TR8L._AC_US200_.jpg",
+            "clickRate": 0.0616,
+            "conversionRate": 0.055
+          },
+          {
+            "asin": "B097ZX1GGJ",
+            "imageUrl": "https://m.media-amazon.com/images/I/51wA2UEGbyS._AC_US200_.jpg",
+            "clickRate": 0.0262,
+            "conversionRate": 0.0227
+          },
+          {
+            "asin": "B07TYRS55S",
+            "imageUrl": "https://m.media-amazon.com/images/I/312NnP41+iL._AC_US200_.jpg",
+            "clickRate": 0.0229,
+            "conversionRate": 0.018500000000000003
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": "202608",
+        "keyword": "back to school balloons",
+        "keywordCn": "回到学校气球",
+        "keywordJp": "学校の風船に戻る",
+        "departments": [
+          "Home & Kitchen",
+          "Toys & Games"
+        ],
+        "searchRank": 12383,
+        "searchRankCv": 20876,
+        "searchRankCr": 0.6277,
+        "searches": 84581,
+        "purchaseRate": 0.012000000104308128,
+        "purchases": 1014,
+        "clicks": 39680,
+        "impressions": 2389417,
+        "searchRankGrowthValue": 20876,
+        "searchRankGrowthRate": 0.6277,
+        "cvsShareRate": 0.0841,
+        "clickShareRate": 0.1109,
+        "titleDensityExact": 25,
+        "cprExact": 23,
+        "w1SearchRank": 33259,
+        "w1RankGrowthValue": 20876,
+        "w1RankGrowthRate": 0.6277,
+        "w4SearchRank": 1801553,
+        "w4RankGrowthValue": 1789170,
+        "w4RankGrowthRate": 0.9931,
+        "w12SearchRank": 11920,
+        "w12RankGrowthValue": -463,
+        "w12RankGrowthRate": -0.0388,
+        "top3Brands": [
+          "ZHWKMYP",
+          "Totelux",
+          "Kawkalsh"
+        ],
+        "bid": 0.85,
+        "bidMax": 1.04,
+        "bidMin": 0.66,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0D6BZTYCS",
+            "imageUrl": "https://m.media-amazon.com/images/I/41Qc2hg9YtL._AC_US200_.jpg",
+            "clickRate": 0.0452,
+            "conversionRate": 0.0311
+          },
+          {
+            "asin": "B0B3RM71GN",
+            "imageUrl": "https://m.media-amazon.com/images/I/515dcH01dpL._AC_US200_.jpg",
+            "clickRate": 0.0333,
+            "conversionRate": 0.0265
+          },
+          {
+            "asin": "B09MLWRTY2",
+            "imageUrl": "https://m.media-amazon.com/images/I/41nfHzev4IL._AC_US200_.jpg",
+            "clickRate": 0.032400000000000005,
+            "conversionRate": 0.0265
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": "202608",
+        "keyword": "spiderman lunch box",
+        "keywordCn": "蜘蛛侠饭盒",
+        "keywordJp": "スパイダーマンランチボックス",
+        "departments": [
+          "Home & Kitchen"
+        ],
+        "searchRank": 14288,
+        "searchRankCv": 19201,
+        "searchRankCr": 0.5734,
+        "searches": 78475,
+        "purchaseRate": 0.03460000082850456,
+        "purchases": 2723,
+        "clicks": 31012,
+        "impressions": 2155265,
+        "searchRankGrowthValue": 19201,
+        "searchRankGrowthRate": 0.5734,
+        "cvsShareRate": 0.152,
+        "clickShareRate": 0.2496,
+        "titleDensityExact": 3,
+        "cprExact": 62,
+        "w1SearchRank": 33489,
+        "w1RankGrowthValue": 19201,
+        "w1RankGrowthRate": 0.5734,
+        "w4SearchRank": 176558,
+        "w4RankGrowthValue": 162270,
+        "w4RankGrowthRate": 0.9191,
+        "w12SearchRank": 28542,
+        "w12RankGrowthValue": 14254,
+        "w12RankGrowthRate": 0.4994,
+        "top3Brands": [
+          "Bioworld",
+          "Simple Modern",
+          "Get Trend"
+        ],
+        "bid": 0.5,
+        "bidMax": 0.7,
+        "bidMin": 0.36,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0C2JMFWLM",
+            "imageUrl": "https://m.media-amazon.com/images/I/51ALl5lLrdL._AC_US200_.jpg",
+            "clickRate": 0.1134,
+            "conversionRate": 0.0704
+          },
+          {
+            "asin": "B0GHLPX4NZ",
+            "imageUrl": "https://m.media-amazon.com/images/I/51Iyid49qcL._AC_US200_.jpg",
+            "clickRate": 0.084,
+            "conversionRate": 0.0548
+          },
+          {
+            "asin": "B0DP4SDWZ9",
+            "imageUrl": "https://m.media-amazon.com/images/I/51HJoMa5L9L._AC_US200_.jpg",
+            "clickRate": 0.052199999999999996,
+            "conversionRate": 0.0268
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": "202608",
+        "keyword": "lunchbags",
+        "keywordCn": "饭袋",
+        "keywordJp": "ランチバッグ",
+        "departments": [
+          "Home & Kitchen"
+        ],
+        "searchRank": 16430,
+        "searchRankCv": 27614,
+        "searchRankCr": 0.627,
+        "searches": 70670,
+        "purchaseRate": 0.15760000050067902,
+        "purchases": 11137,
+        "clicks": 31736,
+        "impressions": 1729782,
+        "searchRankGrowthValue": 27614,
+        "searchRankGrowthRate": 0.627,
+        "cvsShareRate": 0.2014,
+        "clickShareRate": 0.2396,
+        "titleDensityExact": 0,
+        "cprExact": 253,
+        "w1SearchRank": 44044,
+        "w1RankGrowthValue": 27614,
+        "w1RankGrowthRate": 0.627,
+        "w4SearchRank": 501105,
+        "w4RankGrowthValue": 484675,
+        "w4RankGrowthRate": 0.9672,
+        "w12SearchRank": 391884,
+        "w12RankGrowthValue": 375454,
+        "w12RankGrowthRate": 0.9581,
+        "top3Brands": [
+          "HOTOR",
+          "Lovoeo",
+          "ZM-YOUTOO"
+        ],
+        "bid": 0.47,
+        "bidMax": 0.63,
+        "bidMin": 0.33,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0DBDKT4QC",
+            "imageUrl": "https://m.media-amazon.com/images/I/41w24kLyRVL._AC_US200_.jpg",
+            "clickRate": 0.08349999999999999,
+            "conversionRate": 0.0501
+          },
+          {
+            "asin": "B0CKR255GV",
+            "imageUrl": "https://m.media-amazon.com/images/I/41NztCcNXRL._AC_US200_.jpg",
+            "clickRate": 0.08220000000000001,
+            "conversionRate": 0.0728
+          },
+          {
+            "asin": "B07VLFFV5F",
+            "imageUrl": "https://m.media-amazon.com/images/I/31eY9m3E0aL._AC_US200_.jpg",
+            "clickRate": 0.0739,
+            "conversionRate": 0.0785
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": "202608",
+        "keyword": "christmas wrapping paper",
+        "keywordCn": "圣诞包装纸",
+        "keywordJp": "クリスマス・ラッピング・ペーパー",
+        "departments": [
+          "Home & Kitchen",
+          "Health, Household & Baby Care"
+        ],
+        "searchRank": 16776,
+        "searchRankCv": 19780,
+        "searchRankCr": 0.5411,
+        "searches": 70278,
+        "purchaseRate": 0.020800000056624413,
+        "purchases": 1475,
+        "clicks": 32844,
+        "impressions": 1931265,
+        "searchRankGrowthValue": 19780,
+        "searchRankGrowthRate": 0.5411,
+        "cvsShareRate": 0.1058,
+        "clickShareRate": 0.1267,
+        "titleDensityExact": 25,
+        "cprExact": 34,
+        "w1SearchRank": 36556,
+        "w1RankGrowthValue": 19780,
+        "w1RankGrowthRate": 0.5411,
+        "w4SearchRank": 196443,
+        "w4RankGrowthValue": 179667,
+        "w4RankGrowthRate": 0.9146,
+        "w12SearchRank": 20582,
+        "w12RankGrowthValue": 3806,
+        "w12RankGrowthRate": 0.1849,
+        "top3Brands": [
+          "LaRibbons",
+          "RUSPEPA",
+          "WRAPAHOLIC"
+        ],
+        "bid": 0.81,
+        "bidMax": 1.01,
+        "bidMin": 0.61,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0D99NM76S",
+            "imageUrl": "https://m.media-amazon.com/images/I/616jMlJJo7L._AC_US200_.jpg",
+            "clickRate": 0.0599,
+            "conversionRate": 0.0613
+          },
+          {
+            "asin": "B0D72XMPS4",
+            "imageUrl": "https://m.media-amazon.com/images/I/51pEylJ7L8L._AC_US200_.jpg",
+            "clickRate": 0.0349,
+            "conversionRate": 0.0327
+          },
+          {
+            "asin": "B0FFGNXKXV",
+            "imageUrl": "https://m.media-amazon.com/images/I/51csLuHtp-L._AC_US200_.jpg",
+            "clickRate": 0.0319,
+            "conversionRate": 0.0118
+          }
+        ]
+      }
+    ],
+    "terminal": null,
+    "hasNextPage": true,
+    "guestVisited": false
+  }
+}

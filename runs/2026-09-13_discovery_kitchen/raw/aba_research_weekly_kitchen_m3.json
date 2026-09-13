@@ -1,0 +1,2489 @@
+{
+  "code": "OK",
+  "message": "成功",
+  "data": {
+    "guestId": null,
+    "pages": 0,
+    "page": 1,
+    "size": 40,
+    "total": 1134,
+    "took": 0,
+    "url": null,
+    "order": {
+      "field": "",
+      "desc": true
+    },
+    "items": [
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "halloween finger lights",
+        "keywordCn": "万圣节手指灯",
+        "keywordJp": "ハロウィンフィンガーライト",
+        "departments": [
+          "Home & Kitchen",
+          "Toys & Games"
+        ],
+        "searchRank": 6190,
+        "searchRankCv": 19375,
+        "searchRankCr": 0.7579,
+        "searches": 28818,
+        "purchaseRate": 0.011099999770522118,
+        "purchases": 319,
+        "clicks": 13524,
+        "impressions": 760753,
+        "searchRankGrowthValue": 19375,
+        "searchRankGrowthRate": 0.7579,
+        "cvsShareRate": 0.0989,
+        "clickShareRate": 0.1852,
+        "titleDensityExact": 3,
+        "cprExact": 6,
+        "w1SearchRank": 25565,
+        "w1RankGrowthValue": 19375,
+        "w1RankGrowthRate": 0.7579,
+        "w4SearchRank": 1454175,
+        "w4RankGrowthValue": 1447985,
+        "w4RankGrowthRate": 0.9957,
+        "w12SearchRank": null,
+        "w12RankGrowthValue": null,
+        "w12RankGrowthRate": null,
+        "top3Brands": [
+          "Govetom",
+          null,
+          "Budbof"
+        ],
+        "bid": 1.07,
+        "bidMax": 1.34,
+        "bidMin": 0.8,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0F2MJTRSZ",
+            "imageUrl": "https://m.media-amazon.com/images/I/514yyzXuNqL._AC_US200_.jpg",
+            "clickRate": 0.0694,
+            "conversionRate": 0.0706
+          },
+          {
+            "asin": "B0HFWJZLWN",
+            "imageUrl": "https://m.media-amazon.com/images/I/51JJWoeHoxL._AC_US200_.jpg",
+            "clickRate": 0.0688,
+            "conversionRate": 0.0174
+          },
+          {
+            "asin": "B0F9YDX21K",
+            "imageUrl": "https://m.media-amazon.com/images/I/61lZ0+aNiTL._AC_US200_.jpg",
+            "clickRate": 0.047,
+            "conversionRate": 0.0109
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "labor day decorations",
+        "keywordCn": "劳动节装饰品",
+        "keywordJp": "労働者の日の装飾",
+        "departments": [
+          "Home & Kitchen"
+        ],
+        "searchRank": 9722,
+        "searchRankCv": 12686,
+        "searchRankCr": 0.5661,
+        "searches": 19598,
+        "purchaseRate": 0.02070000022649765,
+        "purchases": 405,
+        "clicks": 7571,
+        "impressions": 540642,
+        "searchRankGrowthValue": 12686,
+        "searchRankGrowthRate": 0.5661,
+        "cvsShareRate": 0.0683,
+        "clickShareRate": 0.124,
+        "titleDensityExact": 7,
+        "cprExact": 7,
+        "w1SearchRank": 22408,
+        "w1RankGrowthValue": 12686,
+        "w1RankGrowthRate": 0.5661,
+        "w4SearchRank": 109340,
+        "w4RankGrowthValue": 99618,
+        "w4RankGrowthRate": 0.9111,
+        "w12SearchRank": 846121,
+        "w12RankGrowthValue": 836399,
+        "w12RankGrowthRate": 0.9885,
+        "top3Brands": [
+          "Childom",
+          "VeyoCraft",
+          "CHYAGCLT"
+        ],
+        "bid": 1.0,
+        "bidMax": 1.25,
+        "bidMin": 0.75,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0D7PG4FT6",
+            "imageUrl": "https://m.media-amazon.com/images/I/51tldobNPJL._AC_US200_.jpg",
+            "clickRate": 0.044000000000000004,
+            "conversionRate": 0.014499999999999999
+          },
+          {
+            "asin": "B0BKRY6RH1",
+            "imageUrl": "https://m.media-amazon.com/images/I/510o4zYpaEL._AC_US200_.jpg",
+            "clickRate": 0.04019999999999999,
+            "conversionRate": 0.026000000000000002
+          },
+          {
+            "asin": "B07SVXSKCK",
+            "imageUrl": "https://m.media-amazon.com/images/I/51QVF5KopnL._AC_US200_.jpg",
+            "clickRate": 0.0398,
+            "conversionRate": 0.0278
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "hispanic heritage month decorations",
+        "keywordCn": "西班牙裔传统月装饰品",
+        "keywordJp": "ヒスパニック文化遺産月間装飾",
+        "departments": [
+          "Home & Kitchen",
+          "Toys & Games"
+        ],
+        "searchRank": 14923,
+        "searchRankCv": 16648,
+        "searchRankCr": 0.5273,
+        "searches": 15212,
+        "purchaseRate": 0.039000000804662704,
+        "purchases": 593,
+        "clicks": 3670,
+        "impressions": 437974,
+        "searchRankGrowthValue": 16648,
+        "searchRankGrowthRate": 0.5273,
+        "cvsShareRate": 0.089,
+        "clickShareRate": 0.1745,
+        "titleDensityExact": 24,
+        "cprExact": 6,
+        "w1SearchRank": 31571,
+        "w1RankGrowthValue": 16648,
+        "w1RankGrowthRate": 0.5273,
+        "w4SearchRank": 126104,
+        "w4RankGrowthValue": 111181,
+        "w4RankGrowthRate": 0.8817,
+        "w12SearchRank": 669115,
+        "w12RankGrowthValue": 654192,
+        "w12RankGrowthRate": 0.9777,
+        "top3Brands": [
+          "tineit",
+          "ERTIUANIO",
+          "DomeStar"
+        ],
+        "bid": 0.54,
+        "bidMax": 0.77,
+        "bidMin": 0.46,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0D7HKGWTH",
+            "imageUrl": "https://m.media-amazon.com/images/I/616tqy3nW7L._AC_US200_.jpg",
+            "clickRate": 0.0784,
+            "conversionRate": 0.043
+          },
+          {
+            "asin": "B0F6CV5BMW",
+            "imageUrl": "https://m.media-amazon.com/images/I/51olQ9MFVmL._AC_US200_.jpg",
+            "clickRate": 0.052000000000000005,
+            "conversionRate": 0.0184
+          },
+          {
+            "asin": "B07V228P3Y",
+            "imageUrl": "https://m.media-amazon.com/images/I/61zb-cto1PL._AC_US200_.jpg",
+            "clickRate": 0.0441,
+            "conversionRate": 0.0276
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "trunk or treat car decorations kit",
+        "keywordCn": "后备箱或款待汽车装饰套件",
+        "keywordJp": "トランクまたはおやつ車の装飾キット",
+        "departments": [
+          "Garden & Outdoor",
+          "Home & Kitchen"
+        ],
+        "searchRank": 17489,
+        "searchRankCv": 13537,
+        "searchRankCr": 0.4363,
+        "searches": 13245,
+        "purchaseRate": 0.02370000071823597,
+        "purchases": 313,
+        "clicks": 6458,
+        "impressions": 319864,
+        "searchRankGrowthValue": 13537,
+        "searchRankGrowthRate": 0.4363,
+        "cvsShareRate": 0.0304,
+        "clickShareRate": 0.121,
+        "titleDensityExact": 35,
+        "cprExact": 64,
+        "w1SearchRank": 31026,
+        "w1RankGrowthValue": 13537,
+        "w1RankGrowthRate": 0.4363,
+        "w4SearchRank": 127501,
+        "w4RankGrowthValue": 110012,
+        "w4RankGrowthRate": 0.8628,
+        "w12SearchRank": 1068120,
+        "w12RankGrowthValue": 1050631,
+        "w12RankGrowthRate": 0.9836,
+        "top3Brands": [
+          "Biswiter",
+          "zestoluxe",
+          "JOYIN"
+        ],
+        "bid": 0.59,
+        "bidMax": 0.92,
+        "bidMin": 0.47,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0H6929CWP",
+            "imageUrl": "https://m.media-amazon.com/images/I/51su9Rm63RL._AC_US200_.jpg",
+            "clickRate": 0.0433,
+            "conversionRate": 0.0152
+          },
+          {
+            "asin": "B0H4JJ9YRM",
+            "imageUrl": "https://m.media-amazon.com/images/I/51-IgOak3oL._AC_US200_.jpg",
+            "clickRate": 0.040999999999999995,
+            "conversionRate": 0.0
+          },
+          {
+            "asin": "B0H9HT9KQR",
+            "imageUrl": "https://m.media-amazon.com/images/I/51B3I5jBPlL._AC_US200_.jpg",
+            "clickRate": 0.036699999999999997,
+            "conversionRate": 0.0152
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "meat defroster",
+        "keywordCn": "肉类解冻机",
+        "keywordJp": "肉デフロスター",
+        "departments": [
+          "Home & Kitchen",
+          "Tools & Home Improvement"
+        ],
+        "searchRank": 16944,
+        "searchRankCv": 13464,
+        "searchRankCr": 0.4428,
+        "searches": 12697,
+        "purchaseRate": 0.02019999921321869,
+        "purchases": 256,
+        "clicks": 2569,
+        "impressions": 352915,
+        "searchRankGrowthValue": 13464,
+        "searchRankGrowthRate": 0.4428,
+        "cvsShareRate": 0.359,
+        "clickShareRate": 0.6588,
+        "titleDensityExact": 7,
+        "cprExact": 20,
+        "w1SearchRank": 30408,
+        "w1RankGrowthValue": 13464,
+        "w1RankGrowthRate": 0.4428,
+        "w4SearchRank": 272205,
+        "w4RankGrowthValue": 255261,
+        "w4RankGrowthRate": 0.9378,
+        "w12SearchRank": 371671,
+        "w12RankGrowthValue": 354727,
+        "w12RankGrowthRate": 0.9544,
+        "top3Brands": [
+          "AuntyFey",
+          "Blazin' Thaw",
+          "CUISINART"
+        ],
+        "bid": 0.8,
+        "bidMax": 0.98,
+        "bidMin": 0.49,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0DSZVZ9XK",
+            "imageUrl": "https://m.media-amazon.com/images/I/51vBdkCzgQL._AC_US200_.jpg",
+            "clickRate": 0.5189,
+            "conversionRate": 0.141
+          },
+          {
+            "asin": "B0D41CMQ9B",
+            "imageUrl": "https://m.media-amazon.com/images/I/51n4FokSasL._AC_US200_.jpg",
+            "clickRate": 0.0722,
+            "conversionRate": 0.0385
+          },
+          {
+            "asin": "B08JNDW4DV",
+            "imageUrl": "https://m.media-amazon.com/images/I/31HeuPwkTGL._AC_US200_.jpg",
+            "clickRate": 0.0677,
+            "conversionRate": 0.1795
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "fall napkins",
+        "keywordCn": "秋季餐巾纸",
+        "keywordJp": "秋のナプキン",
+        "departments": [
+          "Home & Kitchen",
+          "Toys & Games",
+          "Arts, Crafts & Sewing"
+        ],
+        "searchRank": 20026,
+        "searchRankCv": 10105,
+        "searchRankCr": 0.3354,
+        "searches": 12371,
+        "purchaseRate": 0.09399999678134918,
+        "purchases": 1162,
+        "clicks": 6128,
+        "impressions": 359418,
+        "searchRankGrowthValue": 10105,
+        "searchRankGrowthRate": 0.3354,
+        "cvsShareRate": 0.0477,
+        "clickShareRate": 0.1285,
+        "titleDensityExact": 5,
+        "cprExact": 72,
+        "w1SearchRank": 30131,
+        "w1RankGrowthValue": 10105,
+        "w1RankGrowthRate": 0.3354,
+        "w4SearchRank": 86161,
+        "w4RankGrowthValue": 66135,
+        "w4RankGrowthRate": 0.7676,
+        "w12SearchRank": 971824,
+        "w12RankGrowthValue": 951798,
+        "w12RankGrowthRate": 0.9794,
+        "top3Brands": [
+          "NatNarr",
+          "Tenceur",
+          "Horaldaily"
+        ],
+        "bid": 0.8,
+        "bidMax": 1.0,
+        "bidMin": 0.48,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0GYS4PB5W",
+            "imageUrl": "https://m.media-amazon.com/images/I/61EErWXVH9L._AC_US200_.jpg",
+            "clickRate": 0.0637,
+            "conversionRate": 0.0108
+          },
+          {
+            "asin": "B0H7GRH659",
+            "imageUrl": "https://m.media-amazon.com/images/I/51CHdYaNL7L._AC_US200_.jpg",
+            "clickRate": 0.0418,
+            "conversionRate": 0.0277
+          },
+          {
+            "asin": "B0FF4WQF2Y",
+            "imageUrl": "https://m.media-amazon.com/images/I/51cRDncn7bL._AC_US200_.jpg",
+            "clickRate": 0.023,
+            "conversionRate": 0.0092
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "halloween door cover",
+        "keywordCn": "万圣节门套",
+        "keywordJp": "ハロウィンドアカバー",
+        "departments": [
+          "Garden & Outdoor",
+          "Home & Kitchen",
+          "Toys & Games"
+        ],
+        "searchRank": 20317,
+        "searchRankCv": 12529,
+        "searchRankCr": 0.3814,
+        "searches": 12310,
+        "purchaseRate": 0.017899999395012856,
+        "purchases": 220,
+        "clicks": 1335,
+        "impressions": 289094,
+        "searchRankGrowthValue": 12529,
+        "searchRankGrowthRate": 0.3814,
+        "cvsShareRate": 0.087,
+        "clickShareRate": 0.1226,
+        "titleDensityExact": 12,
+        "cprExact": 136,
+        "w1SearchRank": 32846,
+        "w1RankGrowthValue": 12529,
+        "w1RankGrowthRate": 0.3814,
+        "w4SearchRank": 74090,
+        "w4RankGrowthValue": 53773,
+        "w4RankGrowthRate": 0.7258,
+        "w12SearchRank": 1127443,
+        "w12RankGrowthValue": 1107126,
+        "w12RankGrowthRate": 0.982,
+        "top3Brands": [
+          "REDWORD",
+          "Miucat",
+          "Jesiramoo"
+        ],
+        "bid": 0.64,
+        "bidMax": 0.8,
+        "bidMin": 0.48,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0H74W1SVR",
+            "imageUrl": "https://m.media-amazon.com/images/I/51YasoMGKCL._AC_US200_.jpg",
+            "clickRate": 0.0454,
+            "conversionRate": 0.03
+          },
+          {
+            "asin": "B0H5VRQFWL",
+            "imageUrl": "https://m.media-amazon.com/images/I/518mmW+Hp0L._AC_US200_.jpg",
+            "clickRate": 0.042699999999999995,
+            "conversionRate": 0.039
+          },
+          {
+            "asin": "B003NT5KRI",
+            "imageUrl": "https://m.media-amazon.com/images/I/41e6dcpVfrL._AC_US200_.jpg",
+            "clickRate": 0.0345,
+            "conversionRate": 0.018000000000000002
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "rosh hashanah decorations",
+        "keywordCn": "犹太新年装饰品",
+        "keywordJp": "roshhashanah装飾",
+        "departments": [
+          "Home & Kitchen"
+        ],
+        "searchRank": 19521,
+        "searchRankCv": 21396,
+        "searchRankCr": 0.5229,
+        "searches": 11749,
+        "purchaseRate": 0.005799999926239252,
+        "purchases": 68,
+        "clicks": 5809,
+        "impressions": 333093,
+        "searchRankGrowthValue": 21396,
+        "searchRankGrowthRate": 0.5229,
+        "cvsShareRate": 0.061,
+        "clickShareRate": 0.1476,
+        "titleDensityExact": 14,
+        "cprExact": 4,
+        "w1SearchRank": 40917,
+        "w1RankGrowthValue": 21396,
+        "w1RankGrowthRate": 0.5229,
+        "w4SearchRank": 241756,
+        "w4RankGrowthValue": 222235,
+        "w4RankGrowthRate": 0.9193,
+        "w12SearchRank": null,
+        "w12RankGrowthValue": null,
+        "w12RankGrowthRate": null,
+        "top3Brands": [
+          "Rite Lite",
+          "Artoid Mode",
+          "FYXMI"
+        ],
+        "bid": 1.66,
+        "bidMax": 2.07,
+        "bidMin": 1.24,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0F4CXLLS3",
+            "imageUrl": "https://m.media-amazon.com/images/I/31nQldhhoZL._AC_US200_.jpg",
+            "clickRate": 0.0785,
+            "conversionRate": 0.0016
+          },
+          {
+            "asin": "B0B8GHXWRP",
+            "imageUrl": "https://m.media-amazon.com/images/I/51eYn9eOoVL._AC_US200_.jpg",
+            "clickRate": 0.037599999999999995,
+            "conversionRate": 0.0417
+          },
+          {
+            "asin": "B0GY88MQQB",
+            "imageUrl": "https://m.media-amazon.com/images/I/51KkZxZkCrL._AC_US200_.jpg",
+            "clickRate": 0.0315,
+            "conversionRate": 0.0177
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "fall centerpieces for tables",
+        "keywordCn": "桌子的秋季中心件",
+        "keywordJp": "テーブルの秋の目玉",
+        "departments": [
+          "Home & Kitchen"
+        ],
+        "searchRank": 20036,
+        "searchRankCv": 12101,
+        "searchRankCr": 0.3765,
+        "searches": 11727,
+        "purchaseRate": 0.06840000301599503,
+        "purchases": 802,
+        "clicks": 5282,
+        "impressions": 281657,
+        "searchRankGrowthValue": 12101,
+        "searchRankGrowthRate": 0.3765,
+        "cvsShareRate": 0.0741,
+        "clickShareRate": 0.1196,
+        "titleDensityExact": 8,
+        "cprExact": 51,
+        "w1SearchRank": 32137,
+        "w1RankGrowthValue": 12101,
+        "w1RankGrowthRate": 0.3765,
+        "w4SearchRank": 88585,
+        "w4RankGrowthValue": 68549,
+        "w4RankGrowthRate": 0.7738,
+        "w12SearchRank": 2461382,
+        "w12RankGrowthValue": 2441346,
+        "w12RankGrowthRate": 0.9919,
+        "top3Brands": [
+          "KIVIVO",
+          "Romadedi",
+          "SUNNYPARK"
+        ],
+        "bid": 0.63,
+        "bidMax": 0.77,
+        "bidMin": 0.53,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0FH9L5JFC",
+            "imageUrl": "https://m.media-amazon.com/images/I/31Gs2JkhwdL._AC_US200_.jpg",
+            "clickRate": 0.0481,
+            "conversionRate": 0.0123
+          },
+          {
+            "asin": "B09W99LHT4",
+            "imageUrl": "https://m.media-amazon.com/images/I/51J4lbhExuL._AC_US200_.jpg",
+            "clickRate": 0.0393,
+            "conversionRate": 0.030899999999999997
+          },
+          {
+            "asin": "B0D6DTX58Z",
+            "imageUrl": "https://m.media-amazon.com/images/I/519sS-sIh+L._AC_US200_.jpg",
+            "clickRate": 0.0322,
+            "conversionRate": 0.030899999999999997
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "fall crafts",
+        "keywordCn": "秋季工艺品",
+        "keywordJp": "秋の工芸品",
+        "departments": [
+          "Home & Kitchen",
+          "Toys & Games",
+          "Arts, Crafts & Sewing"
+        ],
+        "searchRank": 21455,
+        "searchRankCv": 14525,
+        "searchRankCr": 0.4037,
+        "searches": 10666,
+        "purchaseRate": 0.13040000200271606,
+        "purchases": 1390,
+        "clicks": 4812,
+        "impressions": 269607,
+        "searchRankGrowthValue": 14525,
+        "searchRankGrowthRate": 0.4037,
+        "cvsShareRate": 0.0533,
+        "clickShareRate": 0.4406,
+        "titleDensityExact": 5,
+        "cprExact": 92,
+        "w1SearchRank": 35980,
+        "w1RankGrowthValue": 14525,
+        "w1RankGrowthRate": 0.4037,
+        "w4SearchRank": 146844,
+        "w4RankGrowthValue": 125389,
+        "w4RankGrowthRate": 0.8539,
+        "w12SearchRank": 2176424,
+        "w12RankGrowthValue": 2154969,
+        "w12RankGrowthRate": 0.9901,
+        "top3Brands": [
+          "DERFILIN",
+          "Winlyn",
+          "WOHOHOHO"
+        ],
+        "bid": 0.69,
+        "bidMax": 0.85,
+        "bidMin": 0.45,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0C941SMGB",
+            "imageUrl": "https://m.media-amazon.com/images/I/61ZfW77e9XL._AC_US200_.jpg",
+            "clickRate": 0.39590000000000003,
+            "conversionRate": 0.0
+          },
+          {
+            "asin": "B0GY4CKWT4",
+            "imageUrl": "https://m.media-amazon.com/images/I/51B9Exb0rrL._AC_US200_.jpg",
+            "clickRate": 0.0239,
+            "conversionRate": 0.0311
+          },
+          {
+            "asin": "B08CXWHX57",
+            "imageUrl": "https://m.media-amazon.com/images/I/61vQ+928F-L._AC_US200_.jpg",
+            "clickRate": 0.0208,
+            "conversionRate": 0.0222
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "oktoberfest decorations",
+        "keywordCn": "慕尼黑啤酒节装饰品",
+        "keywordJp": "オクトーバーフェストの装飾",
+        "departments": [
+          "Home & Kitchen",
+          "Toys & Games"
+        ],
+        "searchRank": 21829,
+        "searchRankCv": 15066,
+        "searchRankCr": 0.4083,
+        "searches": 10038,
+        "purchaseRate": 0.04569999873638153,
+        "purchases": 458,
+        "clicks": 1616,
+        "impressions": 296749,
+        "searchRankGrowthValue": 15066,
+        "searchRankGrowthRate": 0.4083,
+        "cvsShareRate": 0.0805,
+        "clickShareRate": 0.1684,
+        "titleDensityExact": 16,
+        "cprExact": 253,
+        "w1SearchRank": 36895,
+        "w1RankGrowthValue": 15066,
+        "w1RankGrowthRate": 0.4083,
+        "w4SearchRank": 105621,
+        "w4RankGrowthValue": 83792,
+        "w4RankGrowthRate": 0.7933,
+        "w12SearchRank": 847590,
+        "w12RankGrowthValue": 825761,
+        "w12RankGrowthRate": 0.9742,
+        "top3Brands": [
+          "ZYP",
+          "Biswiter",
+          "Blulu"
+        ],
+        "bid": 1.2,
+        "bidMax": 1.5,
+        "bidMin": 0.9,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0C8G5D8N7",
+            "imageUrl": "https://m.media-amazon.com/images/I/61U11vJLZ7L._AC_US200_.jpg",
+            "clickRate": 0.0888,
+            "conversionRate": 0.051500000000000004
+          },
+          {
+            "asin": "B0FG22KGMN",
+            "imageUrl": "https://m.media-amazon.com/images/I/51xpCRWF-OL._AC_US200_.jpg",
+            "clickRate": 0.043,
+            "conversionRate": 0.0016
+          },
+          {
+            "asin": "B07WFZYVGS",
+            "imageUrl": "https://m.media-amazon.com/images/I/61H0w+Y5ymL._AC_US200_.jpg",
+            "clickRate": 0.0366,
+            "conversionRate": 0.0274
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "fall hand towels",
+        "keywordCn": "秋季手巾",
+        "keywordJp": "秋の手ぬぐい",
+        "departments": [
+          "Home & Kitchen"
+        ],
+        "searchRank": 22333,
+        "searchRankCv": 14105,
+        "searchRankCr": 0.3871,
+        "searches": 9930,
+        "purchaseRate": 0.12460000067949295,
+        "purchases": 1237,
+        "clicks": 3957,
+        "impressions": 285537,
+        "searchRankGrowthValue": 14105,
+        "searchRankGrowthRate": 0.3871,
+        "cvsShareRate": 0.097,
+        "clickShareRate": 0.2186,
+        "titleDensityExact": 14,
+        "cprExact": 86,
+        "w1SearchRank": 36438,
+        "w1RankGrowthValue": 14105,
+        "w1RankGrowthRate": 0.3871,
+        "w4SearchRank": 98286,
+        "w4RankGrowthValue": 75953,
+        "w4RankGrowthRate": 0.7728,
+        "w12SearchRank": 2825534,
+        "w12RankGrowthValue": 2803201,
+        "w12RankGrowthRate": 0.9921,
+        "top3Brands": [
+          "Artoid Mode",
+          "KIBAGA",
+          "Miss Adola"
+        ],
+        "bid": 1.0,
+        "bidMax": 1.37,
+        "bidMin": 0.66,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0H3TYBD12",
+            "imageUrl": "https://m.media-amazon.com/images/I/51Y5k1qgVBL._AC_US200_.jpg",
+            "clickRate": 0.1329,
+            "conversionRate": 0.0579
+          },
+          {
+            "asin": "B0H3V8HJRP",
+            "imageUrl": "https://m.media-amazon.com/images/I/51WmmkHeGdL._AC_US200_.jpg",
+            "clickRate": 0.0524,
+            "conversionRate": 0.0187
+          },
+          {
+            "asin": "B0GR9YC9MN",
+            "imageUrl": "https://m.media-amazon.com/images/I/51XOLP16iDL._AC_US200_.jpg",
+            "clickRate": 0.0333,
+            "conversionRate": 0.0204
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "glass crockpot",
+        "keywordCn": "玻璃炖锅",
+        "keywordJp": "ガラス製スローコッカー",
+        "departments": [
+          "Home & Kitchen"
+        ],
+        "searchRank": 22391,
+        "searchRankCv": 748996,
+        "searchRankCr": 0.971,
+        "searches": 9926,
+        "purchaseRate": 0.009200000204145908,
+        "purchases": 91,
+        "clicks": 4078,
+        "impressions": 258071,
+        "searchRankGrowthValue": 748996,
+        "searchRankGrowthRate": 0.971,
+        "cvsShareRate": 0.6819,
+        "clickShareRate": 0.851,
+        "titleDensityExact": 0,
+        "cprExact": 1,
+        "w1SearchRank": 771387,
+        "w1RankGrowthValue": 748996,
+        "w1RankGrowthRate": 0.971,
+        "w4SearchRank": 1294484,
+        "w4RankGrowthValue": 1272093,
+        "w4RankGrowthRate": 0.9827,
+        "w12SearchRank": null,
+        "w12RankGrowthValue": null,
+        "w12RankGrowthRate": null,
+        "top3Brands": [
+          "MAGNIFIQUE EXPERIENCE DELIGHT",
+          "INDY VAC",
+          "NINJA"
+        ],
+        "bid": 1.11,
+        "bidMax": 1.39,
+        "bidMin": 0.83,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0FR4RS3F1",
+            "imageUrl": "https://m.media-amazon.com/images/I/41zjviHq6vL._AC_US200_.jpg",
+            "clickRate": 0.6193,
+            "conversionRate": 0.5455
+          },
+          {
+            "asin": "B0FR44G982",
+            "imageUrl": "https://m.media-amazon.com/images/I/41XX8MxoLgL._AC_US200_.jpg",
+            "clickRate": 0.19949999999999998,
+            "conversionRate": 0.1364
+          },
+          {
+            "asin": "B0B4PPHG8G",
+            "imageUrl": "https://m.media-amazon.com/images/I/51qgmLCSmyL._AC_US200_.jpg",
+            "clickRate": 0.0322,
+            "conversionRate": 0.0
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "fall bathroom rugs",
+        "keywordCn": "秋季浴室地毯",
+        "keywordJp": "秋のバスルームの敷物",
+        "departments": [
+          "Home / Furniture",
+          "Home & Kitchen"
+        ],
+        "searchRank": 23872,
+        "searchRankCv": 13622,
+        "searchRankCr": 0.3633,
+        "searches": 9344,
+        "purchaseRate": 0.07980000227689743,
+        "purchases": 745,
+        "clicks": 4443,
+        "impressions": 224088,
+        "searchRankGrowthValue": 13622,
+        "searchRankGrowthRate": 0.3633,
+        "cvsShareRate": 0.0575,
+        "clickShareRate": 0.1762,
+        "titleDensityExact": 8,
+        "cprExact": 48,
+        "w1SearchRank": 37494,
+        "w1RankGrowthValue": 13622,
+        "w1RankGrowthRate": 0.3633,
+        "w4SearchRank": 110262,
+        "w4RankGrowthValue": 86390,
+        "w4RankGrowthRate": 0.7835,
+        "w12SearchRank": null,
+        "w12RankGrowthValue": null,
+        "w12RankGrowthRate": null,
+        "top3Brands": [
+          "MIULEE",
+          "BSICPRO",
+          "VivaNest"
+        ],
+        "bid": 0.66,
+        "bidMax": 0.85,
+        "bidMin": 0.48,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0C611QCWH",
+            "imageUrl": "https://m.media-amazon.com/images/I/51+Fk3OWSiL._AC_US200_.jpg",
+            "clickRate": 0.0782,
+            "conversionRate": 0.03
+          },
+          {
+            "asin": "B0FDGLQGFV",
+            "imageUrl": "https://m.media-amazon.com/images/I/51MmLghjLzL._AC_US200_.jpg",
+            "clickRate": 0.0576,
+            "conversionRate": 0.02
+          },
+          {
+            "asin": "B0GVCMNPF5",
+            "imageUrl": "https://m.media-amazon.com/images/I/51L1bg0DHIL._AC_US200_.jpg",
+            "clickRate": 0.0404,
+            "conversionRate": 0.0075
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "halloween candy bulk",
+        "keywordCn": "万圣节糖果散装",
+        "keywordJp": "ハロウィンキャンディーバルク",
+        "departments": [
+          "Grocery & Gourmet Food",
+          "Home & Kitchen"
+        ],
+        "searchRank": 24473,
+        "searchRankCv": 10762,
+        "searchRankCr": 0.3054,
+        "searches": 9133,
+        "purchaseRate": 0.08340000361204147,
+        "purchases": 761,
+        "clicks": 5673,
+        "impressions": 261529,
+        "searchRankGrowthValue": 10762,
+        "searchRankGrowthRate": 0.3054,
+        "cvsShareRate": 0.117,
+        "clickShareRate": 0.1738,
+        "titleDensityExact": 8,
+        "cprExact": 150,
+        "w1SearchRank": 35235,
+        "w1RankGrowthValue": 10762,
+        "w1RankGrowthRate": 0.3054,
+        "w4SearchRank": 130236,
+        "w4RankGrowthValue": 105763,
+        "w4RankGrowthRate": 0.8121,
+        "w12SearchRank": 2119279,
+        "w12RankGrowthValue": 2094806,
+        "w12RankGrowthRate": 0.9885,
+        "top3Brands": [
+          "QUEEN JAX",
+          "HERSHEY'S",
+          "A Great Surprise"
+        ],
+        "bid": 1.08,
+        "bidMax": 1.32,
+        "bidMin": 0.81,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0BC2C83KM",
+            "imageUrl": "https://m.media-amazon.com/images/I/613Cv7azWyL._SX200_SY200_CR,0,0,200,200_.jpg",
+            "clickRate": 0.0663,
+            "conversionRate": 0.0446
+          },
+          {
+            "asin": "B09Q6J3M9F",
+            "imageUrl": "https://m.media-amazon.com/images/I/61y0HX2hDrL._SX200_SY200_CR,0,0,200,200_.jpg",
+            "clickRate": 0.0575,
+            "conversionRate": 0.0195
+          },
+          {
+            "asin": "B0CNQHCBNM",
+            "imageUrl": "https://m.media-amazon.com/images/I/51QruTi82lL._SX200_SY200_CR,0,0,200,200_.jpg",
+            "clickRate": 0.05,
+            "conversionRate": 0.0529
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "labor day",
+        "keywordCn": "劳动节",
+        "keywordJp": "労働祭",
+        "departments": [
+          "Home & Kitchen"
+        ],
+        "searchRank": 25234,
+        "searchRankCv": 34090,
+        "searchRankCr": 0.5746,
+        "searches": 8867,
+        "purchaseRate": 0.025800000876188278,
+        "purchases": 228,
+        "clicks": 3879,
+        "impressions": 264533,
+        "searchRankGrowthValue": 34090,
+        "searchRankGrowthRate": 0.5746,
+        "cvsShareRate": 0.0,
+        "clickShareRate": 0.7616,
+        "titleDensityExact": 35,
+        "cprExact": 15,
+        "w1SearchRank": 59324,
+        "w1RankGrowthValue": 34090,
+        "w1RankGrowthRate": 0.5746,
+        "w4SearchRank": 228441,
+        "w4RankGrowthValue": 203207,
+        "w4RankGrowthRate": 0.8895,
+        "w12SearchRank": 200290,
+        "w12RankGrowthValue": 175056,
+        "w12RankGrowthRate": 0.874,
+        "top3Brands": [
+          null,
+          "Avezano",
+          "SWYOUN"
+        ],
+        "bid": 0.55,
+        "bidMax": 0.66,
+        "bidMin": 0.44,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0FLBGWQCK",
+            "imageUrl": null,
+            "clickRate": 0.7283,
+            "conversionRate": 0.0
+          },
+          {
+            "asin": "B0FLBTVGRS",
+            "imageUrl": null,
+            "clickRate": 0.019799999999999998,
+            "conversionRate": 0.0
+          },
+          {
+            "asin": "B0D5GC3DVP",
+            "imageUrl": null,
+            "clickRate": 0.013500000000000002,
+            "conversionRate": 0.0
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "halloween kitchen towels",
+        "keywordCn": "万圣节厨房毛巾",
+        "keywordJp": "ハロウィンキッチンタオル",
+        "departments": [
+          "Home & Kitchen"
+        ],
+        "searchRank": 26017,
+        "searchRankCv": 12797,
+        "searchRankCr": 0.3297,
+        "searches": 8773,
+        "purchaseRate": 0.012000000104308128,
+        "purchases": 105,
+        "clicks": 666,
+        "impressions": 245433,
+        "searchRankGrowthValue": 12797,
+        "searchRankGrowthRate": 0.3297,
+        "cvsShareRate": 0.0768,
+        "clickShareRate": 0.1252,
+        "titleDensityExact": 31,
+        "cprExact": 83,
+        "w1SearchRank": 38814,
+        "w1RankGrowthValue": 12797,
+        "w1RankGrowthRate": 0.3297,
+        "w4SearchRank": 83024,
+        "w4RankGrowthValue": 57007,
+        "w4RankGrowthRate": 0.6866,
+        "w12SearchRank": 946990,
+        "w12RankGrowthValue": 920973,
+        "w12RankGrowthRate": 0.9725,
+        "top3Brands": [
+          "Artoid Mode",
+          "Ganeen",
+          "Breling"
+        ],
+        "bid": 0.84,
+        "bidMax": 1.18,
+        "bidMin": 0.61,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0C5X4VV1W",
+            "imageUrl": "https://m.media-amazon.com/images/I/41PXuD8SL6L._AC_US200_.jpg",
+            "clickRate": 0.0499,
+            "conversionRate": 0.045599999999999995
+          },
+          {
+            "asin": "B0H1FW9PZG",
+            "imageUrl": "https://m.media-amazon.com/images/I/512VSv2d2vL._AC_US200_.jpg",
+            "clickRate": 0.0379,
+            "conversionRate": 0.0192
+          },
+          {
+            "asin": "B0CB8FZ89L",
+            "imageUrl": "https://m.media-amazon.com/images/I/61g9f+Q4OtL._AC_US200_.jpg",
+            "clickRate": 0.0374,
+            "conversionRate": 0.012
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "rosh hashanah table decor",
+        "keywordCn": "犹太新年餐桌装饰",
+        "keywordJp": "roshhashanahテーブルの装飾",
+        "departments": [
+          "Industrial & Scientific",
+          "Home & Kitchen"
+        ],
+        "searchRank": 26354,
+        "searchRankCv": 61973,
+        "searchRankCr": 0.7016,
+        "searches": 8587,
+        "purchaseRate": 0.0034000000450760126,
+        "purchases": 29,
+        "clicks": 3772,
+        "impressions": 213115,
+        "searchRankGrowthValue": 61973,
+        "searchRankGrowthRate": 0.7016,
+        "cvsShareRate": 0.1074,
+        "clickShareRate": 0.1943,
+        "titleDensityExact": 1,
+        "cprExact": 2,
+        "w1SearchRank": 88327,
+        "w1RankGrowthValue": 61973,
+        "w1RankGrowthRate": 0.7016,
+        "w4SearchRank": 2066093,
+        "w4RankGrowthValue": 2039739,
+        "w4RankGrowthRate": 0.9872,
+        "w12SearchRank": null,
+        "w12RankGrowthValue": null,
+        "w12RankGrowthRate": null,
+        "top3Brands": [
+          "altoona design",
+          "Rite Lite",
+          "Nuogo"
+        ],
+        "bid": 0.72,
+        "bidMax": 0.9,
+        "bidMin": 0.54,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0HC4SYF21",
+            "imageUrl": "https://m.media-amazon.com/images/I/311JdsIRTqL._AC_US200_.jpg",
+            "clickRate": 0.0892,
+            "conversionRate": 0.0253
+          },
+          {
+            "asin": "B0D86F8GQJ",
+            "imageUrl": "https://m.media-amazon.com/images/I/41xFl3-D2dL._AC_US200_.jpg",
+            "clickRate": 0.0654,
+            "conversionRate": 0.0316
+          },
+          {
+            "asin": "B0B8GHXWRP",
+            "imageUrl": "https://m.media-amazon.com/images/I/51eYn9eOoVL._AC_US200_.jpg",
+            "clickRate": 0.0397,
+            "conversionRate": 0.050499999999999996
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "fall dish towels",
+        "keywordCn": "秋季洗碗巾",
+        "keywordJp": "秋のおしぼり",
+        "departments": [
+          "Home & Kitchen"
+        ],
+        "searchRank": 27095,
+        "searchRankCv": 15261,
+        "searchRankCr": 0.3603,
+        "searches": 8375,
+        "purchaseRate": 0.1657000035047531,
+        "purchases": 1387,
+        "clicks": 4158,
+        "impressions": 205335,
+        "searchRankGrowthValue": 15261,
+        "searchRankGrowthRate": 0.3603,
+        "cvsShareRate": 0.0857,
+        "clickShareRate": 0.1324,
+        "titleDensityExact": 0,
+        "cprExact": 61,
+        "w1SearchRank": 42356,
+        "w1RankGrowthValue": 15261,
+        "w1RankGrowthRate": 0.3603,
+        "w4SearchRank": 117888,
+        "w4RankGrowthValue": 90793,
+        "w4RankGrowthRate": 0.7702,
+        "w12SearchRank": null,
+        "w12RankGrowthValue": null,
+        "w12RankGrowthRate": null,
+        "top3Brands": [
+          "Artoid Mode",
+          "Miss Adola",
+          "Martha Stewart"
+        ],
+        "bid": 1.11,
+        "bidMax": 1.27,
+        "bidMin": 0.82,
+        "top3AsinDtoList": [
+          {
+            "asin": "B09BK53MXJ",
+            "imageUrl": "https://m.media-amazon.com/images/I/41kQWIhgzJL._AC_US200_.jpg",
+            "clickRate": 0.0473,
+            "conversionRate": 0.0268
+          },
+          {
+            "asin": "B0D9YMMQGG",
+            "imageUrl": "https://m.media-amazon.com/images/I/415Lq70V7+L._AC_US200_.jpg",
+            "clickRate": 0.0464,
+            "conversionRate": 0.0339
+          },
+          {
+            "asin": "B0D93RBBT1",
+            "imageUrl": "https://m.media-amazon.com/images/I/41cqSGfZztL._AC_US200_.jpg",
+            "clickRate": 0.0387,
+            "conversionRate": 0.025
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "fall kitchen mats",
+        "keywordCn": "秋季厨房垫",
+        "keywordJp": "秋のキッチンマット",
+        "departments": [
+          "Home / Furniture",
+          "Home & Kitchen"
+        ],
+        "searchRank": 27555,
+        "searchRankCv": 14990,
+        "searchRankCr": 0.3523,
+        "searches": 8267,
+        "purchaseRate": 0.08219999819993973,
+        "purchases": 679,
+        "clicks": 3148,
+        "impressions": 203522,
+        "searchRankGrowthValue": 14990,
+        "searchRankGrowthRate": 0.3523,
+        "cvsShareRate": 0.096,
+        "clickShareRate": 0.194,
+        "titleDensityExact": 18,
+        "cprExact": 47,
+        "w1SearchRank": 42545,
+        "w1RankGrowthValue": 14990,
+        "w1RankGrowthRate": 0.3523,
+        "w4SearchRank": 115747,
+        "w4RankGrowthValue": 88192,
+        "w4RankGrowthRate": 0.7619,
+        "w12SearchRank": null,
+        "w12RankGrowthValue": null,
+        "w12RankGrowthRate": null,
+        "top3Brands": [
+          "Artoid Mode",
+          "Siilues",
+          "KIMODE"
+        ],
+        "bid": 0.59,
+        "bidMax": 0.74,
+        "bidMin": 0.44,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0C369SVQH",
+            "imageUrl": "https://m.media-amazon.com/images/I/41X5SJJmShL._AC_US200_.jpg",
+            "clickRate": 0.0858,
+            "conversionRate": 0.0508
+          },
+          {
+            "asin": "B0D1XP7N2J",
+            "imageUrl": "https://m.media-amazon.com/images/I/51ti8wNmB8L._AC_US200_.jpg",
+            "clickRate": 0.065,
+            "conversionRate": 0.0311
+          },
+          {
+            "asin": "B0H6WWL8C6",
+            "imageUrl": "https://m.media-amazon.com/images/I/51VbTY7HPBL._AC_US200_.jpg",
+            "clickRate": 0.0432,
+            "conversionRate": 0.0141
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "rosh hashanah gifts",
+        "keywordCn": "犹太新年礼物",
+        "keywordJp": "roshhashanahギフト",
+        "departments": [
+          "Grocery & Gourmet Food",
+          "Home & Kitchen"
+        ],
+        "searchRank": 28793,
+        "searchRankCv": 56814,
+        "searchRankCr": 0.6637,
+        "searches": 8033,
+        "purchaseRate": 0.006800000090152025,
+        "purchases": 54,
+        "clicks": 3060,
+        "impressions": 185756,
+        "searchRankGrowthValue": 56814,
+        "searchRankGrowthRate": 0.6637,
+        "cvsShareRate": 0.1042,
+        "clickShareRate": 0.1884,
+        "titleDensityExact": 2,
+        "cprExact": 2,
+        "w1SearchRank": 85607,
+        "w1RankGrowthValue": 56814,
+        "w1RankGrowthRate": 0.6637,
+        "w4SearchRank": 825455,
+        "w4RankGrowthValue": 796662,
+        "w4RankGrowthRate": 0.9651,
+        "w12SearchRank": null,
+        "w12RankGrowthValue": null,
+        "w12RankGrowthRate": null,
+        "top3Brands": [
+          "Stern's Bakery",
+          "Rite Lite",
+          "Customcookies.com"
+        ],
+        "bid": 0.73,
+        "bidMax": 0.85,
+        "bidMin": 0.57,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0BF15M91Q",
+            "imageUrl": "https://m.media-amazon.com/images/I/41SC1dviGJL._SX200_SY200_CR,0,0,200,200_.jpg",
+            "clickRate": 0.0816,
+            "conversionRate": 0.0546
+          },
+          {
+            "asin": "B08GX2V4WV",
+            "imageUrl": "https://m.media-amazon.com/images/I/41Z6LXINsnL._SX200_SY200_CR,0,0,200,200_.jpg",
+            "clickRate": 0.0564,
+            "conversionRate": 0.0397
+          },
+          {
+            "asin": "B0HC48PNNY",
+            "imageUrl": "https://m.media-amazon.com/images/I/51y1AQ6m+6L._SX200_SY200_CR,0,0,200,200_.jpg",
+            "clickRate": 0.0504,
+            "conversionRate": 0.009899999999999999
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "tailgate essentials",
+        "keywordCn": "尾门要领",
+        "keywordJp": "テールゲートの必需品",
+        "departments": [
+          "Garden & Outdoor",
+          "Home & Kitchen"
+        ],
+        "searchRank": 29325,
+        "searchRankCv": 11535,
+        "searchRankCr": 0.2823,
+        "searches": 7944,
+        "purchaseRate": 0.012000000104308128,
+        "purchases": 95,
+        "clicks": 1273,
+        "impressions": 206242,
+        "searchRankGrowthValue": 11535,
+        "searchRankGrowthRate": 0.2823,
+        "cvsShareRate": 0.08,
+        "clickShareRate": 0.2389,
+        "titleDensityExact": 0,
+        "cprExact": 15,
+        "w1SearchRank": 40860,
+        "w1RankGrowthValue": 11535,
+        "w1RankGrowthRate": 0.2823,
+        "w4SearchRank": 229730,
+        "w4RankGrowthValue": 200405,
+        "w4RankGrowthRate": 0.8724,
+        "w12SearchRank": 588021,
+        "w12RankGrowthValue": 558696,
+        "w12RankGrowthRate": 0.9501,
+        "top3Brands": [
+          "Wakeman",
+          "TENDWARE LIFE",
+          "Gatherfun"
+        ],
+        "bid": 0.53,
+        "bidMax": 0.66,
+        "bidMin": 0.4,
+        "top3AsinDtoList": [
+          {
+            "asin": "B01BKO7CJG",
+            "imageUrl": "https://m.media-amazon.com/images/I/41r0v2ra2hL._AC_US200_.jpg",
+            "clickRate": 0.1033,
+            "conversionRate": 0.05
+          },
+          {
+            "asin": "B0GXYXZQD4",
+            "imageUrl": "https://m.media-amazon.com/images/I/41rR+a7+QZL._AC_US200_.jpg",
+            "clickRate": 0.0967,
+            "conversionRate": 0.026699999999999998
+          },
+          {
+            "asin": "B09CY6T2YL",
+            "imageUrl": "https://m.media-amazon.com/images/I/51DwvUDZsWL._AC_US200_.jpg",
+            "clickRate": 0.038900000000000004,
+            "conversionRate": 0.0033
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "halloween games",
+        "keywordCn": "万圣节游戏",
+        "keywordJp": "ハロウィンゲーム",
+        "departments": [
+          "Home & Kitchen",
+          "Toys & Games"
+        ],
+        "searchRank": 29549,
+        "searchRankCv": 11763,
+        "searchRankCr": 0.2847,
+        "searches": 7773,
+        "purchaseRate": 0.025200000032782555,
+        "purchases": 195,
+        "clicks": 695,
+        "impressions": 226725,
+        "searchRankGrowthValue": 11763,
+        "searchRankGrowthRate": 0.2847,
+        "cvsShareRate": 0.0688,
+        "clickShareRate": 0.1247,
+        "titleDensityExact": 13,
+        "cprExact": 120,
+        "w1SearchRank": 41312,
+        "w1RankGrowthValue": 11763,
+        "w1RankGrowthRate": 0.2847,
+        "w4SearchRank": 105180,
+        "w4RankGrowthValue": 75631,
+        "w4RankGrowthRate": 0.7191,
+        "w12SearchRank": 600726,
+        "w12RankGrowthValue": 571177,
+        "w12RankGrowthRate": 0.9508,
+        "top3Brands": [
+          "JOYIN",
+          "tineit",
+          null
+        ],
+        "bid": 0.53,
+        "bidMax": 0.66,
+        "bidMin": 0.4,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0H1V81X7S",
+            "imageUrl": "https://m.media-amazon.com/images/I/51XA2teGpbL._AC_US200_.jpg",
+            "clickRate": 0.051,
+            "conversionRate": 0.0375
+          },
+          {
+            "asin": "B075DH4QH4",
+            "imageUrl": "https://m.media-amazon.com/images/I/51jXo0QpCzL._AC_US200_.jpg",
+            "clickRate": 0.04019999999999999,
+            "conversionRate": 0.0063
+          },
+          {
+            "asin": "B0H46KKZNJ",
+            "imageUrl": "https://m.media-amazon.com/images/I/51nl13XIvsL._AC_US200_.jpg",
+            "clickRate": 0.0335,
+            "conversionRate": 0.025
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "fall decorations for office",
+        "keywordCn": "办公室的秋季装饰品",
+        "keywordJp": "オフィスの秋の装飾",
+        "departments": [
+          "Home & Kitchen"
+        ],
+        "searchRank": 30387,
+        "searchRankCv": 38574,
+        "searchRankCr": 0.5594,
+        "searches": 7585,
+        "purchaseRate": 0.07919999957084656,
+        "purchases": 600,
+        "clicks": 3261,
+        "impressions": 207248,
+        "searchRankGrowthValue": 38574,
+        "searchRankGrowthRate": 0.5594,
+        "cvsShareRate": 0.0763,
+        "clickShareRate": 0.1149,
+        "titleDensityExact": 1,
+        "cprExact": 26,
+        "w1SearchRank": 68961,
+        "w1RankGrowthValue": 38574,
+        "w1RankGrowthRate": 0.5594,
+        "w4SearchRank": 314315,
+        "w4RankGrowthValue": 283928,
+        "w4RankGrowthRate": 0.9033,
+        "w12SearchRank": null,
+        "w12RankGrowthValue": null,
+        "w12RankGrowthRate": null,
+        "top3Brands": [
+          "OLANRUN",
+          "Funnlot",
+          "Luditek"
+        ],
+        "bid": 0.54,
+        "bidMax": 0.68,
+        "bidMin": 0.41,
+        "top3AsinDtoList": [
+          {
+            "asin": "B08K93ZFTW",
+            "imageUrl": "https://m.media-amazon.com/images/I/61oDpqC1uOL._AC_US200_.jpg",
+            "clickRate": 0.0453,
+            "conversionRate": 0.0305
+          },
+          {
+            "asin": "B07CZBNV27",
+            "imageUrl": "https://m.media-amazon.com/images/I/61qC3kkEy-L._AC_US200_.jpg",
+            "clickRate": 0.0348,
+            "conversionRate": 0.0254
+          },
+          {
+            "asin": "B08GKBFV2Q",
+            "imageUrl": "https://m.media-amazon.com/images/I/5107q7PS1kL._AC_US200_.jpg",
+            "clickRate": 0.0348,
+            "conversionRate": 0.0204
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "statue of liberty costume",
+        "keywordCn": "自由女神像服装",
+        "keywordJp": "自由の女神の衣装",
+        "departments": [
+          "Clothing, Shoes & Jewelry",
+          "Home & Kitchen"
+        ],
+        "searchRank": 30533,
+        "searchRankCv": 14736,
+        "searchRankCr": 0.3255,
+        "searches": 7527,
+        "purchaseRate": 0.03009999915957451,
+        "purchases": 226,
+        "clicks": 4024,
+        "impressions": 184777,
+        "searchRankGrowthValue": 14736,
+        "searchRankGrowthRate": 0.3255,
+        "cvsShareRate": 0.3283,
+        "clickShareRate": 0.3233,
+        "titleDensityExact": 28,
+        "cprExact": 31,
+        "w1SearchRank": 45269,
+        "w1RankGrowthValue": 14736,
+        "w1RankGrowthRate": 0.3255,
+        "w4SearchRank": 104283,
+        "w4RankGrowthValue": 73750,
+        "w4RankGrowthRate": 0.7072,
+        "w12SearchRank": 27343,
+        "w12RankGrowthValue": -3190,
+        "w12RankGrowthRate": -0.1167,
+        "top3Brands": [
+          "JEGERMIG",
+          "Cosplaya",
+          "Beistle"
+        ],
+        "bid": 0.21,
+        "bidMax": 0.26,
+        "bidMin": 0.18,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0CZY1N4KZ",
+            "imageUrl": "https://m.media-amazon.com/images/I/41dk4aSuN2L._AC_SR200,200_.jpg",
+            "clickRate": 0.1185,
+            "conversionRate": 0.1515
+          },
+          {
+            "asin": "B09WCB1DTC",
+            "imageUrl": "https://m.media-amazon.com/images/I/41gBi9Zqy9L._AC_US200_.jpg",
+            "clickRate": 0.1159,
+            "conversionRate": 0.1414
+          },
+          {
+            "asin": "B0H6WZSQPD",
+            "imageUrl": "https://m.media-amazon.com/images/I/41b1d0DVJtL._AC_SR200,200_.jpg",
+            "clickRate": 0.0889,
+            "conversionRate": 0.0354
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "adult halloween costumes woman",
+        "keywordCn": "成人万圣节女装",
+        "keywordJp": "大人のハロウィーン・コスチューム 女性",
+        "departments": [
+          "Clothing, Shoes & Jewelry",
+          "Home & Kitchen"
+        ],
+        "searchRank": 30641,
+        "searchRankCv": 13391,
+        "searchRankCr": 0.3041,
+        "searches": 7527,
+        "purchaseRate": 0.014800000004470348,
+        "purchases": 111,
+        "clicks": 1669,
+        "impressions": 214606,
+        "searchRankGrowthValue": 13391,
+        "searchRankGrowthRate": 0.3041,
+        "cvsShareRate": 0.0417,
+        "clickShareRate": 0.1052,
+        "titleDensityExact": 0,
+        "cprExact": 5,
+        "w1SearchRank": 44032,
+        "w1RankGrowthValue": 13391,
+        "w1RankGrowthRate": 0.3041,
+        "w4SearchRank": 161941,
+        "w4RankGrowthValue": 131300,
+        "w4RankGrowthRate": 0.8108,
+        "w12SearchRank": 1669534,
+        "w12RankGrowthValue": 1638893,
+        "w12RankGrowthRate": 0.9816,
+        "top3Brands": [
+          "LVOFTJU",
+          "Sunlisky",
+          "WANZZXCSL"
+        ],
+        "bid": 0.24,
+        "bidMax": 0.31,
+        "bidMin": 0.18,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0H8DYNHF1",
+            "imageUrl": "https://m.media-amazon.com/images/I/41YxcxV6rvL._AC_SR200,200_.jpg",
+            "clickRate": 0.0388,
+            "conversionRate": 0.0417
+          },
+          {
+            "asin": "B0H4QT9YZT",
+            "imageUrl": "https://m.media-amazon.com/images/I/51G0rwdmwWL._AC_SR200,200_.jpg",
+            "clickRate": 0.034,
+            "conversionRate": 0.0
+          },
+          {
+            "asin": "B0FFGX7HMX",
+            "imageUrl": "https://m.media-amazon.com/images/I/41gqTTvLHjL._AC_SR200,200_.jpg",
+            "clickRate": 0.032400000000000005,
+            "conversionRate": 0.0
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "grandparents day decorations",
+        "keywordCn": "祖父母节装饰品",
+        "keywordJp": "祖父母の日の装飾",
+        "departments": [
+          "Home & Kitchen"
+        ],
+        "searchRank": 31030,
+        "searchRankCv": 40909,
+        "searchRankCr": 0.5687,
+        "searches": 7476,
+        "purchaseRate": 0.0066999997943639755,
+        "purchases": 50,
+        "clicks": 3006,
+        "impressions": 183995,
+        "searchRankGrowthValue": 40909,
+        "searchRankGrowthRate": 0.5687,
+        "cvsShareRate": 0.1465,
+        "clickShareRate": 0.2039,
+        "titleDensityExact": 14,
+        "cprExact": 3,
+        "w1SearchRank": 71939,
+        "w1RankGrowthValue": 40909,
+        "w1RankGrowthRate": 0.5687,
+        "w4SearchRank": 662705,
+        "w4RankGrowthValue": 631675,
+        "w4RankGrowthRate": 0.9532,
+        "w12SearchRank": null,
+        "w12RankGrowthValue": null,
+        "w12RankGrowthRate": null,
+        "top3Brands": [
+          "tineit",
+          "Biswiter",
+          "Artijoyfun"
+        ],
+        "bid": 0.76,
+        "bidMax": 0.95,
+        "bidMin": 0.57,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0D468KJ6S",
+            "imageUrl": "https://m.media-amazon.com/images/I/51+RNFMeHzL._AC_US200_.jpg",
+            "clickRate": 0.0703,
+            "conversionRate": 0.0512
+          },
+          {
+            "asin": "B0GSZV12KK",
+            "imageUrl": "https://m.media-amazon.com/images/I/51Hk2oMD-cL._AC_US200_.jpg",
+            "clickRate": 0.06709999999999999,
+            "conversionRate": 0.048799999999999996
+          },
+          {
+            "asin": "B0H4QXDR6X",
+            "imageUrl": "https://m.media-amazon.com/images/I/61m+Ixy-v4L._AC_US200_.jpg",
+            "clickRate": 0.0665,
+            "conversionRate": 0.04650000000000001
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "day of the dead decor",
+        "keywordCn": "亡灵节装饰",
+        "keywordJp": "死者の日",
+        "departments": [
+          "Home & Kitchen"
+        ],
+        "searchRank": 32493,
+        "searchRankCv": 12525,
+        "searchRankCr": 0.2782,
+        "searches": 7216,
+        "purchaseRate": 0.009600000455975533,
+        "purchases": 69,
+        "clicks": 868,
+        "impressions": 186164,
+        "searchRankGrowthValue": 12525,
+        "searchRankGrowthRate": 0.2782,
+        "cvsShareRate": 0.0722,
+        "clickShareRate": 0.1157,
+        "titleDensityExact": 7,
+        "cprExact": 4,
+        "w1SearchRank": 45018,
+        "w1RankGrowthValue": 12525,
+        "w1RankGrowthRate": 0.2782,
+        "w4SearchRank": 152104,
+        "w4RankGrowthValue": 119611,
+        "w4RankGrowthRate": 0.7864,
+        "w12SearchRank": 1945364,
+        "w12RankGrowthValue": 1912871,
+        "w12RankGrowthRate": 0.9833,
+        "top3Brands": [
+          "Antenda",
+          "VICAMB",
+          "LEGO"
+        ],
+        "bid": 0.64,
+        "bidMax": 0.8,
+        "bidMin": 0.48,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0D6W7W35M",
+            "imageUrl": "https://m.media-amazon.com/images/I/51xdsaFi8NL._AC_US200_.jpg",
+            "clickRate": 0.0548,
+            "conversionRate": 0.0361
+          },
+          {
+            "asin": "B0D9YWDP1G",
+            "imageUrl": "https://m.media-amazon.com/images/I/31WJllSPbPL._AC_US200_.jpg",
+            "clickRate": 0.0313,
+            "conversionRate": 0.006
+          },
+          {
+            "asin": "B0F2F5LGDF",
+            "imageUrl": "https://m.media-amazon.com/images/I/514zW-AwwbL._AC_US200_.jpg",
+            "clickRate": 0.0296,
+            "conversionRate": 0.0301
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "finger lights",
+        "keywordCn": "手指灯",
+        "keywordJp": "フィンガーライト",
+        "departments": [
+          "Home & Kitchen",
+          "Toys & Games",
+          "Tools & Home Improvement"
+        ],
+        "searchRank": 32934,
+        "searchRankCv": 47323,
+        "searchRankCr": 0.5896,
+        "searches": 7169,
+        "purchaseRate": 0.05939999967813492,
+        "purchases": 425,
+        "clicks": 2761,
+        "impressions": 207751,
+        "searchRankGrowthValue": 47323,
+        "searchRankGrowthRate": 0.5896,
+        "cvsShareRate": 0.2694,
+        "clickShareRate": 0.2642,
+        "titleDensityExact": 41,
+        "cprExact": 21,
+        "w1SearchRank": 80257,
+        "w1RankGrowthValue": 47323,
+        "w1RankGrowthRate": 0.5896,
+        "w4SearchRank": 156589,
+        "w4RankGrowthValue": 123655,
+        "w4RankGrowthRate": 0.7897,
+        "w12SearchRank": 135428,
+        "w12RankGrowthValue": 102494,
+        "w12RankGrowthRate": 0.7568,
+        "top3Brands": [
+          "VETE",
+          "asfanst",
+          "CHSLtmxq"
+        ],
+        "bid": 0.76,
+        "bidMax": 0.91,
+        "bidMin": 0.62,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0C1MRF6LQ",
+            "imageUrl": "https://m.media-amazon.com/images/I/51cMUCfTDDL._AC_US200_.jpg",
+            "clickRate": 0.16579999999999998,
+            "conversionRate": 0.2146
+          },
+          {
+            "asin": "B0F2MJTRSZ",
+            "imageUrl": "https://m.media-amazon.com/images/I/514yyzXuNqL._AC_US200_.jpg",
+            "clickRate": 0.055999999999999994,
+            "conversionRate": 0.050199999999999995
+          },
+          {
+            "asin": "B0GDCZ1C5B",
+            "imageUrl": "https://m.media-amazon.com/images/I/51Fw2WdU48L._AC_US200_.jpg",
+            "clickRate": 0.0424,
+            "conversionRate": 0.0046
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "microwave egg poacher 2 eggs",
+        "keywordCn": "微波炉煮蛋器 2个鸡蛋",
+        "keywordJp": "電子レンジポーチドエッグ2個",
+        "departments": [
+          "Home & Kitchen"
+        ],
+        "searchRank": 33920,
+        "searchRankCv": 42822,
+        "searchRankCr": 0.558,
+        "searches": 6961,
+        "purchaseRate": 0.08100000023841858,
+        "purchases": 563,
+        "clicks": 3321,
+        "impressions": 204798,
+        "searchRankGrowthValue": 42822,
+        "searchRankGrowthRate": 0.558,
+        "cvsShareRate": 0.0658,
+        "clickShareRate": 0.1729,
+        "titleDensityExact": 0,
+        "cprExact": 18,
+        "w1SearchRank": 76742,
+        "w1RankGrowthValue": 42822,
+        "w1RankGrowthRate": 0.558,
+        "w4SearchRank": 1425210,
+        "w4RankGrowthValue": 1391290,
+        "w4RankGrowthRate": 0.9762,
+        "w12SearchRank": 1186973,
+        "w12RankGrowthValue": 1153053,
+        "w12RankGrowthRate": 0.9714,
+        "top3Brands": [
+          null,
+          "JUDUNA",
+          "Sylphix"
+        ],
+        "bid": 0.61,
+        "bidMax": 0.76,
+        "bidMin": 0.46,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0HG9PC6PL",
+            "imageUrl": "https://m.media-amazon.com/images/I/41O2g7WWBzL._AC_US200_.jpg",
+            "clickRate": 0.0754,
+            "conversionRate": 0.0253
+          },
+          {
+            "asin": "B0HGQRC9LZ",
+            "imageUrl": "https://m.media-amazon.com/images/I/41U4zoVNy6L._AC_US200_.jpg",
+            "clickRate": 0.050499999999999996,
+            "conversionRate": 0.013500000000000002
+          },
+          {
+            "asin": "B0HGFJ5WVD",
+            "imageUrl": "https://m.media-amazon.com/images/I/41XxorpBU1L._AC_US200_.jpg",
+            "clickRate": 0.047,
+            "conversionRate": 0.027000000000000003
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "fall placemats set of 6",
+        "keywordCn": "秋季餐垫 6 件套",
+        "keywordJp": "秋のランチョンマット6個セット",
+        "departments": [
+          "Home & Kitchen"
+        ],
+        "searchRank": 34299,
+        "searchRankCv": 17768,
+        "searchRankCr": 0.3413,
+        "searches": 6890,
+        "purchaseRate": 0.163100004196167,
+        "purchases": 1123,
+        "clicks": 3230,
+        "impressions": 190592,
+        "searchRankGrowthValue": 17768,
+        "searchRankGrowthRate": 0.3413,
+        "cvsShareRate": 0.0568,
+        "clickShareRate": 0.1238,
+        "titleDensityExact": 14,
+        "cprExact": 62,
+        "w1SearchRank": 52067,
+        "w1RankGrowthValue": 17768,
+        "w1RankGrowthRate": 0.3413,
+        "w4SearchRank": 150479,
+        "w4RankGrowthValue": 116180,
+        "w4RankGrowthRate": 0.7721,
+        "w12SearchRank": null,
+        "w12RankGrowthValue": null,
+        "w12RankGrowthRate": null,
+        "top3Brands": [
+          "Artoid Mode",
+          "KOPOOEOE",
+          "Olgaa"
+        ],
+        "bid": 0.72,
+        "bidMax": 0.95,
+        "bidMin": 0.44,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0FQV363W8",
+            "imageUrl": "https://m.media-amazon.com/images/I/51EexRVaxUL._AC_US200_.jpg",
+            "clickRate": 0.0487,
+            "conversionRate": 0.014199999999999999
+          },
+          {
+            "asin": "B0C3VC35NM",
+            "imageUrl": "https://m.media-amazon.com/images/I/51eGct6fWdL._AC_US200_.jpg",
+            "clickRate": 0.0393,
+            "conversionRate": 0.0199
+          },
+          {
+            "asin": "B0D875ZFWP",
+            "imageUrl": "https://m.media-amazon.com/images/I/51dQxhL53kL._AC_US200_.jpg",
+            "clickRate": 0.0358,
+            "conversionRate": 0.0227
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "peacock costume",
+        "keywordCn": "孔雀装",
+        "keywordJp": "孔雀の衣装",
+        "departments": [
+          "Clothing, Shoes & Jewelry",
+          "Home & Kitchen"
+        ],
+        "searchRank": 35133,
+        "searchRankCv": 17211,
+        "searchRankCr": 0.3288,
+        "searches": 6682,
+        "purchaseRate": 0.003700000001117587,
+        "purchases": 24,
+        "clicks": 274,
+        "impressions": 192566,
+        "searchRankGrowthValue": 17211,
+        "searchRankGrowthRate": 0.3288,
+        "cvsShareRate": 0.0612,
+        "clickShareRate": 0.2762,
+        "titleDensityExact": 12,
+        "cprExact": 6,
+        "w1SearchRank": 52344,
+        "w1RankGrowthValue": 17211,
+        "w1RankGrowthRate": 0.3288,
+        "w4SearchRank": 119380,
+        "w4RankGrowthValue": 84247,
+        "w4RankGrowthRate": 0.7057,
+        "w12SearchRank": 345730,
+        "w12RankGrowthValue": 310597,
+        "w12RankGrowthRate": 0.8984,
+        "top3Brands": [
+          "jutrisujo",
+          "ZAKIA",
+          "Thiccywoov"
+        ],
+        "bid": 0.31,
+        "bidMax": 0.39,
+        "bidMin": 0.23,
+        "top3AsinDtoList": [
+          {
+            "asin": "B078SNJT4N",
+            "imageUrl": "https://m.media-amazon.com/images/I/51d+5W9RcGL._AC_SR200,200_.jpg",
+            "clickRate": 0.1108,
+            "conversionRate": 0.0
+          },
+          {
+            "asin": "B09YQZZN1J",
+            "imageUrl": "https://m.media-amazon.com/images/I/51L21V42rLL._AC_SR200,200_.jpg",
+            "clickRate": 0.0935,
+            "conversionRate": 0.0408
+          },
+          {
+            "asin": "B0H4ZC6DTY",
+            "imageUrl": "https://m.media-amazon.com/images/I/51gzid0hybL._AC_SR200,200_.jpg",
+            "clickRate": 0.0719,
+            "conversionRate": 0.0204
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "halloween balloons",
+        "keywordCn": "万圣节气球",
+        "keywordJp": "ハロウィン風船",
+        "departments": [
+          "Home & Kitchen",
+          "Toys & Games"
+        ],
+        "searchRank": 35304,
+        "searchRankCv": 11371,
+        "searchRankCr": 0.2436,
+        "searches": 6639,
+        "purchaseRate": 0.06040000170469284,
+        "purchases": 400,
+        "clicks": 2091,
+        "impressions": 173069,
+        "searchRankGrowthValue": 11371,
+        "searchRankGrowthRate": 0.2436,
+        "cvsShareRate": 0.1627,
+        "clickShareRate": 0.174,
+        "titleDensityExact": 21,
+        "cprExact": 78,
+        "w1SearchRank": 46675,
+        "w1RankGrowthValue": 11371,
+        "w1RankGrowthRate": 0.2436,
+        "w4SearchRank": 114726,
+        "w4RankGrowthValue": 79422,
+        "w4RankGrowthRate": 0.6923,
+        "w12SearchRank": 431361,
+        "w12RankGrowthValue": 396057,
+        "w12RankGrowthRate": 0.9182,
+        "top3Brands": [
+          "Msiveavz",
+          "Govpy",
+          "Qmraercu"
+        ],
+        "bid": 0.6,
+        "bidMax": 0.75,
+        "bidMin": 0.45,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0D99TGT7K",
+            "imageUrl": "https://m.media-amazon.com/images/I/51i2ssvyyzL._AC_US200_.jpg",
+            "clickRate": 0.0969,
+            "conversionRate": 0.09880000000000001
+          },
+          {
+            "asin": "B0C8DS7VSM",
+            "imageUrl": "https://m.media-amazon.com/images/I/51S9BCSQ8oL._AC_US200_.jpg",
+            "clickRate": 0.0464,
+            "conversionRate": 0.04650000000000001
+          },
+          {
+            "asin": "B0H326LC93",
+            "imageUrl": "https://m.media-amazon.com/images/I/51dUvKPpdeL._AC_US200_.jpg",
+            "clickRate": 0.030699999999999998,
+            "conversionRate": 0.0174
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "fall placemats set of 4",
+        "keywordCn": "秋季餐垫 4 件套",
+        "keywordJp": "秋のランチョンマット4点セット",
+        "departments": [
+          "Home & Kitchen"
+        ],
+        "searchRank": 36118,
+        "searchRankCv": 20878,
+        "searchRankCr": 0.3663,
+        "searches": 6553,
+        "purchaseRate": 0.10999999940395355,
+        "purchases": 720,
+        "clicks": 3137,
+        "impressions": 153710,
+        "searchRankGrowthValue": 20878,
+        "searchRankGrowthRate": 0.3663,
+        "cvsShareRate": 0.0793,
+        "clickShareRate": 0.1381,
+        "titleDensityExact": 20,
+        "cprExact": 65,
+        "w1SearchRank": 56996,
+        "w1RankGrowthValue": 20878,
+        "w1RankGrowthRate": 0.3663,
+        "w4SearchRank": 168698,
+        "w4RankGrowthValue": 132580,
+        "w4RankGrowthRate": 0.7859,
+        "w12SearchRank": null,
+        "w12RankGrowthValue": null,
+        "w12RankGrowthRate": null,
+        "top3Brands": [
+          "Artoid Mode",
+          "Lucomb",
+          "cusugbaso"
+        ],
+        "bid": 0.62,
+        "bidMax": 0.9,
+        "bidMin": 0.42,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0C9HSM9X3",
+            "imageUrl": "https://m.media-amazon.com/images/I/51Eqe6OOonL._AC_US200_.jpg",
+            "clickRate": 0.0571,
+            "conversionRate": 0.0443
+          },
+          {
+            "asin": "B0BTSL8VLN",
+            "imageUrl": "https://m.media-amazon.com/images/I/515Fl22p6QL._AC_US200_.jpg",
+            "clickRate": 0.048499999999999995,
+            "conversionRate": 0.0233
+          },
+          {
+            "asin": "B0F48H81KL",
+            "imageUrl": "https://m.media-amazon.com/images/I/41KNOYrHIBL._AC_US200_.jpg",
+            "clickRate": 0.0325,
+            "conversionRate": 0.011699999999999999
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "fall mantel decor",
+        "keywordCn": "秋季壁炉架装饰",
+        "keywordJp": "秋のマントルピースの装飾",
+        "departments": [
+          "Home & Kitchen"
+        ],
+        "searchRank": 36010,
+        "searchRankCv": 12913,
+        "searchRankCr": 0.2639,
+        "searches": 6518,
+        "purchaseRate": 0.02669999934732914,
+        "purchases": 174,
+        "clicks": 2862,
+        "impressions": 174660,
+        "searchRankGrowthValue": 12913,
+        "searchRankGrowthRate": 0.2639,
+        "cvsShareRate": 0.0296,
+        "clickShareRate": 0.1494,
+        "titleDensityExact": 0,
+        "cprExact": 14,
+        "w1SearchRank": 48923,
+        "w1RankGrowthValue": 12913,
+        "w1RankGrowthRate": 0.2639,
+        "w4SearchRank": 138554,
+        "w4RankGrowthValue": 102544,
+        "w4RankGrowthRate": 0.7401,
+        "w12SearchRank": null,
+        "w12RankGrowthValue": null,
+        "w12RankGrowthRate": null,
+        "top3Brands": [
+          "ORIENTAL CHERRY",
+          "Waipfaru",
+          "FLAGLY"
+        ],
+        "bid": 0.75,
+        "bidMax": 0.94,
+        "bidMin": 0.39,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0C33K7TZ5",
+            "imageUrl": "https://m.media-amazon.com/images/I/51bvV5H7UbL._AC_US200_.jpg",
+            "clickRate": 0.0594,
+            "conversionRate": 0.009899999999999999
+          },
+          {
+            "asin": "B0GVHG6SV7",
+            "imageUrl": "https://m.media-amazon.com/images/I/51tbO6o4a9L._AC_US200_.jpg",
+            "clickRate": 0.0508,
+            "conversionRate": 0.0049
+          },
+          {
+            "asin": "B0H4L95SHP",
+            "imageUrl": "https://m.media-amazon.com/images/I/51eQw8HcLvL._AC_SR200,200_.jpg",
+            "clickRate": 0.0392,
+            "conversionRate": 0.0148
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "fall rug",
+        "keywordCn": "秋季地毯",
+        "keywordJp": "秋の敷物",
+        "departments": [
+          "Home / Furniture",
+          "Home & Kitchen"
+        ],
+        "searchRank": 37037,
+        "searchRankCv": 13142,
+        "searchRankCr": 0.2619,
+        "searches": 6480,
+        "purchaseRate": 0.014100000262260437,
+        "purchases": 91,
+        "clicks": 1218,
+        "impressions": 150658,
+        "searchRankGrowthValue": 13142,
+        "searchRankGrowthRate": 0.2619,
+        "cvsShareRate": 0.0446,
+        "clickShareRate": 0.1037,
+        "titleDensityExact": 2,
+        "cprExact": 1,
+        "w1SearchRank": 50179,
+        "w1RankGrowthValue": 13142,
+        "w1RankGrowthRate": 0.2619,
+        "w4SearchRank": 96675,
+        "w4RankGrowthValue": 59638,
+        "w4RankGrowthRate": 0.6169,
+        "w12SearchRank": null,
+        "w12RankGrowthValue": null,
+        "w12RankGrowthRate": null,
+        "top3Brands": [
+          "Artoid Mode",
+          "Homydecor",
+          "Atawlege"
+        ],
+        "bid": 0.69,
+        "bidMax": 0.85,
+        "bidMin": 0.45,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0GZQ8XYS3",
+            "imageUrl": "https://m.media-amazon.com/images/I/51rv8lqOc4L._AC_US200_.jpg",
+            "clickRate": 0.0415,
+            "conversionRate": 0.0382
+          },
+          {
+            "asin": "B0C369SVQH",
+            "imageUrl": "https://m.media-amazon.com/images/I/41X5SJJmShL._AC_US200_.jpg",
+            "clickRate": 0.0333,
+            "conversionRate": 0.0064
+          },
+          {
+            "asin": "B0DH7Y7R2F",
+            "imageUrl": "https://m.media-amazon.com/images/I/51MIax102GL._AC_US200_.jpg",
+            "clickRate": 0.028900000000000002,
+            "conversionRate": 0.0
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "ganesh chaturthi decoration",
+        "keywordCn": "Ganesh chaturthi 装饰",
+        "keywordJp": "ガネーシュチャトゥルティデコレーション",
+        "departments": [
+          "Home & Kitchen"
+        ],
+        "searchRank": 37244,
+        "searchRankCv": 57055,
+        "searchRankCr": 0.605,
+        "searches": 6363,
+        "purchaseRate": 0.007799999788403511,
+        "purchases": 49,
+        "clicks": 2977,
+        "impressions": 148227,
+        "searchRankGrowthValue": 57055,
+        "searchRankGrowthRate": 0.605,
+        "cvsShareRate": 0.087,
+        "clickShareRate": 0.2235,
+        "titleDensityExact": 14,
+        "cprExact": 2,
+        "w1SearchRank": 94299,
+        "w1RankGrowthValue": 57055,
+        "w1RankGrowthRate": 0.605,
+        "w4SearchRank": 662533,
+        "w4RankGrowthValue": 625289,
+        "w4RankGrowthRate": 0.9438,
+        "w12SearchRank": null,
+        "w12RankGrowthValue": null,
+        "w12RankGrowthRate": null,
+        "top3Brands": [
+          "TIED RIBBONS",
+          "Suncalla",
+          "musaeva"
+        ],
+        "bid": 0.8,
+        "bidMax": 1.0,
+        "bidMin": 0.6,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0H2CXJ6G7",
+            "imageUrl": "https://m.media-amazon.com/images/I/514GsogkBAL._AC_US200_.jpg",
+            "clickRate": 0.1263,
+            "conversionRate": 0.028999999999999998
+          },
+          {
+            "asin": "B0H41D468K",
+            "imageUrl": "https://m.media-amazon.com/images/I/513t+CSNL3L._AC_US200_.jpg",
+            "clickRate": 0.0492,
+            "conversionRate": 0.0435
+          },
+          {
+            "asin": "B0H3JQJ3DH",
+            "imageUrl": "https://m.media-amazon.com/images/I/51S2+nfi8IL._AC_US200_.jpg",
+            "clickRate": 0.048,
+            "conversionRate": 0.014499999999999999
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "fall home decor indoor",
+        "keywordCn": "秋季家居装饰室内",
+        "keywordJp": "家の装飾を屋内に落とす",
+        "departments": [
+          "Home / Furniture",
+          "Home & Kitchen"
+        ],
+        "searchRank": 37178,
+        "searchRankCv": 13041,
+        "searchRankCr": 0.2597,
+        "searches": 6335,
+        "purchaseRate": 0.060100000351667404,
+        "purchases": 380,
+        "clicks": 2833,
+        "impressions": 149846,
+        "searchRankGrowthValue": 13041,
+        "searchRankGrowthRate": 0.2597,
+        "cvsShareRate": 0.0445,
+        "clickShareRate": 0.1317,
+        "titleDensityExact": 0,
+        "cprExact": 31,
+        "w1SearchRank": 50219,
+        "w1RankGrowthValue": 13041,
+        "w1RankGrowthRate": 0.2597,
+        "w4SearchRank": 105161,
+        "w4RankGrowthValue": 67983,
+        "w4RankGrowthRate": 0.6465,
+        "w12SearchRank": 2825535,
+        "w12RankGrowthValue": 2788357,
+        "w12RankGrowthRate": 0.9868,
+        "top3Brands": [
+          "Artoid Mode",
+          "DFXSZ",
+          "Lussena Home"
+        ],
+        "bid": 0.58,
+        "bidMax": 0.73,
+        "bidMin": 0.43,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0D5YS5FTM",
+            "imageUrl": "https://m.media-amazon.com/images/I/51gVeMa0pjL._AC_US200_.jpg",
+            "clickRate": 0.058600000000000006,
+            "conversionRate": 0.0318
+          },
+          {
+            "asin": "B0DPLYNHK5",
+            "imageUrl": "https://m.media-amazon.com/images/I/51w-O5iO3vL._AC_US200_.jpg",
+            "clickRate": 0.037200000000000004,
+            "conversionRate": 0.0
+          },
+          {
+            "asin": "B0C369SVQH",
+            "imageUrl": "https://m.media-amazon.com/images/I/41X5SJJmShL._AC_US200_.jpg",
+            "clickRate": 0.0359,
+            "conversionRate": 0.0127
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "halloween placemats",
+        "keywordCn": "万圣节餐垫",
+        "keywordJp": "ハロウィンランチョンマット",
+        "departments": [
+          "Home & Kitchen"
+        ],
+        "searchRank": 37823,
+        "searchRankCv": 14901,
+        "searchRankCr": 0.2826,
+        "searches": 6314,
+        "purchaseRate": 0.03319999948143959,
+        "purchases": 209,
+        "clicks": 1536,
+        "impressions": 178936,
+        "searchRankGrowthValue": 14901,
+        "searchRankGrowthRate": 0.2826,
+        "cvsShareRate": 0.0617,
+        "clickShareRate": 0.1465,
+        "titleDensityExact": 23,
+        "cprExact": 75,
+        "w1SearchRank": 52724,
+        "w1RankGrowthValue": 14901,
+        "w1RankGrowthRate": 0.2826,
+        "w4SearchRank": 100645,
+        "w4RankGrowthValue": 62822,
+        "w4RankGrowthRate": 0.6242,
+        "w12SearchRank": 1477346,
+        "w12RankGrowthValue": 1439523,
+        "w12RankGrowthRate": 0.9744,
+        "top3Brands": [
+          "Artoid Mode",
+          "XCHI",
+          "Umigy"
+        ],
+        "bid": 0.49,
+        "bidMax": 0.61,
+        "bidMin": 0.41,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0CBPGWQH6",
+            "imageUrl": "https://m.media-amazon.com/images/I/61g2yKD52-L._AC_US200_.jpg",
+            "clickRate": 0.0512,
+            "conversionRate": 0.0254
+          },
+          {
+            "asin": "B0CFF7HDCR",
+            "imageUrl": "https://m.media-amazon.com/images/I/61J991p9sKL._AC_US200_.jpg",
+            "clickRate": 0.048600000000000004,
+            "conversionRate": 0.0109
+          },
+          {
+            "asin": "B0CCZZR95T",
+            "imageUrl": "https://m.media-amazon.com/images/I/41rJRaMAkdL._AC_US200_.jpg",
+            "clickRate": 0.0467,
+            "conversionRate": 0.0254
+          }
+        ]
+      },
+      {
+        "marketplace": "US",
+        "date": null,
+        "keyword": "dirndl dress",
+        "keywordCn": "连衣裙",
+        "keywordJp": "ギャザースカートドレス",
+        "departments": [
+          "Clothing, Shoes & Jewelry",
+          "Home & Kitchen"
+        ],
+        "searchRank": 38420,
+        "searchRankCv": 20636,
+        "searchRankCr": 0.3494,
+        "searches": 6284,
+        "purchaseRate": 0.004399999976158142,
+        "purchases": 27,
+        "clicks": 2105,
+        "impressions": 186760,
+        "searchRankGrowthValue": 20636,
+        "searchRankGrowthRate": 0.3494,
+        "cvsShareRate": 0.012,
+        "clickShareRate": 0.1603,
+        "titleDensityExact": 45,
+        "cprExact": 2,
+        "w1SearchRank": 59056,
+        "w1RankGrowthValue": 20636,
+        "w1RankGrowthRate": 0.3494,
+        "w4SearchRank": 131774,
+        "w4RankGrowthValue": 93354,
+        "w4RankGrowthRate": 0.7084,
+        "w12SearchRank": 328591,
+        "w12RankGrowthValue": 290171,
+        "w12RankGrowthRate": 0.8831,
+        "top3Brands": [
+          "SCARLET DARKNESS",
+          "HiZiTi",
+          "YTWS"
+        ],
+        "bid": 0.68,
+        "bidMax": 0.85,
+        "bidMin": 0.46,
+        "top3AsinDtoList": [
+          {
+            "asin": "B0B3J5MGZW",
+            "imageUrl": "https://m.media-amazon.com/images/I/412lDEWO07S._AC_SR200,200_.jpg",
+            "clickRate": 0.0565,
+            "conversionRate": 0.006
+          },
+          {
+            "asin": "B0H4GNGYCQ",
+            "imageUrl": "https://m.media-amazon.com/images/I/41UoK4ypzGL._AC_SR200,200_.jpg",
+            "clickRate": 0.0519,
+            "conversionRate": 0.006
+          },
+          {
+            "asin": "B0BWY3Y155",
+            "imageUrl": "https://m.media-amazon.com/images/I/41jxe2wXZVL._AC_SR200,200_.jpg",
+            "clickRate": 0.0519,
+            "conversionRate": 0.0
+          }
+        ]
+      }
+    ],
+    "terminal": null,
+    "hasNextPage": true,
+    "guestVisited": false
+  }
+}
