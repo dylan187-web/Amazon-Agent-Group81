@@ -1,0 +1,8 @@
+month,source,source_reference,expected_mapped_total_usd
+2026-09,Seller Central settlement,2026-09 settlement,3700
+2026-09,SKU cost sheet,2026-09 sold units,1100
+2026-09,Freight invoice,2026-09 shipment,330
+2026-09,Payout statement,2026-09 payout,100
+2026-09,Operations invoice,2026-09,20
+2026-09,Ads report,2026-09 campaign total,350
+2026-09,Bookkeeping,2026-09 subscriptions,200

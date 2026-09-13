@@ -1,0 +1,6 @@
+posted-date,sku,fulfillment-channel,transaction-type,amount-type,amount-description,amount,quantity
+2026-09-30,EXAMPLE-SKU,FBA,Order,ItemPrice,Principal,3000,100
+2026-09-30,EXAMPLE-SKU,FBA,Order,ItemFees,Commission,-450,100
+2026-09-30,EXAMPLE-SKU,FBA,Order,FBA Fees,Fulfillment Fee,-450,100
+2026-09-30,EXAMPLE-SKU,FBA,Refund,ItemPrice,Principal,-200,10
+2026-09-30,EXAMPLE-SKU,FBA,ServiceFee,Other,Unrecognized fee,-12,

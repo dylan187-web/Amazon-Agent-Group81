@@ -1,0 +1,12 @@
+month,date,record_type,sku,fulfillment_channel,currency,amount_usd,units,category,source,source_reference,estimated_amount_usd
+2026-09,2026-09-30,actual,EXAMPLE-SKU,FBA,USD,3000,100,product_revenue,Seller Central settlement,2026-09 settlement,3000
+2026-09,2026-09-30,actual,EXAMPLE-SKU,FBA,USD,200,100,promotion_discount,Seller Central settlement,2026-09 settlement,200
+2026-09,2026-09-30,actual,EXAMPLE-SKU,FBA,USD,1000,100,product_cogs,SKU cost sheet,2026-09 sold units,1100
+2026-09,2026-09-30,actual,EXAMPLE-SKU,FBA,USD,100,100,packaging,SKU cost sheet,2026-09 sold units,100
+2026-09,2026-09-30,actual,EXAMPLE-SKU,FBA,USD,330,100,international_freight,Freight invoice,2026-09 shipment,330
+2026-09,2026-09-30,actual,EXAMPLE-SKU,FBA,USD,450,100,fba_fulfillment,Seller Central settlement,2026-09 settlement,450
+2026-09,2026-09-30,actual,EXAMPLE-SKU,FBA,USD,50,10,return_processing,Seller Central settlement,2026-09 settlement,50
+2026-09,2026-09-30,actual,EXAMPLE-SKU,FBA,USD,100,,payment_fee,Payout statement,2026-09 payout,100
+2026-09,2026-09-30,actual,EXAMPLE-SKU,FBA,USD,20,,other_direct,Operations invoice,2026-09,20
+2026-09,2026-09-30,actual,, ,USD,350,,ads,Ads report,2026-09 campaign total,350
+2026-09,2026-09-30,actual,,,USD,200,,fixed_cost,Bookkeeping,2026-09 subscriptions,200

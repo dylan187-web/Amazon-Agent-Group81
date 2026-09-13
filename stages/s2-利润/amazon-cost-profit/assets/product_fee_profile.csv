@@ -1,0 +1,4 @@
+sku,fulfillment_channel,amazon_fee_category,sales_price_usd,package_length_in,package_width_in,package_height_in,shipping_weight_lb,is_bundle,special_programs,referral_fee_source,referral_fee_effective_date,fba_fee_source,fba_fee_effective_date
+NORMAL-FBA,FBA,Home and Kitchen,21.99,10,8,3,1.2,no,,Amazon Revenue Calculator,2026-09-01,Amazon Revenue Calculator,2026-09-01
+MEDIA-FBA,FBA,"Media - Books, DVD, Music, Software, Video",18,9,6,1,0.8,no,,,,
+BUNDLE-FBA,FBA,Clothing and Accessories,35,12,9,4,1.5,yes,subscribe_and_save,,,,
