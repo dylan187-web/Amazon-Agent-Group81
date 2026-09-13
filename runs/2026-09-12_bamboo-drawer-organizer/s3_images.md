@@ -1,7 +1,12 @@
 # S3 Listing · 图片
 
+种子词：bamboo drawer organizer
+站点：US
+生成时间：2026-09-13 00:39
+数据周期：沿用 s3_listing.md（图位依据取自其中的买家关心点与文案）
+上游文件：runs/2026-09-12_bamboo-drawer-organizer/s3_draft.json、runs/2026-09-12_bamboo-drawer-organizer/images_plan.json
+
 针对候选：C2
-生成时间：2026-09-12 23:59
 出图：本机 Codex CLI 自带 image_gen；文字由 images.py 排版，模型不写字
 
 > ⚠️ **本套图基于 AI 概念参考图生成（没有实拍图），只用于演示方案，不能直接上架。** 拿到实拍图后放进 `产品图/` 重跑。
@@ -68,3 +73,7 @@
 - ✅ 视觉质检通过（（书桌抽屉场景，结构一致，无多余部件））
 
 结论：全部通过
+
+---
+
+卖家精灵调用：新调用 0 次 / 读缓存 0 次（图片步骤不调用卖家精灵，出图走 Codex CLI）
