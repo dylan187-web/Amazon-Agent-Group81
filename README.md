@@ -1,34 +1,71 @@
-# 00-多agent合作开发项目模板 · 新子项目怎么接入多 AI 协作
+# Amazon Agent Group81 · 亚马逊卖家通用选品 Agent
 
-这里放的是让 Claude Code、Codex、WorkBuddy、Grok Build 等任何 AI 都能接力的最小文件集。**原则：进度放文件里，不放会话里。**
+生财跨境 Agent 大课 · 黑客松第 81 组作业。
 
-## 三步接入一个新子项目
+在 Claude Code 或 Codex 里说一句「**对 `<种子词>` 跑一遍**」，Agent 按四个阶段往下走：
 
-0. **先确认目标目录里没有 `AGENTS.md`、`CLAUDE.md`、`SOURCE_OF_TRUTH.md`。** 已经有的，只补缺的、只在原文件里改，不覆盖。别的会话可能刚生成过，2026-09-06 就发生过一次覆盖。
-1. **拷三份文件到子项目根目录并改名**：
-   - `AGENTS_模板.md` → `AGENTS.md`（唯一契约）
-   - `CLAUDE_模板.md` → `CLAUDE.md`（薄指针，Claude Code 用）
-   - `SOURCE_OF_TRUTH_模板.md` → `SOURCE_OF_TRUTH.md`（导航：现在走到哪）
-2. **建 `99_交接/` 空目录**，以后每次收工往里加 `YYYY-MM-DD_交接_主题.md`（用 `交接_模板.md`）。
-3. **填掉所有 `{{ }}` 占位符**，然后回根目录 `SOURCE_OF_TRUTH.md` 的状态表登记这个项目。
+```
+S1 选品（有趋势、可以选的品） → S2 利润核算 → S3 Listing → S4 广告
+```
 
-可以直接让 AI 做：「用 00-多agent合作开发项目模板 给 `<子项目目录>` 生成契约、导航和交接目录，占位符先按目录现状填，拿不准的标〔待补〕。」
+每个阶段写一份产出文件交给下一阶段。铺货、精品卖家都能用。需求和边界见 [`SPEC.md`](SPEC.md)。
 
-## 什么时候用 PRD 和任务清单
+## 快速开始
 
-项目要经过"先讨论、后执行"的，多加两份：
+1. **接入卖家精灵 MCP**（用你自己的 key，不要写进仓库）：
+   ```
+   地址：https://mcp.sellersprite.com/mcp
+   Header：secret-key = 你的 MCP Key（卖家精灵开放平台 → 我的密钥）
+   ```
+2. **克隆仓库**，在仓库目录里打开 Claude Code 或 Codex。
+   - Claude Code 也可以装成 Skill：`ln -s "$(pwd)" ~/.claude/skills/amazon-agent-group81`
+3. **说一句话**：
+   ```
+   读 SKILL.md，对「bamboo drawer organizer」跑一遍，站点 US
+   ```
+   想用自己的成本算利润，就加上：`采购价 3.5 美元，头程 1.2 美元/件`
 
-- `PRD_模板.md` → `PRD.md`：讨论的结论，定稿后执行者只认它。
-- `任务清单_模板.md` → `任务清单.md`：从 PRD 拆出来的可领任务，一次领一个，做完勾选。
+产出在 `runs/<日期>_<种子词>/`。
 
-纯知识库、内容库项目可以不用这两份。
+## 目录
 
-## 开工与收工
+| 路径 | 是什么 | 谁改 |
+|---|---|---|
+| `SKILL.md` | 路由入口：阶段顺序、输入参数、每阶段读写哪个文件 | Dylan |
+| `contracts/交接内容.md` | 阶段之间必须交接的最低字段 | Dylan |
+| `stages/s1-选品/` … `stages/s4-广告/` | 每阶段的提示词 `prompt.md`，可选 `scripts/` | 该阶段负责人 |
+| `samples/` | 各阶段的样例产出（**全部虚构**），下游对着它开发 | 该阶段负责人 |
+| `runs/` | 实际运行结果（默认不提交，演示用的那份单独挑出来提交） | — |
+| `99_交接/` | 收工交接，文件名 `YYYY-MM-DD_姓名_阶段.md` | 各自 |
+| `templates/` | 多 AI 协作模板（参考用） | — |
 
-- 开工：跑 `kickoff` 技能（`.agents/skills/kickoff/`），或按根 `AGENTS.md` 第 3 节手动读四份文件。
-- 收工：跑 `handoff` 技能（`.agents/skills/handoff/`），或按 `交接_模板.md` 手写。
+## 怎么参与开发
 
-## 约定
+1. **认领阶段**：在群里说一声，Dylan 更新下表。
+2. **Fork 或拉分支**：分支名 `s1-选品-你的名字` 这种格式。
+3. **只改自己阶段的目录**（`stages/<你的阶段>/` 和 `samples/` 里你那份）。要改 `contracts/` 或 `SKILL.md`，先在群里说。
+4. **提 PR**，写清：做了什么、怎么验证、用的 Codex 还是 Claude Code。Dylan 合并。
+5. 细则见 [`协作开发要领.md`](协作开发要领.md) 与 [`AGENTS.md`](AGENTS.md)。
 
-- 占位符统一用 `{{ }}`；填不出来的写 `〔待补〕`，不要编。
-- 模板改了不影响已生成的项目文件；想同步就手动改。
+| 阶段 | 负责人 | 状态 |
+|---|---|---|
+| S1 选品 | 〔待认领〕 | 骨架版可跑 |
+| S2 利润核算 | 〔待认领〕 | 骨架版可跑 |
+| S3 Listing | 〔待认领〕 | 骨架版可跑 |
+| S4 广告 | 〔待认领〕 | 骨架版可跑 |
+| 骨架 / 合并 / 视频 | Dylan | 进行中 |
+
+## 红线（公开仓库）
+
+- **不提交任何 key**（卖家精灵、大模型）。
+- **不提交真实店铺数据**：店铺名、自家 ASIN 业绩、利润、后台导出。
+- **不提交大文件**（ABA 原始包等）。
+- **不用侵权词 / 品牌词 / IP 词**做种子词或样例。
+
+## 致谢
+
+业务判断思路参考了 [buluslan/bulus-amazon-skill](https://github.com/buluslan/bulus-amazon-skill)（MIT License © 2026 buluslan）。
+
+## License
+
+[MIT](LICENSE)

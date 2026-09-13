@@ -1,0 +1,25 @@
+# 密钥
+.env
+.env.*
+!.env.example
+*.key
+secrets*
+
+# 运行结果（演示用的那份用 git add -f 单独提交）
+runs/*
+!runs/.gitkeep
+
+# 大文件 / 原始数据
+*.gz
+*.zip
+*.xlsx
+*.csv
+data/
+
+# 系统与编辑器
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.idea/
+.vscode/
